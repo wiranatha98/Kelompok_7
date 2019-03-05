@@ -1,33 +1,57 @@
 package com.example.edulib;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.util.Date;
 
 public class User {
-    String username;
-    String first_name;
-    Date sessionExpiryDate;
+    public String f_name;
+    public String l_name;
+    public String username;
+    public String password;
+// ...
 
-    public void setUsername(String username) {
+
+    public User(String f_name, String l_name, String username, String password) {
+        this.f_name = f_name;
+        this.l_name = l_name;
         this.username = username;
+        this.password = password;
     }
 
-    public void setFullName(String first_name) {
-        this.first_name = first_name;
+    public User() {
     }
 
-    public void setSessionExpiryDate(Date sessionExpiryDate) {
-        this.sessionExpiryDate = sessionExpiryDate;
+    public String getF_name() {
+        return f_name;
+    }
+
+    public void setF_name(String f_name) {
+        this.f_name = f_name;
+    }
+
+    public String getL_name() {
+        return l_name;
+    }
+
+    public void setL_name(String l_name) {
+        this.l_name = l_name;
     }
 
     public String getUsername() {
         return username;
     }
 
-    public String getFullName() {
-        return first_name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public Date getSessionExpiryDate() {
-        return sessionExpiryDate;
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
