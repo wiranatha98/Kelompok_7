@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "578319149233",
+    "firebase_url": "https://edulib2-970b9.firebaseio.com",
+    "project_id": "edulib2-970b9",
+    "storage_bucket": "edulib2-970b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578319149233:android:66d94c0f40d47e08",
+        "android_client_info": {
+          "package_name": "com.example.edulib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578319149233-uf1kho3lepfk70sigi0hfmrnbl0tl0k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7DDmRm0jYAPJXemy_-sXqTwDNo7Pu08s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
