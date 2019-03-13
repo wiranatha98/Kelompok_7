@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@color/colorback"
     tools:context=".Info">
 
@@ -189,4 +190,8 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
         app:layout_constraintVertical_bias="1.0"
         android:onClick="diskusiClick"/>
+=======
+    tools:context=".Info">
+
+>>>>>>> origin/nesya
 </android.support.constraint.ConstraintLayout>

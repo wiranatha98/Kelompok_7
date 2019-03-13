@@ -32,3 +32,5 @@ public class Info_Un extends AppCompatActivity {
     }
     //Reset master
 }
+
+//reset master

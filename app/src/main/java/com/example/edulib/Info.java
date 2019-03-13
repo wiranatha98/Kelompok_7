@@ -1,10 +1,16 @@
 package com.example.edulib;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+=======
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+>>>>>>> origin/nesya
 
 public class Info extends AppCompatActivity {
 
@@ -13,6 +19,7 @@ public class Info extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
         ActionBar ab = getSupportActionBar();
+<<<<<<< HEAD
         ab.hide();
 
     }
@@ -35,5 +42,8 @@ public class Info extends AppCompatActivity {
     public void diskusiClick(View view) {
         Intent intent= new Intent(getApplicationContext(), Diskusi.class);
         startActivity(intent);
+=======
+        ab.setTitle("Info");
+>>>>>>> origin/nesya
     }
 }

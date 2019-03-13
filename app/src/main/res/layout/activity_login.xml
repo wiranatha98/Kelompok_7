@@ -61,7 +61,11 @@
         android:layout_width="340dp"
         android:layout_height="61dp"
         android:layout_marginTop="20dp"
+<<<<<<< HEAD
         android:background="@color/colorPrimary"
+=======
+        android:background="@color/colorbutton"
+>>>>>>> origin/nesya
         android:text="@string/login"
         android:textColor="@android:color/white"
         android:textSize="18sp"
@@ -78,7 +82,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/don_t_have_an_account_sign_up"
+<<<<<<< HEAD
         android:textColor="@color/colorPrimary"
+=======
+        android:textColor="@color/colorbutton"
+>>>>>>> origin/nesya
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
