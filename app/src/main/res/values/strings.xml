@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">EduLib</string>
+    <string name="i_accept_the_term_of_use_privacy_policy"><![CDATA[I accept the Term of Use & Privacy Policy]]></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="textview">Please fill this form an account !</string>
+    <string name="already_have_an_account_sign_in">Already have an account ? Sign In</string>
+    <string name="sign_up1">Sign Up</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password1">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="username1">Username</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account ? Sign Up</string>
+    <string name="materi_tv">MATERI</string>
+    <string name="pengingat_tv">PENGINGAT</string>
+    <string name="diskusi_tv">DISKUSI</string>
+    <string name="tentang_tv">TENTANG</string>
+    <string name="latihan_soal_tv">LATIHAN SOAL</string>
+    <string name="info_tv">INFO</string>
+    <string name="hai_user_tv">Hai, User</string>
+    <string name="home">Beranda</string>
+    <string name="materi">Materi</string>
+    <string name="chat">Diskusi</string>
+</resources>
