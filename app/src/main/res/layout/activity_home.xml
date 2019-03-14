@@ -18,7 +18,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cloudd" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/syerta
     <ImageView
         android:id="@+id/materi"
         android:layout_width="83dp"
