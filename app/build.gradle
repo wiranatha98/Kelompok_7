@@ -33,9 +33,3 @@ dependencies {
     implementation 'com.android.support:cardview-v7:28.0.0'
     implementation 'com.android.support:design:28.0.0'
 }
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 65f3e7f0b9a49aff2464cd916f1db749b540fad1
