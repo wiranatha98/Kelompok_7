@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.edulib">
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+=======
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+>>>>>>> 65f3e7f0b9a49aff2464cd916f1db749b540fad1
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +17,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".Info_Un"/>
+=======
+        <activity android:name=".Info_Un"></activity>
+>>>>>>> 65f3e7f0b9a49aff2464cd916f1db749b540fad1
         <activity android:name=".Tentang" />
         <activity android:name=".Diskusi" />
         <activity android:name=".Info" />
@@ -18,9 +29,13 @@
         <activity android:name=".LatihanSoal" />
         <activity android:name=".Materi" />
         <activity android:name=".Home" />
+<<<<<<< HEAD
         <activity android:name=".Login" />
             <activity android:name=".Splashscreen"
                 android:theme="@style/noappbar">
+=======
+        <activity android:name=".Login">
+>>>>>>> 65f3e7f0b9a49aff2464cd916f1db749b540fad1
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

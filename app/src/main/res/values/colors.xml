@@ -8,5 +8,9 @@
     <color name="colorexam">#ffff00</color>
     <color name="coloraction">#EFF2F7</color>
     <color name="coloruniv">#055293</color>
+<<<<<<< HEAD
     <color name="colorfind">#FFB51F</color>/
+=======
+    <color name="colorfind">#FFB51F</color>
+>>>>>>> 65f3e7f0b9a49aff2464cd916f1db749b540fad1
 </resources>
