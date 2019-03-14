@@ -30,11 +30,8 @@ public class Info_Un extends AppCompatActivity {
         Intent intent= new Intent(getApplicationContext(), Diskusi.class);
         startActivity(intent);
     }
-<<<<<<< HEAD
     //Reset master
 }
 
 //reset master
-=======
-}
->>>>>>> 65f3e7f0b9a49aff2464cd916f1db749b540fad1
+
