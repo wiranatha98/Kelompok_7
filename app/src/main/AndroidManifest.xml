@@ -18,15 +18,9 @@
         <activity android:name=".LatihanSoal" />
         <activity android:name=".Materi" />
         <activity android:name=".Home" />
-<<<<<<< HEAD
             <activity android:name=".Splashscreen"
                 android:theme="@style/noappbar"/>
         <activity android:name=".Login">
-=======
-        <activity android:name=".Login" />
-            <activity android:name=".Splashscreen"
-                android:theme="@style/noappbar">
->>>>>>> origin/syerta
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

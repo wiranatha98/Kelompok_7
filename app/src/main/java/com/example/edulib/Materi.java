@@ -12,7 +12,7 @@ public class Materi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_materi);
         ActionBar ab = getSupportActionBar();
-        ab.setTitle("Materi");
+        ab.hide();
     }
 
     public void berandaClick(View view) {

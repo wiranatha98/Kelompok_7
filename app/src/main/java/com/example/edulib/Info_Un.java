@@ -34,7 +34,3 @@ public class Info_Un extends AppCompatActivity {
 }
 
 //reset master
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/syerta

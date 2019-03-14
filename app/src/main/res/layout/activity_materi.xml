@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Materi">
+    tools:context=".Materi"
+    android:background="@color/colorback">
 
     <ImageView
         android:id="@+id/imageView31"
@@ -80,13 +81,12 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="260dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
         android:background="@color/colorPrimary"
         android:text="BAHASA"
         android:textColor="@color/coloraction"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,12 +95,13 @@
     <Button
         android:id="@+id/button1"
         android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_height="70dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorPrimary"
         android:text="IPA"
         android:textColor="@color/coloraction"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -110,13 +111,12 @@
     <Button
         android:id="@+id/button2"
         android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
         android:background="@color/colorPrimary"
         android:text="IPS"
         android:textColor="@color/coloraction"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -125,10 +125,13 @@
     <TextView
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
         android:layout_marginBottom="21dp"
-        android:text="Pilih jurusanmu"
+        android:text="Pilih Jurusanmu"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -136,15 +139,19 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="83dp"
+        android:layout_width="117dp"
         android:layout_height="28dp"
         android:layout_marginTop="8dp"
         android:text="Latihan Soal"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView30"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView19"
@@ -153,6 +160,8 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:text="Hi, User"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView17"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
