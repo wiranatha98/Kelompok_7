@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.edulib">
-
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Info_Un"></activity>
+        <activity android:name=".Info_Un"/>
         <activity android:name=".Tentang" />
         <activity android:name=".Diskusi" />
         <activity android:name=".Info" />
@@ -20,6 +18,8 @@
         <activity android:name=".LatihanSoal" />
         <activity android:name=".Materi" />
         <activity android:name=".Home" />
+            <activity android:name=".Splashscreen"
+                android:theme="@style/noappbar"/>
         <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
