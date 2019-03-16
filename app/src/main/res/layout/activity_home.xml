@@ -11,7 +11,6 @@
         android:id="@+id/imageView"
         android:layout_width="413dp"
         android:layout_height="180dp"
-<<<<<<< HEAD
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,11 +18,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cloudd" />
-=======
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/cloudd"
         tools:layout_editor_absoluteY="0dp" />
->>>>>>> 65f3e7f0b9a49aff2464cd916f1db749b540fad1
 
     <ImageView
         android:id="@+id/materi"
