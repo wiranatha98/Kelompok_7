@@ -6,20 +6,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Info extends AppCompatActivity {
+public class Info_Un extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_info);
+        setContentView(R.layout.activity_info_un);
         ActionBar ab = getSupportActionBar();
         ab.hide();
-
-    }
-
-    public void infoUN(View view) {
-        Intent intent = new Intent(this,Info_Un.class);
-        startActivity(intent);
     }
 
     public void berandaClick(View view) {
@@ -36,4 +30,7 @@ public class Info extends AppCompatActivity {
         Intent intent= new Intent(getApplicationContext(), Diskusi.class);
         startActivity(intent);
     }
+    //Reset master
 }
+
+//reset master
