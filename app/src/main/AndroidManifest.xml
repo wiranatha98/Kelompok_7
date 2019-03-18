@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Info_Un"/>
         <activity android:name=".Tentang" />
         <activity android:name=".Diskusi" />
         <activity android:name=".Info" />
@@ -23,6 +24,9 @@
         <activity
             android:name=".Splashscreen"
             android:theme="@style/noappbar">
+            <activity android:name=".Splashscreen"
+                android:theme="@style/noappbar"/>
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,6 +37,7 @@
         <activity android:name=".diskusi_ipa" />
         <activity android:name=".diskusi_sosial" />
         <activity android:name=".diskusi_bahasa"></activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
