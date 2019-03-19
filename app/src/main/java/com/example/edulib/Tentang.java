@@ -35,5 +35,18 @@ public class Tentang extends AppCompatActivity {
             }
         });
     }
+    public void berandaClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Home.class);
+        startActivity(intent);
+    }
 
+    public void materiClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Materi.class);
+        startActivity(intent);
+    }
+
+    public void diskusiClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Diskusi.class);
+        startActivity(intent);
+    }
 }

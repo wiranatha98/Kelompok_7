@@ -64,10 +64,10 @@ public class Home extends AppCompatActivity {
             }
         });
 
-        diskusi.setOnClickListener(new View.OnClickListener() {
+        materi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Diskusi.class);
+                Intent intent = new Intent(getApplicationContext(), Materi.class);
                 startActivity(intent);
             }
         });
