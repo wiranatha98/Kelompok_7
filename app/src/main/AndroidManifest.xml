@@ -20,10 +20,6 @@
         <activity android:name=".LatihanSoal" />
         <activity android:name=".Materi" />
         <activity android:name=".Home" />
-        <activity android:name=".Login" />
-        <activity
-            android:name=".Splashscreen"
-            android:theme="@style/noappbar">
             <activity android:name=".Splashscreen"
                 android:theme="@style/noappbar"/>
         <activity android:name=".Login">
@@ -36,8 +32,9 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".diskusi_ipa" />
         <activity android:name=".diskusi_sosial" />
-        <activity android:name=".diskusi_bahasa"></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".diskusi_bahasa"/>
+        <activity android:name=".Saran"/>
+        <activity android:name=".Keluhan"/>
     </application>
 
 </manifest>
