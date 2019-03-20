@@ -40,10 +40,10 @@ public class Keluhan extends AppCompatActivity {
             startActivity(intent);
         }
         else if (perihal.getText().toString().equals("")){
-            perihal.setError("Harap isi bidang ini");
+            perihal.setError("Harap isi perihal");
         }
         else if (keluhan.getText().toString().equals("")){
-            keluhan.setError("Harap isi bidang ini");
+            keluhan.setError("Harap isi keluhan");
         }
     }
     }
