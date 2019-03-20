@@ -19,6 +19,7 @@ public class Diskusi extends AppCompatActivity {
         final Button sosial = findViewById(R.id.sosial_btn);
         final Button bahasa = findViewById(R.id.bahasa_btn);
 
+
         ActionBar ab = getSupportActionBar();
         ab.hide();
 

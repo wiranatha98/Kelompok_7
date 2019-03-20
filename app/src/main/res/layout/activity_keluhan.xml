@@ -191,6 +191,7 @@
         android:layout_marginBottom="8dp"
         android:background="@color/colorPrimary"
         android:text="Kirim"
+        android:onClick="kirimKeluhan"
         android:textColor="@color/coloraction"
         app:layout_constraintBottom_toBottomOf="@+id/nav_materi4"
         app:layout_constraintEnd_toEndOf="parent"
