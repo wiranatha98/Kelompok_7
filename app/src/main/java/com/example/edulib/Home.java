@@ -10,12 +10,16 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import org.w3c.dom.Text;
 
 import java.net.Inet4Address;
 
 public class Home extends AppCompatActivity {
 
+    private FirebaseAuth mAuth;
+    private TextView namaUser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +33,15 @@ public class Home extends AppCompatActivity {
          final TextView tv_materi = findViewById(R.id.textView_materi);
          ActionBar ab = getSupportActionBar();
          ab.hide();
+
+            mAuth = FirebaseAuth.getInstance();
+            namaUser = findViewById(R.id.txHello);
+            if (mAuth.getCurrentUser()!=null){
+                namaUser.setText("Hai, " + mAuth.getCurrentUser().getDisplayName());
+            }else{
+                startActivity(new Intent(Home.this,Login.class));
+                finish();
+            }
 
 
 

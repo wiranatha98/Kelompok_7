@@ -25,4 +25,5 @@
     <string name="home">Beranda</string>
     <string name="materi">Materi</string>
     <string name="chat">Diskusi</string>
+    <string name="emailDummy">edulab.com</string>
 </resources>
