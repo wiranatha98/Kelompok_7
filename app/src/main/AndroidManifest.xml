@@ -14,6 +14,7 @@
         <activity android:name=".Tentang" />
         <activity android:name=".Diskusi" />
         <activity android:name=".Info" />
+        <activity android:name=".EditProfile"></activity>
         <activity android:name=".Pengingat" />
         <activity android:name=".LatihanSoal" />
         <activity android:name=".Materi" />

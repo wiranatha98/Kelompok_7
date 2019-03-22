@@ -11,10 +11,10 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.0">
 
         <TextView
             android:id="@+id/keluhan3"
@@ -135,7 +135,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
             android:background="@color/colorPrimary"
-            android:text="Kirim"
+            android:text="Submit"
             android:textColor="@color/coloraction"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -163,7 +163,7 @@
             tools:layout_editor_absoluteY="148dp" />
 
         <EditText
-            android:id="@+id/f_name"
+            android:id="@+id/f_nameEdit"
             android:layout_width="158dp"
             android:layout_height="53dp"
             android:layout_marginTop="68dp"
@@ -171,11 +171,11 @@
             android:ems="10"
             android:hint="@string/first_name"
             android:inputType="textPersonName"
-            app:layout_constraintStart_toStartOf="@+id/username"
+            app:layout_constraintStart_toStartOf="@+id/usernameEdit"
             app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/usernameEdit"
             android:layout_width="351dp"
             android:layout_height="53dp"
             android:layout_marginStart="36dp"
@@ -206,7 +206,7 @@
             android:inputType="textPassword"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/username" />
+            app:layout_constraintTop_toBottomOf="@+id/usernameEdit" />
 
         <EditText
             android:id="@+id/confirm_pass"
@@ -223,7 +223,7 @@
             app:layout_constraintTop_toBottomOf="@+id/password" />
 
         <EditText
-            android:id="@+id/l_name"
+            android:id="@+id/l_nameEdit"
             android:layout_width="160dp"
             android:layout_height="53dp"
             android:layout_marginStart="8dp"
@@ -233,9 +233,9 @@
             android:ems="10"
             android:hint="@string/last_name"
             android:inputType="textPersonName"
-            app:layout_constraintEnd_toEndOf="@+id/username"
+            app:layout_constraintEnd_toEndOf="@+id/usernameEdit"
             app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/f_name"
+            app:layout_constraintStart_toEndOf="@+id/f_nameEdit"
             app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
         <TextView

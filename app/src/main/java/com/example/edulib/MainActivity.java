@@ -5,7 +5,6 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -16,7 +15,6 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -35,11 +33,13 @@ public class MainActivity extends AppCompatActivity {
     private Button signUp;
     private CheckBox accept;
     private FirebaseAuth mAuth;
+    private DatabaseReference databaseReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         //init()
         signUp = findViewById(R.id.login_button);
@@ -77,12 +77,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View v) {
 
-        first_name = findViewById(R.id.f_name);
+        first_name = findViewById(R.id.f_nameEdit);
         last_name = findViewById(R.id.l_name);
-        usernamee = findViewById(R.id.username);
+        usernamee = findViewById(R.id.usernameEdit);
         passwordd = findViewById(R.id.password);
         confirm_pass = findViewById(R.id.confirm_pass);
-
+        databaseReference = FirebaseDatabase.getInstance().getReference().child("Users");
 
         if (!first_name.getText().toString().equals("") && !last_name.getText().toString().equals("") &&
                 !usernamee.getText().toString().equals("") && !passwordd.getText().toString().equals("") &&
@@ -113,6 +113,9 @@ public class MainActivity extends AppCompatActivity {
                                         .setDisplayName(first_name.getText().toString() + last_name.getText()
                                                 .toString()).build();
                                 user.updateProfile(changeRequest);
+
+                                databaseReference.child("FirstName").setValue(first_name.getText().toString());
+                                databaseReference.child("LastName").setValue(last_name.getText().toString());
                                 startActivity(new Intent(getApplicationContext(),Login.class));
                                 Toast.makeText(MainActivity.this, "Registrasi berhasil", Toast.LENGTH_SHORT).show();
                             }else{

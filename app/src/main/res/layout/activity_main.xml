@@ -21,18 +21,18 @@
         app:srcCompat="@drawable/cloudd" />
 
     <EditText
-        android:id="@+id/f_name"
+        android:id="@+id/f_nameEdit"
         android:layout_width="158dp"
         android:layout_height="53dp"
         android:background="@drawable/edittext_kotak"
         android:ems="10"
         android:hint="@string/first_name"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/username"
+        app:layout_constraintStart_toStartOf="@+id/usernameEdit"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/usernameEdit"
         android:layout_width="351dp"
         android:layout_height="53dp"
         android:layout_marginStart="36dp"
@@ -63,7 +63,7 @@
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/username" />
+        app:layout_constraintTop_toBottomOf="@+id/usernameEdit" />
 
     <EditText
         android:id="@+id/confirm_pass"
@@ -88,9 +88,9 @@
         android:ems="10"
         android:hint="@string/last_name"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/username"
+        app:layout_constraintEnd_toEndOf="@+id/usernameEdit"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/f_name"
+        app:layout_constraintStart_toEndOf="@+id/f_nameEdit"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <CheckBox

@@ -28,6 +28,7 @@ public class Home extends AppCompatActivity  implements GoogleApiClient.OnConnec
 
     private FirebaseAuth mAuth;
     private TextView namaUser;
+    private ImageView gambarORang;
 
     private GoogleSignInOptions gso;
     private GoogleApiClient mGoogleApiClient;
@@ -47,6 +48,14 @@ public class Home extends AppCompatActivity  implements GoogleApiClient.OnConnec
          final TextView tv_materi = findViewById(R.id.textView_materi);
          ActionBar ab = getSupportActionBar();
          ab.hide();
+
+         gambarORang = findViewById(R.id.imageView11);
+         gambarORang.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 startActivity(new Intent(Home.this,EditProfile.class));
+             }
+         });
 
         //Google Sign In
         gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
