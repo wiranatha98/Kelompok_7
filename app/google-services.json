@@ -58,6 +58,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "411550959740-cs7qar4cnque4kql32aqqcajoaotu0s1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.edulib",
+            "certificate_hash": "03f4f25801f3a40b21fc32f8339d4cd9c13a03f7"
+          }
+        },
+        {
           "client_id": "411550959740-lacfa6vnu3ajvs5aeicgd9fd77oq598p.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -72,8 +80,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411550959740-lacfa6vnu3ajvs5aeicgd9fd77oq598p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

@@ -101,7 +101,8 @@ public class MainActivity extends AppCompatActivity {
 //            startActivity(intent);
             mAuth = FirebaseAuth.getInstance();
             //TODO(Register) : Karena daftar itu pake email atau Google, jadi aku akalin pake email.
-            mAuth.createUserWithEmailAndPassword(usernamee.getText().toString()+"@"+R.string.emailDummy,passwordd.getText().toString())
+//            Toast.makeText(this, usernamee.getText().toString()+"//@"+R.string.emailDummy, Toast.LENGTH_SHORT).show();
+            mAuth.createUserWithEmailAndPassword(usernamee.getText().toString()+"@"+getResources().getString(R.string.emailDummy),passwordd.getText().toString())
                     .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
@@ -112,6 +113,8 @@ public class MainActivity extends AppCompatActivity {
                                         .setDisplayName(first_name.getText().toString() + last_name.getText()
                                                 .toString()).build();
                                 user.updateProfile(changeRequest);
+                                startActivity(new Intent(getApplicationContext(),Login.class));
+                                Toast.makeText(MainActivity.this, "Registrasi berhasil", Toast.LENGTH_SHORT).show();
                             }else{
                                 Toast.makeText(MainActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                             }
