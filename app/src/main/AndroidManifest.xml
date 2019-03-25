@@ -22,13 +22,15 @@
         <activity android:name=".Materi" />
         <activity android:name=".Home" />
             <activity android:name=".Splashscreen"
-                android:theme="@style/noappbar"/>
-        <activity android:name=".Login">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                android:theme="@style/noappbar">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+        <activity android:name=".Login">
+
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".diskusi_ipa" />
