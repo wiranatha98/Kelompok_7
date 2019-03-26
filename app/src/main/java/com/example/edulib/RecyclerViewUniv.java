@@ -28,25 +28,25 @@ public class RecyclerViewUniv extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mGridLayoutManager);
 
         mUnivList = new ArrayList<>();
-        mUnivData = new UnivData("Universitas Gadjah Mada", R.drawable.ugm);
+        mUnivData = new UnivData("Universitas Gadjah Mada", getString(R.string.ugm) ,R.drawable.ugm);
         mUnivList.add(mUnivData);
-        mUnivData = new UnivData("Institut Teknologi Bandung", R.drawable.itb);
+        mUnivData = new UnivData("Institut Teknologi Bandung", getString(R.string.ugm) ,R.drawable.itb);
         mUnivList.add(mUnivData);
-        mUnivData = new UnivData("Institut Teknologi Sepuluh November", R.drawable.its);
+        mUnivData = new UnivData("Institut Teknologi Sepuluh November", getString(R.string.ugm) ,R.drawable.its);
         mUnivList.add(mUnivData);
-        mUnivData = new UnivData("Universitas Padjajaran", R.drawable.unpad);
+        mUnivData = new UnivData("Universitas Padjajaran", getString(R.string.ugm) ,R.drawable.unpad);
         mUnivList.add(mUnivData);
-        mUnivData = new UnivData("Universitas Telkom",  R.drawable.telu);
+        mUnivData = new UnivData("Universitas Telkom",  getString(R.string.ugm) ,R.drawable.telu);
         mUnivList.add(mUnivData);
-        mUnivData = new UnivData("Universitas Udayana", R.drawable.unud);
+        mUnivData = new UnivData("Universitas Udayana", getString(R.string.ugm) ,R.drawable.unud);
         mUnivList.add(mUnivData);
-        mUnivData = new UnivData("Universitas Dipenogoro", R.drawable.undip);
+        mUnivData = new UnivData("Universitas Dipenogoro", getString(R.string.ugm) ,R.drawable.undip);
         mUnivList.add(mUnivData);
-        mUnivData = new UnivData("Universitas Brawijaya",R.drawable.unibraw);
+        mUnivData = new UnivData("Universitas Brawijaya",getString(R.string.ugm) ,R.drawable.unibraw);
         mUnivList.add(mUnivData);
-        mUnivData = new UnivData("Universitas Airlangga", R.drawable.unair);
+        mUnivData = new UnivData("Universitas Airlangga", getString(R.string.ugm) ,R.drawable.unair);
         mUnivList.add(mUnivData);
-        mUnivData = new UnivData("Universitas Indonesia", R.drawable.ui);
+        mUnivData = new UnivData("Universitas Indonesia", getString(R.string.ugm) ,R.drawable.ui);
         mUnivList.add(mUnivData);
 
         MyAdapter myAdapter = new MyAdapter(RecyclerViewUniv.this, mUnivList);

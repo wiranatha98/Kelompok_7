@@ -8,10 +8,12 @@ public class UnivData {
 
     private String UnivName;
     private int UnivImage;
+    private String UnivDescription;
 
-    public UnivData(String UnivName, int UnivImage) {
+    public UnivData(String UnivName,String UnivDescription, int UnivImage) {
         this.UnivName = UnivName;
         this.UnivImage = UnivImage;
+        this.UnivDescription = UnivDescription;
     }
 
     public String getUnivName() {
@@ -21,5 +23,9 @@ public class UnivData {
 
     public int getUnivImage() {
         return UnivImage;
+    }
+
+    public String getUnivDescription() {
+        return UnivDescription;
     }
 }

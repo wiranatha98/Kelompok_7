@@ -18,12 +18,12 @@
     app:theme="@style/ThemeOverlay.AppCompat.Dark" />
 
   <ImageView
-    android:id="@+id/ivImage"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:layout_marginTop="10dp"
-    android:src="@drawable/itb" />
+      android:id="@+id/ivImage"
+      android:layout_width="wrap_content"
+      android:layout_height="102dp"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:src="@drawable/itb" />
 
   <TextView
     android:id="@+id/tvDescription"
@@ -32,5 +32,5 @@
     android:layout_marginTop="5dp"
     android:padding="5dp"
     android:text="TextView"
-    android:textSize="18sp" />
+    android:textSize="16sp" />
 </LinearLayout>

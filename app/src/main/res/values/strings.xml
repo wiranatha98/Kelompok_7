@@ -28,4 +28,35 @@
     <string name="emailDummy">edulab.com</string>
     <string name="webClientId">411550959740-lacfa6vnu3ajvs5aeicgd9fd77oq598p.apps.googleusercontent.com</string>
     <string name="toolbarString">Pilih Universitas</string>
+    <string name="ugm"><b>Universitas Gadjah Mada</b> (Hanacaraka: ꦈꦤꦶꦮ꦳ꦼꦂꦱꦶꦠꦱ꧀​ꦒꦗꦃ​ꦩꦢ; disingkat UGM) merupakan
+        universitas negeri di Indonesia yang didirikan oleh Pemerintah Republik
+        Indonesia pada tanggal 19 Desember 1949 berdasarkan Peraturan Pemerintah Nomor
+        23 Tahun 1949 tentang Peraturan Tentang Penggabungan Perguruan Tinggi Menjadi
+        Universiteit tanggal 16 Desember 1949.[4] Kampus UGM yang terletak di
+        Yogyakarta merupakan universitas pertama yang didirikan oleh Pemerintah
+        Republik Indonesia setelah Indonesia merdeka.
+        \n\n
+        <b>Fakultas yang tersedia:</b>
+        \n\n
+        Fakultas Biologi,
+        Fakultas Ekonomika dan Bisnis,
+        Fakultas Farmasi,
+        Fakultas Filsafat,
+        Fakultas Geografi,
+        Fakultas Hukum,
+        Fakultas Ilmu Budaya,
+        Fakultas Ilmu Sosial dan Ilmu Politik,
+        Fakultas Kedokteran, Kesehatan Masyarakat, dan Keperawatan,
+        Fakultas Kedokteran Gigi,
+        Fakultas Kedokteran Hewan,
+        Fakultas Kehutanan,
+        Fakultas MIPA (Matematika dan Ilmu Pengetahuan Alam),
+        Fakultas Pertanian,
+        Fakultas Peternakan,
+        Fakultas Psikologi,
+        Fakultas Teknik,
+        Fakultas Teknologi Pertanian,
+        Sekolah Vokasi
+
+    </string>
 </resources>

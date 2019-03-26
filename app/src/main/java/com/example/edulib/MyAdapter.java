@@ -41,6 +41,7 @@ public class MyAdapter extends RecyclerView.Adapter<UnivViewHolder> {
             public void onClick(View view) {
                 Intent mIntent = new Intent(mContext, DetailActivity.class);
                 mIntent.putExtra("Title", mUnivList.get(holder.getAdapterPosition()).getUnivName());
+                mIntent.putExtra("Description", mUnivList.get(holder.getAdapterPosition()).getUnivDescription());
                 mIntent.putExtra("Image", mUnivList.get(holder.getAdapterPosition()).getUnivImage());
                 mContext.startActivity(mIntent);
             }

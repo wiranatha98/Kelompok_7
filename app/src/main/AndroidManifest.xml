@@ -39,6 +39,7 @@
         <activity android:name=".Saran"/>
         <activity android:name=".Keluhan"/>
         <activity android:name=".RecyclerViewUniv"/>
+        <activity android:name=".DetailActivity"/>
     </application>
 
 </manifest>
