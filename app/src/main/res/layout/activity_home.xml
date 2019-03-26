@@ -196,4 +196,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/user" />
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="128dp"
+        app:layout_constraintBottom_toTopOf="@+id/latihan_soal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>

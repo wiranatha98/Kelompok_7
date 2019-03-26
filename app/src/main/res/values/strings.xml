@@ -27,4 +27,12 @@
     <string name="chat">Diskusi</string>
     <string name="emailDummy">edulab.com</string>
     <string name="webClientId">411550959740-lacfa6vnu3ajvs5aeicgd9fd77oq598p.apps.googleusercontent.com</string>
+    <string name="confirm_password_lama">confirm password lama</string>
+    <string name="password_lama">password_lama</string>
+    <string name="logout">Log out</string>
+    <string-array name="spinner">
+        <item>Edit Profile</item>
+        <item>Edit Password</item>
+        <item>Log Out</item>
+    </string-array>
 </resources>

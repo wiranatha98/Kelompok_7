@@ -126,7 +126,7 @@
         app:layout_constraintVertical_bias="0.545" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edPerihalKeluhan"
         android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -136,8 +136,8 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
+        android:hint="Ketik Disini"
         android:inputType="textPersonName"
-        android:text="Ketik Disini"
         app:layout_constraintBottom_toBottomOf="@+id/nav_home4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.697"
@@ -146,7 +146,7 @@
         app:layout_constraintVertical_bias="0.547" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edKeluhanKeluhan"
         android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -156,8 +156,8 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
+        android:hint="Ketik Disini"
         android:inputType="textPersonName"
-        android:text="Ketik Disini"
         app:layout_constraintBottom_toBottomOf="@+id/nav_home4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.697"
@@ -190,6 +190,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorPrimary"
+        android:onClick="submit"
         android:text="Kirim"
         android:textColor="@color/coloraction"
         app:layout_constraintBottom_toBottomOf="@+id/nav_materi4"
