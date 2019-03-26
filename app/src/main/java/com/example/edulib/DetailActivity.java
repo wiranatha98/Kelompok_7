@@ -11,22 +11,24 @@ public class DetailActivity extends AppCompatActivity {
 
     Toolbar mToolbar;
     ImageView mFlower;
-    TextView mDescription;
+    TextView mDescription,tvTitle;;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail);
+        setContentView(R.layout.detail_activity);
         ActionBar ab = getSupportActionBar();
         ab.hide();
 
         mToolbar = findViewById(R.id.toolbar);
         mFlower = findViewById(R.id.ivImage);
         mDescription = findViewById(R.id.tvDescription);
+        tvTitle = findViewById(R.id.tvTitle);
 
         Bundle mBundle = getIntent().getExtras();
         if (mBundle != null) {
-            mToolbar.setTitle(mBundle.getString("Title"));
+            //mToolbar.setTitle(mBundle.getString("Title"));
+            tvTitle.setText(mBundle.getString("Title"));
             mFlower.setImageResource(mBundle.getInt("Image"));
             mDescription.setText(mBundle.getString("Description"));
         }
