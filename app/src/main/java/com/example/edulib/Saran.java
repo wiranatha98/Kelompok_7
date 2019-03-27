@@ -3,6 +3,7 @@ package com.example.edulib;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
@@ -27,17 +28,19 @@ public class Saran extends AppCompatActivity {
         perihal = findViewById(R.id.edPerihalSaran);
         keluhan = findViewById(R.id.edKeluhanSaran);
         mAuth = FirebaseAuth.getInstance();
+        ActionBar ab = getSupportActionBar();
+        ab.hide();
 
     }
 
-    public void submit(View view){
-        if (perihal.getText().toString().equals("")){
-            Toast.makeText(this, "Isi Perihalnya", Toast.LENGTH_SHORT).show();
+    public void submit(View view) {
+        if (perihal.getText().toString().equals("")) {
+            Toast.makeText(this, "Isi Saran", Toast.LENGTH_SHORT).show();
             perihal.requestFocus();
             return;
         }
-        if (keluhan.getText().toString().equals("")){
-            Toast.makeText(this, "Isi keluhanmu", Toast.LENGTH_SHORT).show();
+        if (keluhan.getText().toString().equals("")) {
+            Toast.makeText(this, "Isi Pertanyaan", Toast.LENGTH_SHORT).show();
             keluhan.requestFocus();
             return;
         }
@@ -47,20 +50,7 @@ public class Saran extends AppCompatActivity {
         ref.child("keluhan").setValue(keluhan.getText().toString());
         startActivity(new Intent(Saran.this, NotifKeluhan.class));
         finish();
-//        startActivity(new Intent());
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.EditText;
 
-public class Saran extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_saran);
-        ActionBar ab = getSupportActionBar();
-        ab.hide();
     }
     public void berandaClick(View view) {
         Intent intent= new Intent(getApplicationContext(), Home.class);
@@ -76,20 +66,5 @@ public class Saran extends AppCompatActivity {
         Intent intent= new Intent(getApplicationContext(), Diskusi.class);
         startActivity(intent);
     }
-
-    public void kirimSaran(View view) {
-        EditText saran = findViewById(R.id.editText3);
-        EditText pertanyaan=findViewById(R.id.editText4);
-
-        if (!saran.getText().toString().equals("")&& !pertanyaan.getText().toString().equals("")){
-            Intent intent = new Intent(getApplicationContext(), saranTerkirim.class);
-            startActivity(intent);
-        }
-        else if (saran.getText().toString().equals("")){
-            saran.setError("Harap isi bidang ini");
-        }
-        else if (pertanyaan.getText().toString().equals("")){
-            pertanyaan.setError("Harap isi bidang ini");
-        }
-    }
 }
+//        startActivity(new Intent());

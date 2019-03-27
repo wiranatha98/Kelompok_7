@@ -27,11 +27,6 @@
         <activity android:name=".Keluhan"/>
         <activity android:name=".NotifKeluhan"/>
         <activity android:name=".NotifSaran"/>
-        <activity
-            android:name=".Splashscreen"
-            android:theme="@style/noappbar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
             <activity android:name=".Splashscreen"
                 android:theme="@style/noappbar">
                 <intent-filter>
@@ -40,14 +35,10 @@
                     <category android:name="android.intent.category.LAUNCHER" />
                 </intent-filter>
             </activity>
-        <activity android:name=".Login">
-        </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".diskusi_ipa" />
         <activity android:name=".diskusi_sosial" />
         <activity android:name=".diskusi_bahasa"/>
-        <activity android:name=".Saran"/>
-        <activity android:name=".Keluhan"/>
         <activity android:name=".RecyclerViewUniv"/>
         <activity android:name=".DetailActivity"/>
     </application>
