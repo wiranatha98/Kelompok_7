@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -46,7 +45,7 @@ public class Saran extends AppCompatActivity {
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Saran").child(sdf.format(new Date()));
         ref.child("Perihal").setValue(perihal.getText().toString());
         ref.child("keluhan").setValue(keluhan.getText().toString());
-        startActivity(new Intent(Saran.this,Notif.class));
+        startActivity(new Intent(Saran.this, NotifKeluhan.class));
         finish();
 //        startActivity(new Intent());
     }

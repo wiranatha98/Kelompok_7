@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class Notif extends AppCompatActivity {
+public class NotifKeluhan extends AppCompatActivity {
     private Button submit;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -20,6 +20,15 @@ public class Notif extends AppCompatActivity {
                 finish();
             }
         });
+    }
+
+    public void diskusiClick(View view) {
+    }
+
+    public void materiClick(View view) {
+    }
+
+    public void berandaClick(View view) {
     }
 
 //    public void submitX(View view){

@@ -25,7 +25,8 @@
         <activity android:name=".Login" />
         <activity android:name=".Saran"/>
         <activity android:name=".Keluhan"/>
-        <activity android:name=".Notif"/>
+        <activity android:name=".NotifKeluhan"/>
+        <activity android:name=".NotifSaran"/>
         <activity
             android:name=".Splashscreen"
             android:theme="@style/noappbar">
