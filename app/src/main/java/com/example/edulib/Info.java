@@ -5,6 +5,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class Info extends AppCompatActivity {
 
@@ -14,6 +15,15 @@ public class Info extends AppCompatActivity {
         setContentView(R.layout.activity_info);
         ActionBar ab = getSupportActionBar();
         ab.hide();
+
+        Button infoUniv_btn = findViewById(R.id.infoUniv_btn);
+        infoUniv_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(getApplicationContext(),RecyclerViewUniv.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
@@ -36,4 +46,6 @@ public class Info extends AppCompatActivity {
         Intent intent= new Intent(getApplicationContext(), Diskusi.class);
         startActivity(intent);
     }
+
+
 }

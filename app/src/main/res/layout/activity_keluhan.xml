@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorback">
 
     <Button
         android:id="@+id/nav_diskusi4"
@@ -67,10 +68,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView19"
-        app:layout_constraintVertical_bias="0.467" />
+        app:layout_constraintVertical_bias="0.727" />
 
     <ImageView
         android:id="@+id/imageView19"
@@ -121,6 +121,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edPerihalKeluhan"
         app:layout_constraintVertical_bias="0.086" />
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.201" />
 
     <EditText
         android:id="@+id/edPerihalKeluhan"
@@ -138,6 +140,12 @@
         app:layout_constraintHorizontal_bias="0.697"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/peihal" />
+        app:layout_constraintBottom_toBottomOf="@+id/nav_home4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/peihal"
+        app:layout_constraintVertical_bias="0.01" />
 
     <EditText
         android:id="@+id/edKeluhanKeluhan"
@@ -155,6 +163,12 @@
         app:layout_constraintHorizontal_bias="0.697"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/keluhan" />
+        app:layout_constraintBottom_toBottomOf="@+id/nav_home4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keluhan"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView21"
@@ -183,12 +197,18 @@
         android:background="@color/colorPrimary"
         android:onClick="submit"
         android:text="Kirim"
+        android:onClick="kirimKeluhan"
         android:textColor="@color/coloraction"
         app:layout_constraintBottom_toBottomOf="@+id/nav_materi4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
+
         app:layout_constraintTop_toBottomOf="@+id/edKeluhanKeluhan"
         app:layout_constraintVertical_bias="0.466" />
+
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="0.032" />
+
 
 </android.support.constraint.ConstraintLayout>
