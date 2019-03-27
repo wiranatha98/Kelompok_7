@@ -8,18 +8,27 @@
     android:background="@color/colorback">
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/edPerihalSaran"
         android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="16dp"
+
         android:layout_marginTop="8dp"
+
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Ketik Disini"
         android:inputType="textPersonName"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keluhan2" />
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
@@ -27,19 +36,25 @@
         app:layout_constraintTop_toBottomOf="@+id/keluhan2"
         app:layout_constraintVertical_bias="0.016" />
 
+
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/edKeluhanSaran"
         android:layout_width="352dp"
         android:layout_height="44dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Ketik Disini"
         android:inputType="textPersonName"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keluhan3" />
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
@@ -47,25 +62,28 @@
         app:layout_constraintTop_toBottomOf="@+id/keluhan3"
         app:layout_constraintVertical_bias="0.049" />
 
+
     <TextView
         android:id="@+id/keluhan2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+
+        android:text="Perihal"
+
         android:layout_marginBottom="8dp"
         android:text="Saran"
+
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/nav_home2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView20"
-        app:layout_constraintVertical_bias="0.057" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
 
     <TextView
         android:id="@+id/keluhan3"
@@ -73,22 +91,24 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+
+        android:text="Keluhan"
+
         android:layout_marginBottom="8dp"
         android:text="Pertanyaan"
+
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/nav_home2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView20"
-        app:layout_constraintVertical_bias="0.34" />
+        app:layout_constraintTop_toBottomOf="@+id/edPerihalSaran" />
 
     <Button
-        android:id="@+id/nav_home2"
+        android:id="@+id/nav_home"
         android:layout_width="139dp"
         android:layout_height="59dp"
         android:layout_marginTop="8dp"
@@ -103,10 +123,10 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/nav_materi2"
+        android:id="@+id/nav_materi"
         android:layout_width="139dp"
         android:layout_height="59dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="136dp"
         android:layout_marginRight="136dp"
         android:background="@color/colorPrimary"
@@ -116,8 +136,9 @@
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/nav_home"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
@@ -142,13 +163,21 @@
         android:layout_height="33dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
         android:layout_marginTop="48dp"
+
         android:text="Saran dan Pertanyaan"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.444"
+
         app:layout_constraintHorizontal_bias="0.347"
+
         app:layout_constraintStart_toEndOf="@+id/imageView20"
         app:layout_constraintTop_toBottomOf="@+id/imageView18" />
 
@@ -174,13 +203,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="@+id/nav_materi2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView18"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/saran" />
 
     <Button
@@ -189,19 +215,21 @@
         android:layout_height="44dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+
         android:layout_marginBottom="8dp"
         android:text="Kirim"
         android:onClick="kirimSaran"
+
         android:background="@color/colorPrimary"
+        android:onClick="submit"
+        android:text="Kirim"
         android:textColor="@color/coloraction"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView18"
-        app:layout_constraintVertical_bias="0.823" />
+        app:layout_constraintTop_toBottomOf="@+id/edKeluhanSaran" />
 
 </android.support.constraint.ConstraintLayout>

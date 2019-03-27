@@ -12,15 +12,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Info_Un"/>
+        <activity android:name=".EditPassword"></activity>
+        <activity android:name=".Info_Un" />
         <activity android:name=".Tentang" />
         <activity android:name=".Diskusi" />
         <activity android:name=".Info" />
-        <activity android:name=".EditProfile"></activity>
+        <activity android:name=".EditProfile" />
         <activity android:name=".Pengingat" />
         <activity android:name=".LatihanSoal" />
         <activity android:name=".Materi" />
         <activity android:name=".Home" />
+        <activity android:name=".Login" />
+        <activity android:name=".Saran"/>
+        <activity android:name=".Keluhan"/>
+        <activity android:name=".NotifKeluhan"/>
+        <activity android:name=".NotifSaran"/>
+        <activity
+            android:name=".Splashscreen"
+            android:theme="@style/noappbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
             <activity android:name=".Splashscreen"
                 android:theme="@style/noappbar">
                 <intent-filter>
@@ -30,7 +41,6 @@
                 </intent-filter>
             </activity>
         <activity android:name=".Login">
-
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".diskusi_ipa" />

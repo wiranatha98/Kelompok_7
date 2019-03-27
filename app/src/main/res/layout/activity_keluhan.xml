@@ -59,8 +59,8 @@
     <TextView
         android:id="@+id/c_s2"
         android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
         android:layout_marginBottom="440dp"
         android:text="Keluhan"
         android:textColor="@color/colorPrimary"
@@ -94,16 +94,13 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="100dp"
         android:text="Perihal"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/nav_home4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView21"
-        app:layout_constraintVertical_bias="0.12" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView21" />
 
     <TextView
         android:id="@+id/keluhan"
@@ -122,11 +119,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.096"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edPerihalKeluhan"
+        app:layout_constraintVertical_bias="0.086" />
         app:layout_constraintTop_toBottomOf="@+id/editText"
         app:layout_constraintVertical_bias="0.201" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edPerihalKeluhan"
         android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -134,10 +133,13 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Ketik Disini"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/peihal" />
         app:layout_constraintBottom_toBottomOf="@+id/nav_home4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.697"
@@ -146,7 +148,7 @@
         app:layout_constraintVertical_bias="0.01" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edKeluhanKeluhan"
         android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -154,10 +156,13 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Ketik Disini"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keluhan" />
         app:layout_constraintBottom_toBottomOf="@+id/nav_home4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.697"
@@ -188,8 +193,9 @@
         android:layout_width="wrap_content"
         android:layout_height="44dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="88dp"
         android:background="@color/colorPrimary"
+        android:onClick="submit"
         android:text="Kirim"
         android:onClick="kirimKeluhan"
         android:textColor="@color/coloraction"
@@ -197,7 +203,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/edKeluhanKeluhan"
+        app:layout_constraintVertical_bias="0.466" />
+
         app:layout_constraintTop_toBottomOf="@+id/editText2"
         app:layout_constraintVertical_bias="0.032" />
+
 
 </android.support.constraint.ConstraintLayout>

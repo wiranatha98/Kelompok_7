@@ -49,4 +49,14 @@ public class Tentang extends AppCompatActivity {
         Intent intent= new Intent(getApplicationContext(), Diskusi.class);
         startActivity(intent);
     }
+
+    public void saran(View view){
+        startActivity(new Intent(Tentang.this,Saran.class));
+
+    }
+
+    public void keluhan(View view){
+        startActivity(new Intent(Tentang.this,Keluhan.class));
+
+    }
 }
