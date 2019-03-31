@@ -16,8 +16,6 @@
 
         android:layout_marginTop="16dp"
 
-        android:layout_marginTop="8dp"
-
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
@@ -73,8 +71,6 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
 
-        android:text="Perihal"
-
         android:layout_marginBottom="8dp"
         android:text="Saran"
 
@@ -94,9 +90,6 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-
-        android:text="Keluhan"
-
         android:layout_marginBottom="8dp"
         android:text="Pertanyaan"
 
@@ -163,7 +156,6 @@
         android:layout_height="33dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="44dp"
         android:layout_marginEnd="28dp"
         android:layout_marginRight="28dp"
         android:layout_marginTop="48dp"
@@ -173,11 +165,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintHorizontal_bias="0.444"
-
-        app:layout_constraintHorizontal_bias="0.347"
-
         app:layout_constraintStart_toEndOf="@+id/imageView20"
         app:layout_constraintTop_toBottomOf="@+id/imageView18" />
 
@@ -220,9 +208,6 @@
         android:layout_marginRight="8dp"
 
         android:layout_marginBottom="8dp"
-        android:text="Kirim"
-        android:onClick="kirimSaran"
-
         android:background="@color/colorPrimary"
         android:onClick="submit"
         android:text="Kirim"
