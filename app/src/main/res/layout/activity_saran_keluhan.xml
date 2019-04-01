@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorback">
 
     <TextView
         android:id="@+id/c_s"
@@ -25,8 +26,8 @@
 
     <TextView
         android:id="@+id/keluhan"
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
+        android:layout_width="76dp"
+        android:layout_height="24dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:text="Keluhan"
@@ -35,27 +36,33 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintHorizontal_bias="0.772"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.397" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView28"
+        app:layout_constraintVertical_bias="0.005" />
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView28"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/sarandanpertanyaan"
         android:layout_width="wrap_content"
-        android:layout_height="25dp"
+        android:layout_height="19dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
         android:text="Saran dan Pertanyaan"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView13"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.952" />
+
+        app:layout_constraintTop_toBottomOf="@+id/imageView28"
+        app:layout_constraintVertical_bias="0.07" />
+
+        app:layout_constraintTop_toBottomOf="@+id/imageView28" />
+
 
     <TextView
         android:id="@+id/E_mail"
@@ -125,12 +132,14 @@
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="500dp"
-        android:layout_height="181dp"
+        android:layout_height="155dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cloudd" />
@@ -138,36 +147,36 @@
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="103dp"
-        android:layout_height="91dp"
+        android:layout_height="77dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="saran"
         app:layout_constraintBottom_toBottomOf="@+id/nav_materi3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/sarandanpertanyaan"
+        app:layout_constraintVertical_bias="0.056"
         app:srcCompat="@drawable/saran" />
 
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="103dp"
-        android:layout_height="77dp"
+        android:layout_height="89dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintHorizontal_bias="0.928"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.489"
+        app:layout_constraintTop_toBottomOf="@+id/keluhan"
+        app:layout_constraintVertical_bias="0.056"
+
         app:srcCompat="@drawable/keluhan" />
 
     <ImageView
@@ -247,31 +256,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
         android:text="Aplikasi Edulib"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/nav_materi3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
     <ImageView
         android:id="@+id/imageView28"
         android:layout_width="wrap_content"
-        android:layout_height="94dp"
+        android:layout_height="75dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView16"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
         app:layout_constraintVertical_bias="0.0"
+
         app:srcCompat="@drawable/edulib" />
 
 </android.support.constraint.ConstraintLayout>
