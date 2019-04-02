@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EditPassword"></activity>
+        <activity android:name=".ChatRoom"></activity>
+        <activity android:name=".EditPassword" />
         <activity android:name=".Info_Un" />
         <activity android:name=".Tentang" />
         <activity android:name=".Diskusi" />
@@ -23,25 +24,25 @@
         <activity android:name=".Materi" />
         <activity android:name=".Home" />
         <activity android:name=".Login" />
-        <activity android:name=".Saran"/>
-        <activity android:name=".Keluhan"/>
-        <activity android:name=".NotifKeluhan"/>
-        <activity android:name=".NotifSaran"/>
+        <activity android:name=".Saran" />
+        <activity android:name=".Keluhan" />
+        <activity android:name=".NotifKeluhan" />
+        <activity android:name=".NotifSaran" />
         <activity
             android:name=".Splashscreen"
             android:theme="@style/noappbar">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".diskusi_ipa" />
         <activity android:name=".diskusi_sosial" />
-        <activity android:name=".diskusi_bahasa"/>
-        <activity android:name=".RecyclerViewUniv"/>
-        <activity android:name=".DetailActivity"/>
+        <activity android:name=".diskusi_bahasa" />
+        <activity android:name=".RecyclerViewUniv" />
+        <activity android:name=".DetailActivity" />
     </application>
 
 </manifest>

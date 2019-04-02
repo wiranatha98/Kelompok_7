@@ -114,6 +114,8 @@ public class MainActivity extends AppCompatActivity {
                                                 .toString()).build();
                                 user.updateProfile(changeRequest);
 
+                                databaseReference = databaseReference.child(mAuth.getUid());
+
                                 databaseReference.child("FirstName").setValue(first_name.getText().toString());
                                 databaseReference.child("LastName").setValue(last_name.getText().toString());
                                 startActivity(new Intent(getApplicationContext(),Login.class));
