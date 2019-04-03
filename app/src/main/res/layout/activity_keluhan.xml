@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorback">
 
     <Button
         android:id="@+id/nav_diskusi4"
@@ -58,19 +59,18 @@
     <TextView
         android:id="@+id/c_s2"
         android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="440dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="56dp"
         android:text="Keluhan"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView19"
-        app:layout_constraintVertical_bias="0.467" />
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toEndOf="@+id/imageView21"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
 
     <ImageView
         android:id="@+id/imageView19"
@@ -94,16 +94,13 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="100dp"
         android:text="Perihal"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/nav_home4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView21"
-        app:layout_constraintVertical_bias="0.12" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView21" />
 
     <TextView
         android:id="@+id/keluhan"
@@ -122,11 +119,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.096"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView21"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintTop_toBottomOf="@+id/edPerihalKeluhan"
+        app:layout_constraintVertical_bias="0.086" />
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.201" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edPerihalKeluhan"
         android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -134,19 +133,22 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
         android:ems="10"
+        android:hint="Ketik Disini"
         android:inputType="textPersonName"
-        android:text="Ketik Disini"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/peihal" />
         app:layout_constraintBottom_toBottomOf="@+id/nav_home4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.697"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.547" />
+        app:layout_constraintTop_toBottomOf="@+id/peihal"
+        app:layout_constraintVertical_bias="0.01" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edKeluhanKeluhan"
         android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -154,16 +156,19 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
         android:ems="10"
+        android:hint="Ketik Disini"
         android:inputType="textPersonName"
-        android:text="Ketik Disini"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keluhan" />
         app:layout_constraintBottom_toBottomOf="@+id/nav_home4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.697"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.702" />
+        app:layout_constraintTop_toBottomOf="@+id/keluhan"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView21"
@@ -188,15 +193,21 @@
         android:layout_width="wrap_content"
         android:layout_height="44dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="88dp"
         android:background="@color/colorPrimary"
+        android:onClick="submit"
         android:text="Kirim"
         android:textColor="@color/coloraction"
         app:layout_constraintBottom_toBottomOf="@+id/nav_materi4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView19"
-        app:layout_constraintVertical_bias="0.814" />
+
+        app:layout_constraintTop_toBottomOf="@+id/edKeluhanKeluhan"
+        app:layout_constraintVertical_bias="0.466" />
+
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="0.032" />
+
 
 </android.support.constraint.ConstraintLayout>
