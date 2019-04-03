@@ -31,7 +31,7 @@ public class Login extends AppCompatActivity implements GoogleApiClient.OnConnec
     private FirebaseAuth mAuth;
     private GoogleSignInOptions gso;
     private GoogleApiClient mGoogleApiClient;
-    private static final String TAG = "SignInActivity";
+        private static final String TAG = "SignInActivity";
     private static final int RC_SIGN_IN = 9001;
 
 
