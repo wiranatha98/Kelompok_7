@@ -53,7 +53,7 @@ public class Keluhan extends AppCompatActivity {
         finish();
     }
 
-}
+
 
     public void berandaClick(View view) {
         Intent intent= new Intent(getApplicationContext(), Home.class);
