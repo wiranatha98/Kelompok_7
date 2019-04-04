@@ -24,16 +24,20 @@ public class Diskusi extends AppCompatActivity {
         ab.hide();
 
     }
+
     public void diskusi_ipa(View view){
-        Intent intent = new Intent(getApplicationContext(), diskusi_ipa.class);
+        Intent intent = new Intent(getApplicationContext(), ChatRoom.class);
+        intent.putExtra("room-name","IPA");
         startActivity(intent);
     }
     public void diskusi_sosial(View view){
-        Intent intent = new Intent(getApplicationContext(), diskusi_sosial.class);
+        Intent intent = new Intent(getApplicationContext(), ChatRoom.class);
+        intent.putExtra("room-name","Sosial");
         startActivity(intent);
     }
     public void diskusi_bahasa(View view){
-        Intent intent = new Intent(getApplicationContext(), diskusi_bahasa.class);
+        Intent intent = new Intent(getApplicationContext(), ChatRoom.class);
+        intent.putExtra("room-name","Bahasa");
         startActivity(intent);
     }
     public void berandaClick(View view) {
@@ -50,4 +54,6 @@ public class Diskusi extends AppCompatActivity {
         Intent intent= new Intent(getApplicationContext(), Diskusi.class);
         startActivity(intent);
     }
+
+
 }

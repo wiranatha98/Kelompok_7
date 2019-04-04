@@ -35,12 +35,18 @@ public class Saran extends AppCompatActivity {
 
     public void submit(View view) {
         if (perihal.getText().toString().equals("")) {
+
+            Toast.makeText(this, "Isi Perihalnya", Toast.LENGTH_SHORT).show();
             Toast.makeText(this, "Isi Saran", Toast.LENGTH_SHORT).show();
             perihal.requestFocus();
             return;
         }
         if (keluhan.getText().toString().equals("")) {
+
+            Toast.makeText(this, "Isi keluhanmu", Toast.LENGTH_SHORT).show();
+
             Toast.makeText(this, "Isi Pertanyaan", Toast.LENGTH_SHORT).show();
+
             keluhan.requestFocus();
             return;
         }
@@ -50,6 +56,9 @@ public class Saran extends AppCompatActivity {
         ref.child("keluhan").setValue(keluhan.getText().toString());
         startActivity(new Intent(Saran.this, NotifKeluhan.class));
         finish();
+
+//        startActivity(new Intent());
+
 
     }
     public void berandaClick(View view) {
@@ -65,6 +74,7 @@ public class Saran extends AppCompatActivity {
     public void diskusiClick(View view) {
         Intent intent= new Intent(getApplicationContext(), Diskusi.class);
         startActivity(intent);
+
     }
 }
 //        startActivity(new Intent());
