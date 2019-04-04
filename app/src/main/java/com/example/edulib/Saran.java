@@ -3,6 +3,7 @@ package com.example.edulib;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
@@ -27,17 +28,25 @@ public class Saran extends AppCompatActivity {
         perihal = findViewById(R.id.edPerihalSaran);
         keluhan = findViewById(R.id.edKeluhanSaran);
         mAuth = FirebaseAuth.getInstance();
+        ActionBar ab = getSupportActionBar();
+        ab.hide();
 
     }
 
     public void submit(View view) {
         if (perihal.getText().toString().equals("")) {
+
             Toast.makeText(this, "Isi Perihalnya", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Isi Saran", Toast.LENGTH_SHORT).show();
             perihal.requestFocus();
             return;
         }
         if (keluhan.getText().toString().equals("")) {
+
             Toast.makeText(this, "Isi keluhanmu", Toast.LENGTH_SHORT).show();
+
+            Toast.makeText(this, "Isi Pertanyaan", Toast.LENGTH_SHORT).show();
+
             keluhan.requestFocus();
             return;
         }
@@ -47,6 +56,25 @@ public class Saran extends AppCompatActivity {
         ref.child("keluhan").setValue(keluhan.getText().toString());
         startActivity(new Intent(Saran.this, NotifKeluhan.class));
         finish();
+
 //        startActivity(new Intent());
+
+
+    }
+    public void berandaClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Home.class);
+        startActivity(intent);
+    }
+
+    public void materiClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Materi.class);
+        startActivity(intent);
+    }
+
+    public void diskusiClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Diskusi.class);
+        startActivity(intent);
+
     }
 }
+//        startActivity(new Intent());

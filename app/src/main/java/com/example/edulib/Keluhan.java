@@ -15,6 +15,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import android.support.v7.app.ActionBar;
+
 public class Keluhan extends AppCompatActivity {
     private FirebaseAuth mAuth;
     //    private Button submit;
@@ -24,7 +26,8 @@ public class Keluhan extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_keluhan);
-
+        ActionBar ab = getSupportActionBar();
+        ab.hide();
         perihal = findViewById(R.id.edPerihalKeluhan);
         keluhan = findViewById(R.id.edKeluhanKeluhan);
         mAuth = FirebaseAuth.getInstance();
@@ -49,4 +52,22 @@ public class Keluhan extends AppCompatActivity {
         startActivity(new Intent(Keluhan.this, NotifKeluhan.class));
         finish();
     }
+
 }
+
+    public void berandaClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Home.class);
+        startActivity(intent);
+    }
+
+    public void materiClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Materi.class);
+        startActivity(intent);
+    }
+
+    public void diskusiClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Diskusi.class);
+        startActivity(intent);
+    }
+}
+
