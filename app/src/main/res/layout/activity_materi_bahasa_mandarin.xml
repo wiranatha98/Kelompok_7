@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".materi_bahasa_mandarin">
+    tools:context=".materi_bahasa_antropologi">
 
     <Button
         android:id="@+id/nav_diskusi5"
@@ -18,7 +18,7 @@
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nav_materi"
+        app:layout_constraintStart_toEndOf="@+id/nav_materi5"
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
         app:layout_constraintVertical_bias="1.0" />
 
@@ -36,7 +36,7 @@
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nav_home"
+        app:layout_constraintStart_toEndOf="@+id/nav_home5"
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
         app:layout_constraintVertical_bias="1.0" />
 

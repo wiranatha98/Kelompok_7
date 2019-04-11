@@ -36,4 +36,14 @@ public class materi_ips extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), materi_ips_indo.class);
         startActivity(intent);
     }
+
+    public void show_ips_mtk(View view) {
+        Intent intent = new Intent(getApplicationContext(), materi_ips_mtk.class);
+        startActivity(intent);
+    }
+
+    public void show_ips_geografi(View view) {
+        Intent intent = new Intent(getApplicationContext(), materi_ips_geografi.class);
+        startActivity(intent);
+    }
 }

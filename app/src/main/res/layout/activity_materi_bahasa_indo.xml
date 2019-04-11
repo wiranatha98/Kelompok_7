@@ -18,7 +18,7 @@
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nav_materi"
+        app:layout_constraintStart_toEndOf="@+id/nav_materi5"
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
         app:layout_constraintVertical_bias="1.0" />
 
@@ -36,7 +36,7 @@
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nav_home"
+        app:layout_constraintStart_toEndOf="@+id/nav_home5"
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
         app:layout_constraintVertical_bias="1.0" />
 
@@ -54,5 +54,78 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
         app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="418dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/indone" />
+
+    <Button
+        android:id="@+id/button12"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="117dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="64dp"
+        android:background="@color/coloruniv"
+        android:text="BAB 1 "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView63" />
+
+    <Button
+        android:id="@+id/button14"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="117dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/coloruniv"
+        android:text="BAB 3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button15"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="117dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/coloruniv"
+        android:text="BAB 3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintStart_toEndOf="@+id/button14" />
+
+    <Button
+        android:id="@+id/button13"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="117dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/coloruniv"
+        android:text="BAB 2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintStart_toEndOf="@+id/button12" />
 
 </android.support.constraint.ConstraintLayout>

@@ -65,7 +65,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ipa_btn" />
 
     <Button
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_home5"
         android:layout_width="139dp"
         android:layout_height="59dp"
         android:background="@color/colorPrimary"
@@ -77,7 +77,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/nav_materi"
+        android:id="@+id/nav_materi5"
         android:layout_width="139dp"
         android:layout_height="59dp"
         android:layout_marginBottom="-2dp"
@@ -87,7 +87,7 @@
         android:text="@string/materi"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nav_home" />
+        app:layout_constraintStart_toEndOf="@+id/nav_home5" />
 
     <Button
         android:id="@+id/nav_diskusi"
@@ -99,7 +99,7 @@
         android:text="@string/chat"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nav_materi" />
+        app:layout_constraintStart_toEndOf="@+id/nav_materi5" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -147,7 +147,7 @@
         android:onClick="diskusi_bahasa"
         android:text="BAHASA"
         android:textColor="@android:color/white"
-        app:layout_constraintBottom_toTopOf="@+id/nav_materi"
+        app:layout_constraintBottom_toTopOf="@+id/nav_materi5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"

@@ -31,4 +31,6 @@ public class materi_ipa_blg extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+
 }

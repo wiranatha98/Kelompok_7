@@ -26,8 +26,8 @@ public class materi_bahasa extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void show_bahasa_mandarin(View view) {
-        Intent intent = new Intent(getApplicationContext(), materi_bahasa_mandarin.class);
+    public void show_bahasa_antropologi(View view) {
+        Intent intent = new Intent(getApplicationContext(), materi_bahasa_antropologi.class);
         startActivity(intent);
     }
 

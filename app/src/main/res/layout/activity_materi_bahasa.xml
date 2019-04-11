@@ -7,6 +7,50 @@
     tools:context=".materi_bahasa">
 
     <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="164dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="#EFF2F7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView57" />
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="166dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="#EFF2F7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView61" />
+
+    <ImageView
+        android:id="@+id/imageView65"
+        android:layout_width="166dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#EFF2F7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView62"
+        app:layout_constraintTop_toBottomOf="@+id/imageView64" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="164dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#EFF2F7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView59" />
+
+    <ImageView
         android:id="@+id/img_bahasa"
         android:layout_width="423dp"
         android:layout_height="173dp"
@@ -24,71 +68,106 @@
     <Button
         android:id="@+id/button6"
         style="@style/Widget.MaterialComponents.Button.Icon"
-        android:layout_width="237dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="112dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_width="96dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="8dp"
         android:onClick="show_bahasa_indo"
-        android:text="Bahasa Indonesia"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_bahasa" />
+        android:text="B. Indonesia"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView58"
+        app:layout_constraintTop_toTopOf="@+id/imageView58" />
 
     <Button
         android:id="@+id/button7"
         style="@style/Widget.MaterialComponents.Button.Icon"
-        android:layout_width="237dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_width="96dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:onClick="show_bahasa_inggris"
-        android:text="Bahasa Inggris"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        android:text="B. Inggris"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView60"
+        app:layout_constraintTop_toTopOf="@+id/imageView60" />
 
     <Button
         android:id="@+id/button9"
         style="@style/Widget.MaterialComponents.Button.Icon"
-        android:layout_width="237dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_width="96dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:onClick="show_bahasa_mandarin"
-        android:text="Bahasa Mandarin"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
+        android:onClick="show_bahasa_antropologi"
+        android:text="Antropologi"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView65"
+        app:layout_constraintTop_toTopOf="@+id/imageView65" />
 
     <Button
         android:id="@+id/button8"
         style="@style/Widget.MaterialComponents.Button.Icon"
-        android:layout_width="237dp"
-        android:layout_height="61dp"
+        android:layout_width="96dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="8dp"
+        android:onClick="show_bahasa_mtk"
+        android:text="Matematika"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView62"
+        app:layout_constraintTop_toTopOf="@+id/imageView62" />
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="167dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_bahasa"
+        app:srcCompat="@drawable/indone" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="167dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_bahasa"
+        app:srcCompat="@drawable/english" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="167dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView58"
+        app:srcCompat="@drawable/math" />
+
+    <ImageView
+        android:id="@+id/imageView64"
+        android:layout_width="167dp"
+        android:layout_height="114dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:onClick="show_bahasa_mtk"
-        android:text="Matematika"
-        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button9" />
-
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toEndOf="@+id/imageView61"
+        app:layout_constraintTop_toBottomOf="@+id/imageView60"
+        app:srcCompat="@drawable/antropologii" />
 
 
 </android.support.constraint.ConstraintLayout>

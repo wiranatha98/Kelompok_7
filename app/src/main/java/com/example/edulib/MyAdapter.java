@@ -14,7 +14,7 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * Created by abdalla on 1/12/18.
+ *
  */
 public class MyAdapter extends RecyclerView.Adapter<UnivViewHolder> {
 

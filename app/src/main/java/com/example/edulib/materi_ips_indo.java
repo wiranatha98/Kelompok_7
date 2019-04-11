@@ -1,6 +1,7 @@
 package com.example.edulib;
 
 import android.content.Intent;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +12,8 @@ public class materi_ips_indo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_materi_ips_indo);
+        ActionBar ab = getSupportActionBar();
+        ab.hide();
     }
 
     public void materiClick(View view) {

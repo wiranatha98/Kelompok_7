@@ -35,4 +35,14 @@ public class materi_ipa extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), materi_ipa_mtk.class);
         startActivity(intent);
     }
+
+    public void show_indo(View view) {
+        Intent intent = new Intent(getApplicationContext(), materi_ipa_indo.class);
+        startActivity(intent);
+    }
+
+    public void show_ingg(View view) {
+        Intent intent = new Intent(getApplicationContext(), materi_ipa_inggris.class);
+        startActivity(intent);
+    }
 }
