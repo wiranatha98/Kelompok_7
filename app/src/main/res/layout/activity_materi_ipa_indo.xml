@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".materi_ipa_fsk">
+
+    <Button
+        android:id="@+id/nav_diskusi5"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:drawableTop="@drawable/ic_chat"
+        android:onClick="diskusiClick"
+        android:text="@string/chat"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nav_materi5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/nav_materi5"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:background="@color/colorPrimary"
+        android:drawableTop="@drawable/ic_book"
+        android:onClick="materiClick"
+        android:text="@string/materi"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nav_home5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/nav_home5"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:drawableTop="@drawable/ic_home"
+        android:onClick="berandaClick"
+        android:text="@string/home"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

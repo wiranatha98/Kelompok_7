@@ -43,6 +43,7 @@
         <activity android:name=".diskusi_bahasa" />
         <activity android:name=".RecyclerViewUniv" />
         <activity android:name=".DetailActivity" />
+        <activity android:name=".RecyclerViewMateri" />
+        <activity android:name=".DetailMateri"/>
     </application>
-
 </manifest>

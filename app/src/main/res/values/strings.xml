@@ -36,24 +36,18 @@
         <item>Edit Password</item>
         <item>Log Out</item>
     </string-array>
-
+    <string name="pilihpelajaran">Pilih Pelajaran</string>
     <string name="toolbarString">Pilih Universitas</string>
     <string name="ugm">
-        <b>1. Profil :</b>
+        <b>Pertumbuhan dan Perkembangan Pada Tumbuhan</b>
         \n\n
-        <b>Universitas Gadjah Mada</b> (Hanacaraka: ꦈꦤꦶꦮ꦳ꦼꦂꦱꦶꦠꦱ꧀​ꦒꦗꦃ​ꦩꦢ; disingkat UGM) merupakan
-        universitas negeri di Indonesia yang didirikan oleh Pemerintah Republik
-        Indonesia pada tanggal 19 Desember 1949 berdasarkan Peraturan Pemerintah Nomor
-        23 Tahun 1949 tentang Peraturan Tentang Penggabungan Perguruan Tinggi Menjadi
-        Universiteit tanggal 16 Desember 1949.[4] Kampus UGM yang terletak di
-        Yogyakarta merupakan universitas pertama yang didirikan oleh Pemerintah
-        Republik Indonesia setelah Indonesia merdeka.
-        \n\n
-        2. Peringkat Universitas :
-        \n\n
-        -Ranking 250 tingkat dunia versi THES (Timer HIgher Education-Qs World University), 2009
+        - Pertumbuhan pada makhlukhidup ditandai dengan adanya pertambahan tinggi dan besar
+        tubuh tumbuhan.
         \n
-        -Peringkat 1 di Indonesia versi AIPT BAN-PT 2014
+        - Perkembangan adalah suatu proses menuju ke arah kedewasaan.
+        \n
+        -Pertumuhan dan perkembangan tumbuhan berbiji dimulai dengan patahnya dormansi biji, pembelahan
+        sel, perbesaran dan pemanjangan sel, diferensiasi, dan organogenesis.
         \n
         -Peringkat 1 di Indonesia, 5 di Asia Tenggara, 414 dunia versi Webometrics (2014)
         \n
@@ -446,4 +440,112 @@
         \n
         -Fakultas Psikologi
     </string>
+
+
+    <string name="mat_tumbuhan">
+
+
+    </string>
+
+    <string name="biologi">
+         <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
+        \n\n\n
+        A. PENDAHULUAN
+        \n
+        Pertumbuhan adalah adanya perubahan bentuk dikarenakan bertambahnya jumlah sel yang diikuti dengan pembesaran ukuran sel-sel yang membentuk makhluk hidup tersebut.
+        \n
+        Pertumbuhan merupakan proses irreversible atau tidak dapat kembali ke bentuk semula. Pertumbuhan pada makhluk hidup bisa dilihat dari ukuran yang semakin membesar. Pada tumbuhan sendiri ditandai dengan ukuran yang semakin bertambah. Akar dan batang yang semakin besar dan kuat.
+        \n
+        Perkembangan adalah proses perubahan fungsi organ-organ tubuh yang menjadi lebih kompleks. Perkembangan terjadi karena adanya diferensiasi sel. Diferensiasi sel adalah proses mekanisme yang menyebabkan sel dengan struktur dan fungsi yang sama menjadi berbeda, menjadi jaringan yang dewasa.
+        \n
+        Perkembangan pada tumbuhan contohnya dengan munculnya bunga sebagai alat reproduksi.
+        \n\n\n
+        B. PERTUMBUHAN PRIMER DAN SEKUNDER
+        \n
+        Pertumbuhan pada tumbuhan dibagi ke dalam dua bagian, yaitu:
+        \n
+        1. Pertumbuhan Primer
+        \n
+        Pertumbuhan primer merupakan pertumbuhan yang sangat dasar yang terjadi pada tumbuhan. Pertumbuhan primer terjadi karena sel-sel pada jaringan meristem melakukan pembelahan secara terus-menerus. Jaringan meristem terdapat pada ujung akar dan ujung batang. Karena itu, pertumbuhan primer mempengaruhi ukuran akar dan batang pada tumbuhan. Pertumbuhan primer diantaranya adalah pembentukan lapisan epidermis, korteks, xilem primer, floem primer juga empelur.
+        \n\n
+        Titik pertumbuhan primer dibagi menjadi 3 bagian:
+        \n
+        - Ujung akar : Sel-sel yang berkembang pada ujung akar membentuk jaringan-jaringan penyusun akar seperti: epidermis, endodermis, korteks dan silinder pusat
+        \n
+        - Daerah pemanjangan setelah daerah pembelahan :Di sini, pertumbuhan tumbuhan ditandai dengan bertambahnya ukuran tumbuhan tersebut.
+        \n
+        Daerah diferensiasi : Sel-sel yang bertumbuh di daerah diferensiasi berkembang membentuk sel-sel dengan fungsi khusus.
+        \n\n
+        2. Pertumbuhan Sekunder
+        \n
+        Disebut juga dengan meristem sekunder. Pertumbuhan ini ditandai dengan pelebaran batang, penambagan lingkar tahun dan jaringan parenkim yang menghubungkan kulit kayu dengan empelur atau disebut juga dengan jari-jari empelur.
+        \n
+        Pada xilem dan floem terdapat sel-sel kambium yang membelah aktif. Sel kambium yang membelah ke dalam akan membentuk xilem sekunder sedangkan yang membelah ke luar membentuk floem sekunder. Pertumbuhan sekunder ini biasanya dipengaruhi oleh musim. Aktivitas kambium akan meningkat pada musim penghujan dan menurun pada musim kemarau.
+        \n
+        Pertumbuhan primer dan sekunder ini akan terus berlangsung selama tumbuhan tersebut masih hidup.
+        \n\n\n
+        C. FAKTOR-FAKTOR YANG MEMPENGARUHI PERTUMBUHAN DAN PERKEMBANGAN
+        \n
+        Pertumbuhan pada tumbuhan pun tidak luput dari beberapa faktor yang dapat mempengaruhinya. Faktor -faktor yang mempengaruhi pertumbuhan dan perkembangan pada tumbuhan dibagi menjadi 2 golongan, yaitu
+        \n
+        1. Faktor Dalam
+        \n
+        Faktor dalam yang mempengaruhi pertumbuhan tumbuhan adalah terkatung pada gen dan hormon. Gen adalah unit yang berfungsi untuk pewarisan sifat. Gen berbentuk susunan DNA yang menentukan pewarisan yang sama dengan induknya. Sedangkan hormon adalah pembawa pesan kimia antar sel. Macam-macam hormon pada tumbuhan:
+        \n - Auksin: dibentuk oleh ujung batang dan ujung akar pada tumbuhan dan berperan dalam proses pemanjangan sel dan merangsang kambium untuk membentuk xilem dan floem. Selain itu, Auksin pun berfungsi untuk pertumbuhan buah dan diferesiasi sel.
+        \n - Giberelin: berfungsi dalam merangsang pembentukan serbuk sari dan membuat tumbuhan menjadi besar. Snagat berpengaruh dalam pertumbuhan akar, daun, bunga serta buah.
+        \n - Sitokinin: berfungsi untuk memperpanjang usia jaringan tumbuhan.
+        \n - Asam Absistat atau Dormin: berfungsi mempertahankan kelangsungan hidup tumbuhan saat ada pengaruh buruk dari lingkungan luar. Dormin pun berfungsi untuk menutup stomata di saat tumbuhan kekurangan air.
+        \n - Gas Etilen: berfungsi untuk mempercepat pemasakan buah mentah juga membantu dalam penembalan batang.
+        \n - Kalin: terbagi menjadi 4 bagian yaitu Rizokalin yang berfungsi untuk merangsang pembentukan akar, Kaukalin yang bersungsi untuk pertumbuhan batang, Filokalin yang berfungsi untuk pembentukan daun dan Antokalin yang berfungsi untuk merangsang pertumbuhan bunga.
+        \n - Asam Traumalin: berfungsi untuk memperbaiki jaringa yang luka pada akar atau batang.
+        \n\n
+        2. Faktor Lua
+        \n
+        Faktor luar adalah materi lain selain tumbuhan itu sendiri yang berdampak pada tumbuhan tersebut. Beberapa di antaranya adalah:
+        \n
+        a) Nutrisi
+        \n
+        Seperti layaknya makhluk hidup pada umumnya, tumbuhan pun memerlukan makanan untuk dapat bertumbuh dan berkembang. Tumbuhan memerlukan unsur-unsur makanan dan mineral dalam jumlah tertentu. Nutrisi yang dibutuhkan oleh tumbuhan dalam jumlah banyak disebut makronutrien. Makronutrien di antaranya adalah karbon, oksigen, nutrigen, fospor, magnesium dan kalium. Sedangkan nutrisi yang dibutuhkan dalam jumlah sedikit disebut mikronutrien. Contoh mikronutrien adalah klor, besi, tembaga dan lain-lain.
+        \n\n
+        b) Cahaya Matahari
+        \n
+        Cahaya matahari sangat berpengaruh dalam proses pertumbuhan dan perkembangan pada tumbuhan hijau. Cahaya matahari digunakan untuk membantu proses fotosintesis. Fotosintesis adalah proses pembentukan makanan pada tumbuhan.
+        \n\n
+        Makanan yang dihasikan dalam proses fotosintesis inilah yang membantu pertumbuhan dan perkembangan pada tumbuhan. Respon tumbuhan pada cahaya matahari mempengaruhi pertumbuhan tumbuhan tersebutyang dikontrol oleh pigmen bernama fitokrom.
+        \n\n
+        c) Suhu
+        \n
+        Suhu di mana tumbuhan itu berada dapat mempengaruhi proses fotosintesis. Cara tumbuhan bertahan hidup akan suhu yang tidak tetap adalah dengan mengatur proses penguapan yang terjadi pada daun. Jika suhu tinggi, tumbuhan akan meningkatkan proses penguapan dan menurunkannya ketika suhu rendah.
+        \n\n
+        d) Kadar Air
+        \n Air memiliki peranan penting dalam proses pertumbuhan dan perkembangan pada tumbuhan. Airlah yang mengatur laju pada proses fotosintesis dan mengedarkan hasilnya pada seluruh bagian tubuh sel tumbuhan.
+        \n
+ </string>
+
+    <string name="inggris">
+         <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
+        \n\n\n
+
+    </string>
+
+    <string name="matematika">
+    <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
+    \n\n\n
+    </string>
+
+    <string name="indonesia">
+    <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
+    \n\n\n
+    </string>
+
+    <string name="kimia">
+    <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
+    \n\n\n
+    </string>
+
+    <string name="fisika">
+    <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
+    \n\n\n
+    </string>
+
 </resources>
