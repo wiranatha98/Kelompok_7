@@ -52,6 +52,9 @@ public class Keluhan extends AppCompatActivity {
         startActivity(new Intent(Keluhan.this, NotifKeluhan.class));
         finish();
     }
+
+
+
     public void berandaClick(View view) {
         Intent intent= new Intent(getApplicationContext(), Home.class);
         startActivity(intent);
@@ -67,5 +70,4 @@ public class Keluhan extends AppCompatActivity {
         startActivity(intent);
     }
 }
-
 
