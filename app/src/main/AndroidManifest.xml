@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".EditPassword"></activity>
+
         <activity android:name=".Info_Un" />
         <activity android:name=".Tentang" />
         <activity android:name=".Diskusi" />

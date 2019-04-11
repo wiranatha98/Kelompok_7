@@ -38,6 +38,7 @@
     </string-array>
 
     <string name="toolbarString">Pilih Universitas</string>
+    <string name="pilih_materiipa">Pilih Pelajaran</string>
     <string name="ugm">
         <b>1. Profil :</b>
         \n\n
@@ -443,7 +444,28 @@
         -Fakultas Kesehatan Masyarakat
         \n
         -Fakultas Sains dan Matematika
+        \n<string name="biologi">
+         <b>BAB I :  Pertumbuhan dan Perkembangan Tumbuhan</b>
+        \n\n
+        A. PENDAHULUAN
         \n
+        Pertumbuhan adalah proses pertambahan volume yang irreversible (tidak dapat balik) karena adanya pembelahan mitosis atau pembesaran sel; dapat pula disebabkan oleh keduanya.
+        \n
+        Perkembangan adalah terspesialisasinya sel-sel menjadi struktur dan fungsi tertentu.
+        \n
+        Perkembangan awal suatu tumbuhan secara garis besar melalui tiga tahap, yaitu pembelahan sel, morfogenesis, dan diferensiasi seluler.
+        \n\n
+        B. PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN
+        \n\n
+        Tumbuhan bertambah tinggi dan besar disebabkan oleh dua hal berikut ini.
+        \n
+        1. pertambahan jumlah sel sebagai hasil pembelahan mitosis pada meristem (titik tumbuh) di titik tumbuh primer dan sekunder.
+        \n
+        2. pertambahan komponen-komponen seluler dan adanya diferensiasi sel.
+    </string>
         -Fakultas Psikologi
     </string>
+
+
+
 </resources>
