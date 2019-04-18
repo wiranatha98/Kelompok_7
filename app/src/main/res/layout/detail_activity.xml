@@ -65,6 +65,7 @@
                 android:background="@color/colorgreen"
                 android:onClick="openLocation"
                 android:text="LIHAT DI PETA"
+                android:drawableLeft="@drawable/location"
                 android:textColor="@color/colorback"
                 android:textStyle="bold" />
 
