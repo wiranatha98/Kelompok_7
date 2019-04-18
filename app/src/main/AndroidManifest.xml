@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChatRoom"></activity>
+        <activity android:name=".AsAdmin"></activity>
+        <activity android:name=".Admin" />
+        <activity android:name=".ChatRoom" />
         <activity android:name=".EditPassword" />
         <activity android:name=".Info_Un" />
         <activity android:name=".Tentang" />
