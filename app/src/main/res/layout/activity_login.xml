@@ -91,6 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="Login as Admin"
+        android:onClick="admin"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         android:textStyle="bold"

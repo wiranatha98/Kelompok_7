@@ -62,7 +62,7 @@
         android:layout_height="61dp"
         android:layout_marginTop="20dp"
         android:background="@color/colorgreen"
-        android:onClick="onClick"
+        android:onClick="login"
         android:text="@string/login"
         android:textColor="@android:color/white"
         android:textSize="18sp"

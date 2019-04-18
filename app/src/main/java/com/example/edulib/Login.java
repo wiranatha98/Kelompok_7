@@ -124,6 +124,10 @@ public class Login extends AppCompatActivity implements GoogleApiClient.OnConnec
         }
     }
 
+    public void admin(View view){
+        startActivity(new Intent(this, AsAdmin.class));
+        finish();
+    }
     private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
         Log.d("Google", "firebaseAuthWithGooogle:" + acct.getId());
         AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
