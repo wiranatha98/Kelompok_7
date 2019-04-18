@@ -22,7 +22,11 @@ public class Splashscreen  extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
         if (mAuth.getCurrentUser()!=null){
-            next = new Intent(Splashscreen.this, Home.class);
+            if (mAuth.getCurrentUser().getEmail().contains("admin.com")){
+                next = new Intent(Splashscreen.this, Admin.class);
+            }else {
+                next = new Intent(Splashscreen.this, Home.class);
+            }
         }else{
             next = new Intent(Splashscreen.this, LoginAs.class);
         }

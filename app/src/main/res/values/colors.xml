@@ -10,4 +10,5 @@
     <color name="coloruniv">#055293</color>
     <color name="colorfind">#FFB51F</color>
     <color name="colorgreen">#228B22</color>
+    <color name="colorbackground">#F7F7F7</color>
 </resources>
