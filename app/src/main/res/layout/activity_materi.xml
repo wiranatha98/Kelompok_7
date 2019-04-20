@@ -92,8 +92,14 @@
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:textStyle="bold"
+<<<<<<< HEAD
         tools:layout_editor_absoluteX="3dp"
         android:onClick="onClick"
+=======
+        app:layout_constraintTop_toTopOf="@+id/imageView31"
+        tools:layout_editor_absoluteX="3dp"
+        android:onClick="onClick"/>
+>>>>>>> 2deb8366b9afd687b354539ec5fcf6ba3e0dc7cd
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView31" />
 
@@ -117,6 +123,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
+<<<<<<< HEAD
+=======
+        android:layout_marginTop="48dp"
+>>>>>>> 2deb8366b9afd687b354539ec5fcf6ba3e0dc7cd
         android:layout_marginTop="24dp"
         android:text="BAHASA"
         android:textColor="@android:color/black"
@@ -145,6 +155,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:onClick="showImageBahasa"
+<<<<<<< HEAD
+=======
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="120dp"
+>>>>>>> 2deb8366b9afd687b354539ec5fcf6ba3e0dc7cd
         android:layout_marginTop="8dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"

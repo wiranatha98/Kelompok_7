@@ -30,6 +30,7 @@ public class RecyclerViewMateri extends AppCompatActivity {
         mMateriList = new ArrayList<>();
         mMateriData = new MateriData("Biologi", getString(R.string.biologi), R.drawable.biologi3);
         mMateriList.add(mMateriData);
+<<<<<<< HEAD
         mMateriData = new MateriData("Matematika", getString(R.string.matematika), R.drawable.matematika1);
         mMateriList.add(mMateriData);
         mMateriData = new MateriData("Bahasa Inggris", getString(R.string.inggris), R.drawable.english1);
@@ -39,6 +40,17 @@ public class RecyclerViewMateri extends AppCompatActivity {
         mMateriData = new MateriData("Kimia", getString(R.string.kimia), R.drawable.kimia1);
         mMateriList.add(mMateriData);
         mMateriData = new MateriData("Fisika", getString(R.string.fisika), R.drawable.fisika1);
+=======
+        mMateriData = new MateriData("Matematika", getString(R.string.matematika), R.drawable.itb);
+        mMateriList.add(mMateriData);
+        mMateriData = new MateriData("Bahasa Inggris", getString(R.string.inggris), R.drawable.its);
+        mMateriList.add(mMateriData);
+        mMateriData = new MateriData("Bahasa Indonesia", getString(R.string.indonesia), R.drawable.unpad);
+        mMateriList.add(mMateriData);
+        mMateriData = new MateriData("Kimia", getString(R.string.kimia), R.drawable.unpad);
+        mMateriList.add(mMateriData);
+        mMateriData = new MateriData("Fisika", getString(R.string.fisika), R.drawable.unpad);
+>>>>>>> 2deb8366b9afd687b354539ec5fcf6ba3e0dc7cd
         mMateriList.add(mMateriData);
 
         MateriAdapter myAdapter = new MateriAdapter(RecyclerViewMateri.this, mMateriList);

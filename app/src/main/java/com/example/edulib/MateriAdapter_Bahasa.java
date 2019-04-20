@@ -28,7 +28,11 @@ public class MateriAdapter_Bahasa extends RecyclerView.Adapter<MateriViewHolder_
 
     @Override
     public MateriViewHolder_Ips onCreateViewHolder(ViewGroup parent, int viewType) {
+<<<<<<< HEAD
         View mView = LayoutInflater.from(parent.getContext()).inflate(R.layout.recyclerview_row_materi_bahasa, parent, false);
+=======
+        View mView = LayoutInflater.from(parent.getContext()).inflate(R.layout.recyclerview_row_materi, parent, false);
+>>>>>>> 2deb8366b9afd687b354539ec5fcf6ba3e0dc7cd
         return new MateriViewHolder_Ips(mView);
     }
 

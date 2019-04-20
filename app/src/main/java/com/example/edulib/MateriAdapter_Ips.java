@@ -28,7 +28,11 @@ public class MateriAdapter_Ips extends RecyclerView.Adapter<MateriViewHolder> {
 
     @Override
     public MateriViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+<<<<<<< HEAD
         View mView = LayoutInflater.from(parent.getContext()).inflate(R.layout.recyclerview_row_materi_ips, parent, false);
+=======
+        View mView = LayoutInflater.from(parent.getContext()).inflate(R.layout.recyclerview_row_materi, parent, false);
+>>>>>>> 2deb8366b9afd687b354539ec5fcf6ba3e0dc7cd
         return new MateriViewHolder(mView);
     }
 

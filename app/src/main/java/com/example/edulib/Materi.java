@@ -50,6 +50,7 @@ public class Materi extends AppCompatActivity {
         startActivity(intent);
     }
 
+<<<<<<< HEAD
     public void showImageBahasa(View view) {
     }
 
@@ -58,6 +59,8 @@ public class Materi extends AppCompatActivity {
 
     public void onClick(View view) {
     }
+=======
+>>>>>>> 2deb8366b9afd687b354539ec5fcf6ba3e0dc7cd
 }
 
 

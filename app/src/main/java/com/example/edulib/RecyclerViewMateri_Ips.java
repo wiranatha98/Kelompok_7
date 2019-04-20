@@ -19,7 +19,11 @@ public class RecyclerViewMateri_Ips extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.activity_recycler_view_materi_ips);
+=======
+        setContentView(R.layout.activity_recycler_view_materi);
+>>>>>>> 2deb8366b9afd687b354539ec5fcf6ba3e0dc7cd
         ActionBar ab = getSupportActionBar();
         ab.hide();
         mToolbar = findViewById(R.id.toolbar);
@@ -29,6 +33,7 @@ public class RecyclerViewMateri_Ips extends AppCompatActivity {
         mRecyclerView_Ips.setLayoutManager(mGridLayoutManager);
 
         mMateriList_Ips = new ArrayList<>();
+<<<<<<< HEAD
         mMateriData_Ips = new MateriData_Ips("Ekonomi", getString(R.string.ekonomi) ,R.drawable.ekonomi1);
         mMateriList_Ips.add(mMateriData_Ips);
         mMateriData_Ips = new MateriData_Ips("Matematika", getString(R.string.matematikaIps) ,R.drawable.mtkIps);
@@ -40,6 +45,19 @@ public class RecyclerViewMateri_Ips extends AppCompatActivity {
         mMateriData_Ips = new MateriData_Ips("Sosiologi", getString(R.string.sosiologi) ,R.drawable.sosiologi1);
         mMateriList_Ips.add(mMateriData_Ips);
         mMateriData_Ips = new MateriData_Ips("Antropologi", getString(R.string.antropologi) ,R.drawable.antropologi1);
+=======
+        mMateriData_Ips = new MateriData_Ips("Ekonomi", getString(R.string.biologi) ,R.drawable.biologi3);
+        mMateriList_Ips.add(mMateriData_Ips);
+        mMateriData_Ips = new MateriData_Ips("Matematika", getString(R.string.matematika) ,R.drawable.itb);
+        mMateriList_Ips.add(mMateriData_Ips);
+        mMateriData_Ips = new MateriData_Ips("Bahasa Inggris", getString(R.string.inggris) ,R.drawable.its);
+        mMateriList_Ips.add(mMateriData_Ips);
+        mMateriData_Ips = new MateriData_Ips("Bahasa Indonesia", getString(R.string.indonesia) ,R.drawable.unpad);
+        mMateriList_Ips.add(mMateriData_Ips);
+        mMateriData_Ips = new MateriData_Ips("Kimia", getString(R.string.kimia) ,R.drawable.unpad);
+        mMateriList_Ips.add(mMateriData_Ips);
+        mMateriData_Ips = new MateriData_Ips("Fisika", getString(R.string.fisika) ,R.drawable.unpad);
+>>>>>>> 2deb8366b9afd687b354539ec5fcf6ba3e0dc7cd
         mMateriList_Ips.add(mMateriData_Ips);
 
         MateriAdapter_Ips myAdapter = new MateriAdapter_Ips(RecyclerViewMateri_Ips.this, mMateriList_Ips);

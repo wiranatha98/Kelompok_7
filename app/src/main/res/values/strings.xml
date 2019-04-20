@@ -523,6 +523,7 @@
  </string>
 
     <string name="inggris">
+<<<<<<< HEAD
          <b>Chapter 1 : Let\'s Visit Seattle! </b>
         \n\n\n
         A. Warmer : Pairwork
@@ -1969,6 +1970,31 @@ send to your readers.
         \n d. disetiap desa dibentuk kebun-kebun bibit;
         \n e. tranmigrasi.
 
+=======
+         <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
+        \n\n\n
+
+    </string>
+
+    <string name="matematika">
+    <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
+    \n\n\n
+    </string>
+
+    <string name="indonesia">
+    <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
+    \n\n\n
+    </string>
+
+    <string name="kimia">
+    <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
+    \n\n\n
+    </string>
+
+    <string name="fisika">
+    <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
+    \n\n\n
+>>>>>>> 2deb8366b9afd687b354539ec5fcf6ba3e0dc7cd
     </string>
 
 </resources>

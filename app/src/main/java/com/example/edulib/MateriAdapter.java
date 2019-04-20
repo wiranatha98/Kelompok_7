@@ -13,7 +13,13 @@ import android.widget.TextView;
 
 import java.util.List;
 
+<<<<<<< HEAD
 
+=======
+/**
+ * Created by abdalla on 1/12/18.
+ */
+>>>>>>> 2deb8366b9afd687b354539ec5fcf6ba3e0dc7cd
 public class MateriAdapter extends RecyclerView.Adapter<MateriViewHolder_Ips> {
 
     private Context mContext;
