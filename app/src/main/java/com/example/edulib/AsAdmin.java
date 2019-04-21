@@ -35,7 +35,7 @@ EditText username, password;
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
                             Toast.makeText(AsAdmin.this, "login berhasil", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(AsAdmin.this,Admin.class));
+                            startActivity(new Intent(AsAdmin.this, Admin_Saran.class));
                             finish();
                         }
                     }

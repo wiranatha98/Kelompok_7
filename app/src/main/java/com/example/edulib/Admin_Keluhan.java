@@ -3,6 +3,7 @@ package com.example.edulib;
 import android.app.Activity;
 import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -10,7 +11,6 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 
@@ -23,7 +23,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-public class Admin extends AppCompatActivity {
+public class Admin_Keluhan extends AppCompatActivity {
     ArrayList<List> saran, keluhan;
     RecyclerView rvSaran, rvKeluhan;
     ListAdapter lSaran, lKeluhan;
@@ -32,17 +32,19 @@ public class Admin extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin);
+        setContentView(R.layout.activity_admin_keluhan);
+        ActionBar ab = getSupportActionBar();
+        ab.hide();
         saran = new ArrayList<>();
         mAuth = FirebaseAuth.getInstance();
         keluhan = new ArrayList<>();
-        lSaran = new ListAdapter(saran, Admin.this);
-        lKeluhan = new ListAdapter(keluhan, Admin.this);
-        rvSaran = findViewById(R.id.rvSaran);
+        lSaran = new ListAdapter(saran, Admin_Keluhan.this);
+        lKeluhan = new ListAdapter(keluhan, Admin_Keluhan.this);
+        //rvSaran = findViewById(R.id.rvSaran);
         rvKeluhan = findViewById(R.id.rvKeluhan);
-        rvSaran.setLayoutManager(new LinearLayoutManager(this));
+        //Saran.setLayoutManager(new LinearLayoutManager(this));
         rvKeluhan.setLayoutManager(new LinearLayoutManager(this));
-        rvSaran.setAdapter(lSaran);
+        //rvSaran.setAdapter(lSaran);
         rvKeluhan.setAdapter(lKeluhan);
         admin = findViewById(R.id.txAdmin);
         admin.setOnClickListener(new View.OnClickListener() {
@@ -71,23 +73,6 @@ public class Admin extends AppCompatActivity {
 
 
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
-        ref.child("Saran").addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                for (DataSnapshot x : dataSnapshot.getChildren()) {
-                    Log.d("TAG", x.getValue().toString());
-                    saran.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
-
-                }
-                lSaran.notifyDataSetChanged();
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });
-
         ref.child("Keluhan").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -102,5 +87,16 @@ public class Admin extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void saranClick(View view) {
+        Intent intent = new Intent(getApplicationContext(), Admin_Saran.class);
+        startActivity(intent);
+    }
+
+    public void berandaClick(View view) {
+
+        Intent intent = new Intent(getApplicationContext(), DashboardAdmin.class);
+        startActivity(intent);
     }
 }

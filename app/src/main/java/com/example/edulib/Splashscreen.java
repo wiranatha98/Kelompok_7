@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.EditText;
 
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -23,7 +22,7 @@ public class Splashscreen  extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         if (mAuth.getCurrentUser()!=null){
             if (mAuth.getCurrentUser().getEmail().contains("admin.com")){
-                next = new Intent(Splashscreen.this, Admin.class);
+                next = new Intent(Splashscreen.this, Admin_Saran.class);
             }else {
                 next = new Intent(Splashscreen.this, Home.class);
             }

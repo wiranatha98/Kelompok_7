@@ -59,4 +59,5 @@ public class Tentang extends AppCompatActivity {
         startActivity(new Intent(Tentang.this,Keluhan.class));
 
     }
+
 }
