@@ -12,10 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AsAdmin"></activity>
-        <activity android:name=".Admin" />
-        <activity android:name=".DashboardAdmin"></activity>
-        <activity android:name=".LoginAs"></activity>
+        <activity android:name=".Admin_Keluhan"></activity>
+        <activity android:name=".AsAdmin" />
+        <activity android:name=".Admin_Saran" />
+        <activity android:name=".DashboardAdmin" />
+        <activity android:name=".LoginAs" />
         <activity android:name=".LoginAdmin" />
         <activity android:name=".ChatRoom" />
         <activity android:name=".EditPassword" />
