@@ -83,7 +83,7 @@
         app:layout_constraintTop_toBottomOf="@+id/edPerihalSaran" />
 
     <Button
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_home5"
         android:layout_width="139dp"
         android:layout_height="59dp"
         android:layout_marginTop="8dp"
@@ -98,7 +98,7 @@
         app:layout_constraintVertical_bias="1.0" />
   
     <Button
-        android:id="@+id/nav_materi"
+        android:id="@+id/nav_materi5"
         android:layout_width="139dp"
         android:layout_height="59dp"
         android:layout_marginTop="8dp"
@@ -112,7 +112,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/nav_home"
+        app:layout_constraintStart_toEndOf="@+id/nav_home5"
         app:layout_constraintTop_toBottomOf="@+id/button5"
         app:layout_constraintVertical_bias="1.0" />
 
@@ -128,7 +128,7 @@
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nav_materi"
+        app:layout_constraintStart_toEndOf="@+id/nav_materi5"
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
         app:layout_constraintVertical_bias="1.0" />
 

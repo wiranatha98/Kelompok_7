@@ -28,7 +28,7 @@ public class Splashscreen  extends AppCompatActivity {
                 next = new Intent(Splashscreen.this, Home.class);
             }
         }else{
-            next = new Intent(Splashscreen.this, Login.class);
+            next = new Intent(Splashscreen.this, LoginAs.class);
         }
 
         new Handler().postDelayed(new Runnable() {
