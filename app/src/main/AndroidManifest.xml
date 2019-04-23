@@ -12,11 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AsAdmin"></activity>
+        <activity android:name=".DetailKeluhan"></activity>
+        <activity android:name=".AsAdmin" />
         <activity android:name=".Admin" />
-        <activity android:name=".DashboardAdmin"></activity>
-        <activity android:name=".LoginAs"></activity>
-        <activity android:name=".LoginAdmin" />
         <activity android:name=".ChatRoom" />
         <activity android:name=".EditPassword" />
         <activity android:name=".Info_Un" />
@@ -48,8 +46,6 @@
         <activity android:name=".diskusi_bahasa" />
         <activity android:name=".RecyclerViewUniv" />
         <activity android:name=".DetailActivity" />
-        <activity android:name=".RecyclerViewMateri" />
-        <activity android:name=".DetailMateri" />
     </application>
 
 </manifest>
