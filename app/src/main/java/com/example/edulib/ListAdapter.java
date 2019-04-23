@@ -42,8 +42,8 @@ Context mContext;
         TextView perihal,keluhan;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            perihal = itemView.findViewById(R.id.perihal);
-            keluhan = itemView.findViewById(R.id.keluhan);
+            perihal = itemView.findViewById(R.id.txUserCard);
+            keluhan = itemView.findViewById(R.id.txJudulCard);
 //            super(itemView);
         }
 

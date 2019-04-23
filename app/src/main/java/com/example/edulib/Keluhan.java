@@ -49,6 +49,7 @@ public class Keluhan extends AppCompatActivity {
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Keluhan").child(sdf.format(new Date()));
         ref.child("Perihal").setValue(perihal.getText().toString());
         ref.child("keluhan").setValue(keluhan.getText().toString());
+        ref.child("nama").setValue(mAuth.getCurrentUser().getDisplayName());
         startActivity(new Intent(Keluhan.this, NotifKeluhan.class));
         finish();
     }

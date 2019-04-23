@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.634" />
 
     <TextView
-        android:id="@+id/keluhan"
+        android:id="@+id/txJudulCard"
         android:layout_width="wrap_content"
         android:layout_height="25dp"
         android:layout_marginTop="8dp"

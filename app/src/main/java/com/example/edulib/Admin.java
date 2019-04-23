@@ -14,6 +14,8 @@ import android.widget.AdapterView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 
+import com.example.edulib.SaranKeluhan.AdapterKeluhan;
+import com.example.edulib.SaranKeluhan.SaranKeluhan;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -24,26 +26,33 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 public class Admin extends AppCompatActivity {
-    ArrayList<List> saran, keluhan;
+//    ArrayList<List> saran, keluhan;
+    ArrayList<SaranKeluhan> arSaran,arKeluhan;
     RecyclerView rvSaran, rvKeluhan;
-    ListAdapter lSaran, lKeluhan;
+    AdapterKeluhan adapSaran,adapKeluhan;
+//    ListAdapter lSaran, lKeluhan;
     TextView admin;
     FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin);
-        saran = new ArrayList<>();
+//        saran = new ArrayList<>();
+
         mAuth = FirebaseAuth.getInstance();
-        keluhan = new ArrayList<>();
-        lSaran = new ListAdapter(saran, Admin.this);
-        lKeluhan = new ListAdapter(keluhan, Admin.this);
+//        keluhan = new ArrayList<>();
+        arSaran = new ArrayList<>();
+        arKeluhan = new ArrayList<>();
+        adapSaran = new AdapterKeluhan(arSaran,this);
+        adapKeluhan = new AdapterKeluhan(arKeluhan,this);
+//        lSaran = new ListAdapter(saran, Admin.this);
+//        lKeluhan = new ListAdapter(keluhan, Admin.this);
         rvSaran = findViewById(R.id.rvSaran);
         rvKeluhan = findViewById(R.id.rvKeluhan);
         rvSaran.setLayoutManager(new LinearLayoutManager(this));
         rvKeluhan.setLayoutManager(new LinearLayoutManager(this));
-        rvSaran.setAdapter(lSaran);
-        rvKeluhan.setAdapter(lKeluhan);
+        rvSaran.setAdapter(adapSaran);
+        rvKeluhan.setAdapter(adapKeluhan);
         admin = findViewById(R.id.txAdmin);
         admin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,7 +67,7 @@ public class Admin extends AppCompatActivity {
                             case R.id.logout:
                                 mAuth.signOut();
                                 startActivity(new Intent(v.getContext(), Login.class));
-                                ((Activity) getApplicationContext()).finish();
+                                finish();
                                 break;
 
                         }
@@ -74,12 +83,14 @@ public class Admin extends AppCompatActivity {
         ref.child("Saran").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                arSaran.clear();
                 for (DataSnapshot x : dataSnapshot.getChildren()) {
                     Log.d("TAG", x.getValue().toString());
-                    saran.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
+//                    saran.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
+                    arSaran.add(new SaranKeluhan(x.child("perihal").getValue().toString(),x.child("keluhan").getValue().toString(),x.child("nama").getValue().toString()));
 
                 }
-                lSaran.notifyDataSetChanged();
+                adapSaran.notifyDataSetChanged();
             }
 
             @Override
@@ -91,10 +102,13 @@ public class Admin extends AppCompatActivity {
         ref.child("Keluhan").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                arKeluhan.clear();
                 for (DataSnapshot x : dataSnapshot.getChildren()) {
-                    keluhan.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
-                    lKeluhan.notifyDataSetChanged();
+//                    keluhan.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
+//                    lKeluhan.notifyDataSetChanged();
+                    arKeluhan.add(new SaranKeluhan(x.child("perihal").getValue().toString(),x.child("keluhan").getValue().toString(),x.child("nama").getValue().toString()));
                 }
+                adapKeluhan.notifyDataSetChanged();
             }
 
             @Override

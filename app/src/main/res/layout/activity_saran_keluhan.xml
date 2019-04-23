@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.634" />
 
     <TextView
-        android:id="@+id/keluhan"
+        android:id="@+id/txJudulCard"
         android:layout_width="76dp"
         android:layout_height="24dp"
         android:layout_marginTop="8dp"
@@ -174,7 +174,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.928"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/keluhan"
+        app:layout_constraintTop_toBottomOf="@+id/txJudulCard"
         app:layout_constraintVertical_bias="0.056"
 
         app:srcCompat="@drawable/keluhan" />
