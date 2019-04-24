@@ -169,6 +169,7 @@ public class Home extends AppCompatActivity implements GoogleApiClient.OnConnect
                 startActivity(intent);
             }
         });
+
     }
 
     @Override

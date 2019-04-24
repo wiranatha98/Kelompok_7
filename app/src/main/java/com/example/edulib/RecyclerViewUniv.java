@@ -27,6 +27,7 @@ public class RecyclerViewUniv extends AppCompatActivity {
         GridLayoutManager mGridLayoutManager = new GridLayoutManager(RecyclerViewUniv.this, 2);
         mRecyclerView.setLayoutManager(mGridLayoutManager);
 
+
         mUnivList = new ArrayList<>();
         mUnivData = new UnivData("Universitas Gadjah Mada", getString(R.string.ugm) ,R.drawable.ugm);
         mUnivList.add(mUnivData);
