@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".Tentang"
     android:background="@color/colorback">
 
     <TextView
@@ -19,15 +19,14 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.634" />
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
 
     <TextView
         android:id="@+id/keluhan"
-        android:layout_width="76dp"
-        android:layout_height="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:text="Keluhan"
@@ -36,33 +35,27 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintHorizontal_bias="0.845"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView28"
-        app:layout_constraintVertical_bias="0.0" />
-        app:layout_constraintHorizontal_bias="0.797"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView28"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.427" />
 
     <TextView
         android:id="@+id/sarandanpertanyaan"
         android:layout_width="wrap_content"
-        android:layout_height="19dp"
+        android:layout_height="25dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Saran dan Pertanyaan"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintHorizontal_bias="0.029"
         app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toBottomOf="@+id/imageView28"
-        app:layout_constraintVertical_bias="0.07" />
-
-        app:layout_constraintTop_toBottomOf="@+id/imageView28" />
-
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/E_mail"
@@ -76,13 +69,14 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <Button
         android:id="@+id/nav_keluhan"
-        android:layout_width="139dp"
+        android:layout_width="230dp"
         android:layout_height="59dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
@@ -98,11 +92,11 @@
 
     <Button
         android:id="@+id/nav_materi3"
-        android:layout_width="139dp"
+        android:layout_width="239dp"
         android:layout_height="59dp"
         android:layout_marginTop="156dp"
-        android:layout_marginEnd="136dp"
-        android:layout_marginRight="136dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginRight="228dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_book"
         android:onClick="materiClick"
@@ -116,7 +110,7 @@
 
     <Button
         android:id="@+id/nav_home3"
-        android:layout_width="139dp"
+        android:layout_width="264dp"
         android:layout_height="59dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
@@ -131,15 +125,14 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="500dp"
-        android:layout_height="155dp"
+        android:layout_width="754dp"
+        android:layout_height="91dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cloudd" />
@@ -147,36 +140,39 @@
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="103dp"
-        android:layout_height="77dp"
+        android:layout_height="91dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:onClick="saran"
         app:layout_constraintBottom_toBottomOf="@+id/nav_materi3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sarandanpertanyaan"
-        app:layout_constraintVertical_bias="0.056"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.625"
         app:srcCompat="@drawable/saran" />
 
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="103dp"
-        android:layout_height="89dp"
+        android:layout_height="77dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="keluhan"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.928"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/keluhan"
-        app:layout_constraintVertical_bias="0.056"
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575"
         app:srcCompat="@drawable/keluhan" />
 
     <ImageView
@@ -191,10 +187,10 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.783"
+        app:layout_constraintVertical_bias="0.814"
         app:srcCompat="@drawable/email" />
 
     <ImageView
@@ -209,10 +205,10 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintHorizontal_bias="0.276"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.689"
+        app:layout_constraintVertical_bias="0.595"
         app:srcCompat="@drawable/telepon" />
 
     <TextView
@@ -228,7 +224,7 @@
         android:text="+6281261615416"
         app:layout_constraintBottom_toTopOf="@+id/E_mail"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintHorizontal_bias="0.278"
         app:layout_constraintStart_toStartOf="@+id/imageView27"
         app:layout_constraintTop_toBottomOf="@+id/c_s"
         app:layout_constraintVertical_bias="0.666" />
@@ -246,7 +242,7 @@
         android:text="educationlibrary71@gmail.com"
         app:layout_constraintBottom_toBottomOf="@+id/nav_materi3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintHorizontal_bias="0.217"
         app:layout_constraintStart_toStartOf="@+id/imageView26"
         app:layout_constraintTop_toBottomOf="@+id/E_mail"
         app:layout_constraintVertical_bias="0.0" />
@@ -254,31 +250,34 @@
     <TextView
         android:id="@+id/txAdmin"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="19dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Aplikasi Edulib"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_materi3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.14" />
 
     <ImageView
         android:id="@+id/imageView28"
-        android:layout_width="wrap_content"
-        android:layout_height="75dp"
+        android:layout_width="466dp"
+        android:layout_height="23dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="256dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/txAdmin"
-
-        app:layout_constraintTop_toBottomOf="@+id/txAdmin"
-        app:layout_constraintVertical_bias="0.0"
-
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.571"
         app:srcCompat="@drawable/edulib" />
+
 
 </android.support.constraint.ConstraintLayout>

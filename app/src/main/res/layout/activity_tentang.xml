@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tentang">
+    tools:context=".Tentang"
+    android:background="@color/colorback">
 
     <TextView
         android:id="@+id/c_s"
@@ -28,6 +29,8 @@
         android:layout_width="wrap_content"
         android:layout_height="25dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="Keluhan"
         android:textColor="@color/colorPrimary"
@@ -35,10 +38,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintHorizontal_bias="0.857"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.397" />
+        app:layout_constraintVertical_bias="0.41" />
 
     <TextView
         android:id="@+id/sarandanpertanyaan"
@@ -161,15 +164,15 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:onClick="keluhan"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="keluhan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintHorizontal_bias="0.928"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.489"
+        app:layout_constraintTop_toBottomOf="@+id/keluhan"
+        app:layout_constraintVertical_bias="0.036"
         app:srcCompat="@drawable/keluhan" />
 
     <ImageView

@@ -54,7 +54,7 @@ public class Saran extends AppCompatActivity {
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Saran").child(sdf.format(new Date()));
         ref.child("Perihal").setValue(perihal.getText().toString());
         ref.child("keluhan").setValue(keluhan.getText().toString());
-        startActivity(new Intent(Saran.this, NotifKeluhan.class));
+        startActivity(new Intent(Saran.this, NotifSaran.class));
         finish();
 
 //        startActivity(new Intent());

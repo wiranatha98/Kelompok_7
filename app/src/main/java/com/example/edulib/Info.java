@@ -48,4 +48,6 @@ public class Info extends AppCompatActivity {
     }
 
 
+    public void infoUniv(View view) {
+    }
 }
