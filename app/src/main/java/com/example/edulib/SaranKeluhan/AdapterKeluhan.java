@@ -1,6 +1,7 @@
 package com.example.edulib.SaranKeluhan;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -9,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.edulib.DetailKeluhan;
 import com.example.edulib.R;
 
 import java.util.ArrayList;
@@ -58,7 +60,12 @@ public class AdapterKeluhan extends RecyclerView.Adapter<AdapterKeluhan.ViewHold
 
         @Override
         public void onClick(View v) {
-            Toast.makeText(mContext, isi, Toast.LENGTH_SHORT).show();
+//            Toast.makeText(mContext, isi, Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(mContext, DetailKeluhan.class);
+            intent.putExtra("judul",judul.getText().toString());
+            intent.putExtra("nama",user.getText().toString());
+            intent.putExtra("isi",isi);
+            mContext.startActivity(intent);
         }
     }
 }
