@@ -24,9 +24,12 @@ public class RecyclerViewMateri extends AppCompatActivity {
         mToolbar = findViewById(R.id.toolbar);
         mToolbar.setTitle(getResources().getString(R.string.toolbarString));
         mRecyclerView = findViewById(R.id.recyclerview_materi);
-        GridLayoutManager mGridLayoutManager = new GridLayoutManager(RecyclerViewMateri.this, 2);
-        mRecyclerView.setLayoutManager(mGridLayoutManager);
-
+        //GridLayoutManager mGridLayoutManager = new GridLayoutManager(RecyclerViewMateri.this, 2);
+        // mRecyclerView.setLayoutManager(mGridLayoutManager);
+        int gridColumnCount =
+                getResources().getInteger(R.integer.grid_column_count);
+        mRecyclerView.setLayoutManager(new
+                GridLayoutManager(this, gridColumnCount));
         mMateriList = new ArrayList<>();
         mMateriData = new MateriData("Biologi", getString(R.string.biologi), R.drawable.biologi3);
         mMateriList.add(mMateriData);
