@@ -21,23 +21,23 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="408dp"
-        android:layout_height="77dp"
+        android:layout_width="757dp"
+        android:layout_height="47dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="80dp"
         android:layout_marginRight="80dp"
         android:background="@color/colorexam"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/un2" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="443dp"
-        android:layout_height="74dp"
+        android:layout_width="772dp"
+        android:layout_height="49dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginEnd="8dp"
@@ -50,8 +50,8 @@
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="443dp"
-        android:layout_height="74dp"
+        android:layout_width="761dp"
+        android:layout_height="49dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginEnd="8dp"
@@ -64,12 +64,12 @@
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="424dp"
-        android:layout_height="77dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="734dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
         android:background="@color/coloruniv"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/univ" />
@@ -77,14 +77,14 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="51dp"
-        android:layout_marginTop="24dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
         android:text="APA YANG INGIN ANDA KETAHUI ?"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
@@ -106,29 +106,25 @@
         android:id="@+id/infoUn_btn"
         android:layout_width="127dp"
         android:layout_height="43dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginTop="4dp"
         android:background="@color/colorPrimary"
+        android:onClick="infoUN"
         android:text="CARI TAHU"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView8"
-        android:onClick="infoUN"/>
+        app:layout_constraintTop_toTopOf="@+id/imageView8" />
 
     <Button
         android:id="@+id/infoUniv_btn"
         android:layout_width="127dp"
         android:layout_height="43dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginTop="4dp"
         android:background="@color/colorPrimary"
+        android:onClick="infoUniv"
         android:text="CARI TAHU"
         android:textColor="@android:color/white"
         android:textStyle="bold"
-        android:onClick="infoUniv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
@@ -148,47 +144,47 @@
 
     <Button
         android:id="@+id/nav_home5"
-        android:layout_width="139dp"
-        android:layout_height="59dp"
+        android:layout_width="237dp"
+        android:layout_height="52dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_home"
+        android:onClick="berandaClick"
         android:text="@string/home"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="1.0"
-        android:onClick="berandaClick"/>
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/nav_materi5"
-        android:layout_width="139dp"
-        android:layout_height="59dp"
+        android:layout_width="267dp"
+        android:layout_height="52dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="-2dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_book"
+        android:onClick="materiClick"
         android:text="@string/materi"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/nav_home5"
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="1.0"
-        android:onClick="materiClick"/>
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/nav_diskusi"
-        android:layout_width="139dp"
-        android:layout_height="59dp"
+        android:layout_width="233dp"
+        android:layout_height="52dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_chat"
+        android:onClick="diskusiClick"
         android:text="@string/chat"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/nav_materi5"
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="1.0"
-        android:onClick="diskusiClick"/>
+        app:layout_constraintVertical_bias="1.0" />
 </android.support.constraint.ConstraintLayout>

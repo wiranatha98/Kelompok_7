@@ -3,6 +3,7 @@ package com.example.edulib;
 import android.app.Activity;
 import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -37,7 +38,8 @@ public class EditPassword extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_password);
-
+        ActionBar ab = getSupportActionBar();
+        ab.hide();
         frAuth = FirebaseAuth.getInstance();
         user = frAuth.getCurrentUser();
 
@@ -85,14 +87,19 @@ public class EditPassword extends AppCompatActivity {
     }
 
     public void berandaClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Home.class);
+        startActivity(intent);
     }
 
     public void materiClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Materi.class);
+        startActivity(intent);
     }
 
     public void diskusiClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Diskusi.class);
+        startActivity(intent);
     }
-
     public void resetPassword(View view){
         if (!passwordBaru.getText().toString().equals(confirmBaru.getText().toString())){
             Toast.makeText(this, "Password baru tidak sama", Toast.LENGTH_SHORT).show();

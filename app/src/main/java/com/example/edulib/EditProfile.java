@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
@@ -35,6 +36,8 @@ public class EditProfile extends AppCompatActivity {
         setContentView(R.layout.activity_editprofile);
         frAuth = FirebaseAuth.getInstance();
         user = frAuth.getCurrentUser();
+        ActionBar ab = getSupportActionBar();
+        ab.hide();
 
         databaseReference = FirebaseDatabase.getInstance().getReference().child("Users");
 
@@ -97,5 +100,19 @@ public class EditProfile extends AppCompatActivity {
 
 
 
+    }
+    public void berandaClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Home.class);
+        startActivity(intent);
+    }
+
+    public void materiClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Materi.class);
+        startActivity(intent);
+    }
+
+    public void diskusiClick(View view) {
+        Intent intent= new Intent(getApplicationContext(), Diskusi.class);
+        startActivity(intent);
     }
 }
