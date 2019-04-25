@@ -67,6 +67,6 @@ class MateriViewHolder_Bahasa extends RecyclerView.ViewHolder {
         mImage = itemView.findViewById(R.id.ivImage);
         mTitle = itemView.findViewById(R.id.tvTitle);
         mCardView = itemView.findViewById(R.id.cardview);
-        button_info = itemView.findViewById(R.id.button);
+        button_info = itemView.findViewById(R.id.back);
     }
 }
