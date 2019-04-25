@@ -15,7 +15,7 @@
         android:layout_marginBottom="8dp"
         android:text="Keluhan"
         android:textColor="@color/colorPrimary"
-        android:textSize="30sp"
+        android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,8 +27,8 @@
 
     <Button
         android:id="@+id/nav_saran"
-        android:layout_width="205dp"
-        android:layout_height="59dp"
+        android:layout_width="300dp"
+        android:layout_height="72dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_chat"
@@ -43,8 +43,8 @@
 
     <Button
         android:id="@+id/nav_home3"
-        android:layout_width="210dp"
-        android:layout_height="59dp"
+        android:layout_width="300dp"
+        android:layout_height="72dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_home"
@@ -58,8 +58,8 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="498dp"
-        android:layout_height="150dp"
+        android:layout_width="627dp"
+        android:layout_height="201dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
@@ -72,8 +72,8 @@
 
     <ImageView
         android:id="@+id/imageView39"
-        android:layout_width="67dp"
-        android:layout_height="79dp"
+        android:layout_width="148dp"
+        android:layout_height="132dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="36dp"
@@ -86,8 +86,8 @@
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="70dp"
-        android:layout_height="58dp"
+        android:layout_width="147dp"
+        android:layout_height="158dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -99,18 +99,8 @@
         app:layout_constraintHorizontal_bias="0.018"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.159"
+        app:layout_constraintVertical_bias="0.203"
         app:srcCompat="@drawable/keluhan" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:text="educationlibrary71@gmail.com"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="704dp" />
 
     <TextView
         android:id="@+id/txAdmin"
@@ -119,7 +109,7 @@
         android:layout_marginTop="8dp"
         android:text="Admin"
         android:textColor="@color/colorPrimary"
-        android:textSize="18sp"
+        android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView39" />

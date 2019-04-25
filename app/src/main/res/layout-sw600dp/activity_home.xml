@@ -25,79 +25,78 @@
 
     <ImageView
         android:id="@+id/materi"
-        android:layout_width="83dp"
-        android:layout_height="137dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginLeft="124dp"
+        android:layout_width="141dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txHello"
         app:srcCompat="@drawable/latihansoal" />
 
     <ImageView
         android:id="@+id/latihan_soal"
-        android:layout_width="83dp"
-        android:layout_height="137dp"
-        android:layout_marginEnd="112dp"
-        android:layout_marginRight="112dp"
+        android:layout_width="141dp"
+        android:layout_height="202dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txHello"
         app:srcCompat="@drawable/latihan" />
 
     <ImageView
         android:id="@+id/pengingat"
-        android:layout_width="83dp"
-        android:layout_height="137dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginLeft="124dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="141dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_materi"
         app:srcCompat="@drawable/reminder" />
 
     <ImageView
         android:id="@+id/info"
-        android:layout_width="83dp"
-        android:layout_height="137dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="112dp"
-        android:layout_marginRight="112dp"
+        android:layout_width="141dp"
+        android:layout_height="202dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_latsol"
         app:srcCompat="@drawable/info" />
 
     <ImageView
         android:id="@+id/diskusi"
-        android:layout_width="83dp"
-        android:layout_height="137dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginLeft="124dp"
+        android:layout_width="121dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.443"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/diskusi3" />
 
     <ImageView
         android:id="@+id/tentang"
-        android:layout_width="126dp"
-        android:layout_height="137dp"
-        android:layout_marginEnd="68dp"
-        android:layout_marginRight="68dp"
+        android:layout_width="164dp"
+        android:layout_height="175dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
         android:layout_marginBottom="8dp"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.425"
+        app:layout_constraintVertical_bias="0.628"
         app:srcCompat="@drawable/about" />
 
     <TextView
         android:id="@+id/textView_materi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="132dp"
-        android:layout_marginLeft="132dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="20dp"
         android:text="@string/materi_tv"
         android:textColor="@android:color/black"
         android:textSize="18sp"
@@ -109,8 +108,9 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginLeft="124dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="8dp"
         android:text="@string/pengingat_tv"
         android:textColor="@android:color/black"
         android:textSize="18sp"
@@ -122,8 +122,8 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="132dp"
-        android:layout_marginLeft="132dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
         android:layout_marginBottom="8dp"
         android:text="@string/diskusi_tv"
         android:textColor="@android:color/black"
@@ -132,14 +132,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/diskusi"
-        app:layout_constraintVertical_bias="0.127" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="100dp"
-        android:layout_marginRight="100dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
         android:layout_marginBottom="8dp"
         android:text="@string/tentang_tv"
         android:textColor="@android:color/black"
@@ -148,7 +148,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tentang"
-        app:layout_constraintVertical_bias="0.072" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView_latsol"
@@ -207,11 +207,9 @@
         android:id="@+id/spinner"
         android:layout_width="100dp"
         android:layout_height="0dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginBottom="128dp"
-        app:layout_constraintBottom_toTopOf="@+id/latihan_soal"
+        android:layout_marginTop="144dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -9,8 +9,9 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="419dp"
-        android:layout_height="182dp"
+        android:layout_width="620dp"
+        android:layout_height="212dp"
+        android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cloud" />
@@ -18,7 +19,7 @@
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="wrap_content"
-        android:layout_height="96dp"
+        android:layout_height="138dp"
         android:layout_marginStart="48dp"
         android:layout_marginLeft="48dp"
         android:layout_marginTop="144dp"
@@ -32,21 +33,21 @@
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="374dp"
-        android:layout_height="270dp"
+        android:layout_width="451dp"
+        android:layout_height="390dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView14"
         app:srcCompat="@color/colorAccent" />
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="55dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="105dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView15"
         app:srcCompat="@drawable/alert_info"
@@ -54,14 +55,14 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="321dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginLeft="48dp"
-        android:layout_marginTop="80dp"
+        android:layout_width="423dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="76dp"
         android:text="Ujian Nasional Akan Diselenggarakan Pada :"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView15" />
@@ -73,7 +74,7 @@
         android:layout_marginTop="20dp"
         android:text="1,2,4,8 APRIL 2019"
         android:textColor="@color/colorexam"
-        android:textSize="34sp"
+        android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,7 +87,7 @@
         android:layout_marginTop="40dp"
         android:text="Persiapkan Diri Anda !"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -94,48 +95,48 @@
 
     <Button
         android:id="@+id/nav_home5"
-        android:layout_width="139dp"
-        android:layout_height="59dp"
+        android:layout_width="200dp"
+        android:layout_height="72dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_home"
+        android:onClick="berandaClick"
         android:text="@string/home"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
-        app:layout_constraintVertical_bias="1.0"
-        android:onClick="berandaClick"/>
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/nav_materi5"
-        android:layout_width="139dp"
-        android:layout_height="59dp"
+        android:layout_width="200dp"
+        android:layout_height="72dp"
         android:layout_marginTop="156dp"
         android:layout_marginBottom="-2dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_book"
+        android:onClick="materiClick"
         android:text="@string/materi"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/nav_home5"
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
-        app:layout_constraintVertical_bias="1.0"
-        android:onClick="materiClick"/>
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/nav_diskusi"
-        android:layout_width="139dp"
-        android:layout_height="59dp"
+        android:layout_width="200dp"
+        android:layout_height="72dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_chat"
+        android:onClick="diskusiClick"
         android:text="@string/chat"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/nav_materi5"
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
-        app:layout_constraintVertical_bias="1.0"
-        android:onClick="diskusiClick"/>
+        app:layout_constraintVertical_bias="1.0" />
 
 </android.support.constraint.ConstraintLayout>
