@@ -78,7 +78,7 @@ public class Admin_Saran extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot x : dataSnapshot.getChildren()) {
                     Log.d("TAG", x.getValue().toString());
-                    saran.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
+                    saran.add(new List(x.child("Pertanyaan").getValue().toString(), x.child("Saran").getValue().toString()));
 
                 }
                 lSaran.notifyDataSetChanged();

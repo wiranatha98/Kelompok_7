@@ -4,36 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Admin_Keluhan"
+    tools:context=".Admin_Saran"
     android:background="@color/colorback">
 
     <TextView
-        android:id="@+id/keluhan"
+        android:id="@+id/sarandanpertanyaan"
         android:layout_width="wrap_content"
-        android:layout_height="42dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Keluhan"
+        android:text="Saran dan Pertanyaan"
         android:textColor="@color/colorPrimary"
-        android:textSize="30sp"
+        android:textSize="34sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintHorizontal_bias="0.034"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:layout_constraintTop_toTopOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.28" />
+        app:layout_constraintVertical_bias="0.354" />
 
     <Button
-        android:id="@+id/nav_saran"
-        android:layout_width="205dp"
-        android:layout_height="59dp"
+        android:id="@+id/nav_keluhan"
+        android:layout_width="300dp"
+        android:layout_height="72dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_chat"
-        android:onClick="saranClick"
-        android:text="Saran"
+        android:onClick="keluhanClick"
+        android:text="KELUHAN"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,8 +42,8 @@
 
     <Button
         android:id="@+id/nav_home3"
-        android:layout_width="210dp"
-        android:layout_height="59dp"
+        android:layout_width="300dp"
+        android:layout_height="72dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_home"
@@ -58,22 +57,36 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="498dp"
-        android:layout_height="150dp"
+        android:layout_width="684dp"
+        android:layout_height="270dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cloudd" />
 
     <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="139dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:srcCompat="@drawable/saran" />
+
+    <ImageView
         android:id="@+id/imageView39"
-        android:layout_width="67dp"
-        android:layout_height="79dp"
+        android:layout_width="176dp"
+        android:layout_height="151dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="36dp"
@@ -84,34 +97,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/user" />
 
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="70dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.018"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.159"
-        app:srcCompat="@drawable/keluhan" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:text="educationlibrary71@gmail.com"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="704dp" />
-
     <TextView
         android:id="@+id/txAdmin"
         android:layout_width="wrap_content"
@@ -119,7 +104,7 @@
         android:layout_marginTop="8dp"
         android:text="Admin"
         android:textColor="@color/colorPrimary"
-        android:textSize="18sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView39" />
@@ -128,26 +113,16 @@
         android:id="@+id/rvSaran"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/keluhan"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rvKeluhan"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/nav_saran"
-        app:layout_constraintEnd_toEndOf="@+id/rvSaran"
-        app:layout_constraintStart_toEndOf="@+id/imageView17"
-        app:layout_constraintTop_toTopOf="@+id/imageView17" />
+        app:layout_constraintBottom_toTopOf="@+id/nav_keluhan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13" />
 
 
 </android.support.constraint.ConstraintLayout>
