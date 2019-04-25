@@ -35,7 +35,7 @@
           android:textStyle="bold" />
 
       <Button
-          android:id="@+id/button"
+          android:id="@+id/back"
           android:layout_width="74dp"
           android:layout_height="35dp"
           android:background="@color/colorPrimary"

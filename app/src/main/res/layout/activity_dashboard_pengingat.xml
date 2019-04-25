@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorback"
+    tools:context=".DashboardPengingat">
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="PENGINGAT"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/nav_diskusi3"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:background="@color/colorPrimary"
+        android:drawableTop="@drawable/ic_chat"
+        android:onClick="diskusiClick"
+        android:text="@string/chat"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nav_materi5" />
+
+    <Button
+        android:id="@+id/nav_materi3"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:background="@color/colorPrimary"
+        android:drawableTop="@drawable/ic_book"
+        android:onClick="materiClick"
+        android:text="@string/materi"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nav_home5" />
+
+    <Button
+        android:id="@+id/nav_home3"
+        android:layout_width="145dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:drawableTop="@drawable/ic_home"
+        android:onClick="berandaClick"
+        android:text="@string/home"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/nav_materi3"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/listbutton"
+        android:layout_width="322dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@drawable/list"
+        android:text="LIST KEGIATAN"
+        android:onClick="listKegiatan"
+        android:textColor="@color/colorback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <Button
+        android:id="@+id/createbutton"
+        android:layout_width="322dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@drawable/add"
+        android:onClick="createKegiatan"
+        android:text="BUAT KEGIATAN BARU"
+        android:textColor="@color/colorback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listbutton" />
+
+
+</android.support.constraint.ConstraintLayout>

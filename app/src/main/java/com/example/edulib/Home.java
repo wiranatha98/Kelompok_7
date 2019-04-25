@@ -133,7 +133,7 @@ public class Home extends AppCompatActivity implements GoogleApiClient.OnConnect
         pengingat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Pengingat.class);
+                Intent intent = new Intent(getApplicationContext(), DashboardPengingat.class);
                 startActivity(intent);
             }
         });
