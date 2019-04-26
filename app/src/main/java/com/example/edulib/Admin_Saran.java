@@ -59,7 +59,7 @@ public class Admin_Saran extends AppCompatActivity {
                         switch (item.getItemId()) {
                             case R.id.logout:
                                 mAuth.signOut();
-                                startActivity(new Intent(v.getContext(), Login.class));
+                                startActivity(new Intent(v.getContext(), LoginAs.class));
                                 ((Activity) getApplicationContext()).finish();
                                 break;
 
@@ -77,11 +77,11 @@ public class Admin_Saran extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot x : dataSnapshot.getChildren()) {
-                    Log.d("TAG", x.getValue().toString());
-                    saran.add(new List(x.child("Pertanyaan").getValue().toString(), x.child("Saran").getValue().toString()));
-
+                    //Log.d("TAG", x.getValue().toString());
+                    saran.add(new List(x.child("Pertanyaan").getValue().toString(), x.child("Sarann").getValue().toString()));
+                    lSaran.notifyDataSetChanged();
+                    //keluhan.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
                 }
-                lSaran.notifyDataSetChanged();
             }
 
             @Override
