@@ -40,7 +40,7 @@
                 android:layout_width="74dp"
                 android:layout_height="35dp"
                 android:background="@color/colorPrimary"
-                android:text="INFO"
+                android:text="MATERI"
                 android:textColor="@color/cardview_light_background"
                 android:textSize="14dp" />
         </LinearLayout>
