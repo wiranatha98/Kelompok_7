@@ -50,11 +50,19 @@
         <activity android:name=".diskusi_bahasa" />
         <activity android:name=".RecyclerViewUniv" />
         <activity android:name=".DetailActivity" />
-        <activity android:name=".RecyclerViewMateri" />
         <activity android:name=".DetailMateri" />
         <activity android:name=".CreateActivityy" />
         <activity android:name=".DescPengingat" />
         <activity android:name=".ListActivityy" />
+        <activity android:name=".RecyclerViewIps">
+        </activity>
+        <activity android:name=".DetailActivityIps" />
+        <activity android:name=".RecyclerViewBahasa">
+
+        </activity>
+        <activity android:name=".DetailActivityBahasa" />
+        <activity android:name=".DetailActivityIpa" />
+        <activity android:name=".RecyclerViewIpa" />
     </application>
 
 </manifest>
