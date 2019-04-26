@@ -8,7 +8,7 @@
     android:background="@color/colorback">
 
     <EditText
-        android:id="@+id/edPerihalSaran"
+        android:id="@+id/edSaran"
         android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -27,7 +27,7 @@
 
 
     <EditText
-        android:id="@+id/edKeluhanSaran"
+        android:id="@+id/edPertanyaan"
         android:layout_width="352dp"
         android:layout_height="44dp"
         android:layout_marginStart="8dp"
@@ -80,7 +80,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edPerihalSaran" />
+        app:layout_constraintTop_toBottomOf="@+id/edSaran" />
 
     <Button
         android:id="@+id/nav_home5"
@@ -196,6 +196,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edKeluhanSaran" />
+        app:layout_constraintTop_toBottomOf="@+id/edPertanyaan" />
 
 </android.support.constraint.ConstraintLayout>

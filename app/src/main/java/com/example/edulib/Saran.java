@@ -25,8 +25,8 @@ public class Saran extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_saran);
 
-        perihal = findViewById(R.id.edPerihalSaran);
-        keluhan = findViewById(R.id.edKeluhanSaran);
+        perihal = findViewById(R.id.edSaran);
+        keluhan = findViewById(R.id.edPertanyaan);
         mAuth = FirebaseAuth.getInstance();
         ActionBar ab = getSupportActionBar();
         ab.hide();
@@ -52,8 +52,8 @@ public class Saran extends AppCompatActivity {
         }
         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy:HHmmss");
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Saran").child(sdf.format(new Date()));
-        ref.child("Perihal").setValue(perihal.getText().toString());
-        ref.child("keluhan").setValue(keluhan.getText().toString());
+        ref.child("Pertanyaan").setValue(perihal.getText().toString());
+        ref.child("Sarann").setValue(keluhan.getText().toString());
         startActivity(new Intent(Saran.this, NotifSaran.class));
         finish();
 
