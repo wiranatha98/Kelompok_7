@@ -441,12 +441,6 @@
         -Fakultas Psikologi
     </string>
 
-
-    <string name="mat_tumbuhan">
-
-
-    </string>
-
     <string name="biologi">
          <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
         \n\n\n
@@ -523,8 +517,7 @@
  </string>
 
     <string name="inggris">
-<<<<<<< HEAD
-         <b>Chapter 1 : Let\'s Visit Seattle! </b>
+         <b>Chapter 1 : Lets Visit Seattle! </b>
         \n\n\n
         A. Warmer : Pairwork
         \n
@@ -536,18 +529,18 @@
         \n\n\n
         Six Things To Do If You Visit Seattle
         \n\n
-        There are 6 must-have experiences that you should do if you visit Seattle where city and nature come together. If you visit Seattle, arrive with this list in hand and you will be off to a foolproof start for exploring the Emerald City\’s most unforgettable sights and sounds. If you visit Seattle:
+        There are 6 must-have experiences that you should do if you visit Seattle where city and nature come together. If you visit Seattle, arrive with this list in hand and you will be off to a foolproof start for exploring the Emerald Citys most unforgettable sights and sounds. If you visit Seattle:
         \n
-        1. Feel the fresh air on your face as you sail to Bainbrige Island on a Washington State Ferry. From the ferry you can enjoy the view of the Seattle skyline. You can also stroll around downtown\’s galleries, boutiques, coffeehouses and cafes. Seasonal gardens and natural woodlands at the Boedel Reserve is another option.
+        1. Feel the fresh air on your face as you sail to Bainbrige Island on a Washington State Ferry. From the ferry you can enjoy the view of the Seattle skyline. You can also stroll around downtowns galleries, boutiques, coffeehouses and cafes. Seasonal gardens and natural woodlands at the Boedel Reserve is another option.
         \n\n
-        2. Why don\’t you tour Pike Place Market\’s produce stands and buy something you have never tasted. The Pike Place Market is much more than a farmers market. Its entire district full of shopping, attractions and favorite sights. The area is festival of sounds,
-        tastes and smelss is part of the reason it\'s called the 'soul of Seattle'. Amid all the joyful hubbub, make sure you take time to spot these beloved icons.
+        2. Why dont you tour Pike Place Markets produce stands and buy something you have never tasted. The Pike Place Market is much more than a farmers market. Its entire district full of shopping, attractions and favorite sights. The area is festival of sounds,
+        tastes and smelss is part of the reason its called the soul of Seattle. Amid all the joyful hubbub, make sure you take time to spot these beloved icons.
         \n\n
         3. Book a night at one of the many cozy B  Bs or resorts available throughout the Sun Juan Islands. Cozy bed and breakfasts are perfect way to enjoy the friendly island culture. Here, you can tour the numerous art galleries in Friday Harbor. You can also enjoy naturalist-guided tours, wildlife spotting, whale watching and storm watching.
         \n\n
         4. See exciting and experimental works at Chihuly Garden and Glass. A visit to this site is an opportunity to take full advantage of the location at the Seattle Center, a premier destination for arts, entertainment and leisure activities. Explore the Space Needle and Pacific Science Center. Experience Music Project and a variety of cultural activities offered throughout the year.
         \n\n
-        5. Watch the world’s most sophisticated aircraft be built before your eyes at the Boeing factory in Mukilteo. Explore the dynamics of flight and experience new aviation innovation. Go behind the scenes at Boeing to watch the very same jets you may one day be a passenger on being assembled.
+        5. Watch the worlds most sophisticated aircraft be built before your eyes at the Boeing factory in Mukilteo. Explore the dynamics of flight and experience new aviation innovation. Go behind the scenes at Boeing to watch the very same jets you may one day be a passenger on being assembled.
         \n\n
         6. For a sweet treat, tour the Theo Chocolate factory in Freemont and learn how their delicious confections are made. This factory has a mission to create change in the Democratic Republic of Congo (DRC) where it has 300,000 square miles of farmable land but only 2% is being farmed due to conflict there. The factory trains 2,000 Congolese farmers to grow high quality cocoa.
         \n\n\n\n\n
@@ -563,7 +556,7 @@
         \n
         Captions also include a short title or heading of an article in a magazine or newspaper. Words shown on a cinema or television screen to establish the scene of a story are also called captions.
         \n
-        There are several criteria for a good caption. A good caption clearly identifies the subject of the picture without detailing the obvious. It is succinct, establishes the picture\'s relevance to the article, provides context for the picture, and draws the reader into the article.
+        There are several criteria for a good caption. A good caption clearly identifies the subject of the picture without detailing the obvious. It is succinct, establishes the pictures relevance to the article, provides context for the picture, and draws the reader into the article.
         \n\n
         C. Collecting Information
         \n
@@ -588,159 +581,6 @@
         D. Associating
         \n
         Work in groups. Find two captions. Discuss with your friends by focusing on three things: 1) whether they are good, 2) what messages they express, and 3) what grammar is used.
-    </string>
-
-    <string name="matematika">
-    <b>BAB I : Integral</b>
-    \n\n\n
-        A. Pengertian Integral
-        \n
-        Setiap hari, tentulah kita melakukan aktivitas, seperti menghirup udara dan melepaskan udara. Melepas udara merupakan operasi kebalikan (invers) dari menghirup udara. Dalam matematika, kita juga mengenal operasi kebalikan (invers), contohnya pengurangan dengan penjumlahan, perkalian dengan pembagian, pemangkatan dengan penarikan akar, dan sebagainya. Pada subbab ini kita akan mempelajari invers dari diferensial, yaitu integral
-        \n
-        Kita telah mempelajari arti diferensial atau turunan di kelas XI. Jika kita mempunyai f(x) = x2 + 4, turunannya adalah f'(x) = 2x. Dari contoh fungsi tersebut, kita dapat menentukan suatu fungsi yang turunannya f'(x) = 2x, yang disebut sebagai antiturunan atau antidiferensial atau pengintegralan. Jadi, pengintegralan merupakan operasi kebalikan dari pendiferensialan.
-        \n
-        Misalnya diketahui f'(x) = 2x, fungsi ini  merupakan turunan dari f(x) = x2 + 10, f(x) = x2 – log 3, atau f(x) = x2 25
-        \n
-        Terlihat fungsi-fungsi ini hanya berbeda konstantanya saja. Secara umum, dapat dituliskan bahwa f(x) = x2 + c merupakan antiturunan dari f'(x) = 2x, dengan c adalah bilangan real sembarang.
-        \n
-        Dari uraian di atas dapat didefinisikan sembagai berikut.
-        \n
-        Fungsi F(x) disebut antiturunan dari f(x) pada suatu domain jika  d dx Fx () [] = f(x).
-        \n\n
-        B. Integral Tak Tentu
-        \n
-        Misalkan diberikan fungsi-fungsi berikut.
-        \n
-        y = x2 + 2x + 5
-        \n
-        y = x2 + 2x – 2
-        \n
-        Kedua fungsi itu memiliki turunan yang sama, yaitu dy dx
- = 2x + 2.
-        \n
-        Sekarang, tinjau balik. Misalkan diberikan dy dx
- = 2x + 2. Jika
-        \n
-        dicari integralnya, akan diperoleh fungsi-fungsi
-        \n
-        y = x2 + 2x + 5,
-        \n
-        y = x2 + 2x – 2,
-        \n
-        bahkan \n
-        y = x2 + 2x + 10, \n
-        y = x2 + 2x – log 3, \n
-        dan sebagainya.
-        \n
-        Dengan demikian, fungsi yang memiliki turunan dy dx
- = 2x + 2
-        \n
-        bukan saja dua fungsi di atas, tetapi banyak sekali. Walaupun demikian, fungsi-fungsi itu hanya berbeda dalam hal bilangan tetap saja (seperti 5, –2, 10, log 3, dan seterusnya). Bilanganbilangan ini dapat disimbolkan dengan c. Karena nilai c itulah hasil integral ini disebut integral tak tentu.
-        \n\n
-        1. Notasi Integral Tak Tentu
-        \n
-        Perhatikan kembali definisi integral tak tentu di atas. Secara umum, jika F(x) menyatakan fungsi dalam variabel x, dengan f(x) turunan dari F(x) dan c konstanta bilangan real maka integral tak tentu dari f(x) dapat dituliskan dalam bentuk
-        \n
-        "integral"f(x) dx = F(x) + c
-        \n
-        dibaca ”integral fungsi f(x) ke x sama dengan F(x) + c”
-        \n\n
-        2. Rumus Dasar Integral Tak Tentu
-        Pada subbab ini, akan dibahas integral fungsi aljabar saja. Oleh karena itu, kalian harus ingat kembali turunan fungsi aljabar yang telah kalian pelajari di kelas XI.
-        \n
-        Pada pembahasan kalkulus diferensial atau turunan, diketahui bahwa turunan dari xn+1 + c ke x adalah
-        \n
-        d dx
-[xn + 1 + c] = (n + 1) x(n + 1) – 1 = (n + 1)xn.
-\n
-        Dengan mengalikan 1 1n +
-, untuk n dan –1 pada kedua ruas,
-        \n
-        diperoleh
-        \n
-        1 1n +
-d dx
-[xn + 1 + c] = 1 1n +
- (n + 1) xn = xn.
-\n
-        Jadi, d dx
-[ 1 1n +
- xn + 1 + c] = xn ............................................... (1)
-\n\n\n
-        <b>BAB II : Program Linear</b>
-       \n\n\n
-        A. Sistem Pertidaksamaan Linear
-        \n\n
-        1. Menyelesaikan Sistem Pertidaksamaan Linear Dua Variabel
-        \n
-        Pada pembahasan kali ini, kita akan menentukan penyelesaian sistem pertidaksamaan linear dengan dua variabel menggunakan metode grafik. Metode grafik dimaksudkan untuk melihat secara visual gambaran tentang daerah penyelesaian dari pertidaksamaan linear yang berbentuk aljabar. Karena secara umum grafik pertidaksamaan linear seperti ax + by * c, ax + by > c, ax + by dan ax + by ) c berupa daerah yang dibatasi oleh garis ax + by = c maka langkah-langkah dalam mengambar grafik pertidaksamaan linear adalah:
-        \n
-        a. menggambar grafik garis ax + by = c sebagai batas daerahnya;
-        \n
-        b. menyelidiki daerah penyelesaian yang dimaksud apakah berada di sebelah kiri, sebelah kanan, di atas, atau di bawah garis batas yang telah dilukis.
-        \n\n
-        2. Model Matematika
-        \n
-        Program linear adalah salah satu bagian dari matematika terapan yang berisikan pembuatan program untuk memecahkan berbagai persoalan sehari-hari. Persoalan-persoalan itu mengandung kendala atau batasan yang dapat diterjemahkan ke dalam model matematika. Model matematika adalah suatu hasil penerjemahan dari bahasa sehari-hari menjadi bentuk matematika berupa persamaan, pertidaksamaan, atau fungsi.
-        \n
-        Jadi, program linear tersusun atas sistem pertidaksamaan linear. Penyelesaian dari pertidaksamaan linear berupa daerah himpunan penyelesaian. Di antara penyelesaian tersebut, terdapat penyelesaian terbaik yang disebut penyelesaian optimum. Penyelesaian optimum dapat berupa nilai maksimum atau nilai minimum dari suatu fungsi yang dinamakan fungsi objektif, fungsi sasaran atau fungsi tujuan. Untuk memahami lebih lanjut tentang program linear dan model matematika, perhatikan Aktivitas berikut.
-        \n\n\n
-        B. Nilai Optimum Suatu Fungsi Objektif
-        \n\n
-        1. Fungsi Objektif z = ax + by
-        \n
-        Fungsi tujuan dalam pembuatan model matematika dinyatakan dalam bentuk z = ax + by. Bentuk z = ax + by yang akan dioptimumkan (dimaksimumkan atau diminimumkan) tersebut disebut juga fungsi objektif. Jadi, fungsi objektif dari program linear adalah fungsi z = ax + by yang akan ditentukan nilai optimumnya. Misalnya sebagai berikut.
-        \n
-        Fungsi objektif: memaksimumkan z = x + y
-        \n
-        Kendala: 5x + 4y ( 20
-        \n
-        x + 2y ) 24
-        \n
-x, y * 0, dengan x, y D C
-        \n
-        b. Fungsi objektif: meminimumkan z = 2x + 3y
-        \n
-        Kendala: x + y ) 500
-        \n
-        4x + 2y ) 200
-        \n
-        x, y * 0
-        \n
-        x, y D C
-        \n\n
-        2. Menentukan Nilai Optimum Fungsi Objektif
-        \n
-        Dari uraian yang telah diberikan, kita dapat mengetahui tujuan utama dari program linear, yaitu menentukan nilai optimum (maksimum/minimum) dari suatu fungsi objektif. Untuk menyelesaikan masalah program linear yang berhubungan dengan nilai optimum, langkah-langkah pemecahannya adalah sebagai berikut.
-        \n
-        a. Merumuskan permasalahan ke dalam model matematika.
-        \n
-        b. Membentuk sistem pertidaksamaan linear yang sesuai.
-        \n
-        c. Menggambarkan kendala sebagai daerah di bidang Cartesius yang memenuhi sistem pertidaksamaan linear.
-        \n
-        d. Menentukan nilai optimum (maksimum/minimum) dari fungsi objektif.
-        \n
-        e. Menafsirkan/menjawab permasalahan.
-        \n
-        Berkaitan dengan hal tersebut, ada dua metode yang dapat digunakan untuk menentukan nilai optimum dari program linear, yaitu metode uji titik sudut dan metode garis selidik.
-        \n\n
-        a. Metode Uji Titik Sudut
-        \n
-        Metode uji titik sudut adalah suatu metode untuk menentukan nilai optimum dari bentuk objektif z = ax + by dengan cara menghitung nilai-nilai z = ax + by pada setiap titik sudut yang terdapat pada daerah himpunan penyelesaian pertidaksamaan linear dua variabel, kemudian membandingkan nilai-nilai yang telah diperoleh. Nilai yang paling besar merupakan nilai maksimum dari z = ax + by, sedangkan nilai yang paling kecil merupakan nilai minimum dari z = ax + by.
-        \n\n
-        b. Metode Garis Selidik ax + by = k
-        \n
-        Cara lain yang lebih sederhana untuk menentukan nilai maksimum atau minimum dari fungsi objektif z = ax + by adalah dengan menggunakan garis selidik ax + by = k. Langkah-langkah untuk menggunakan metode garis selidik ini adalah sebagai berikut.
-        \n
-        1) Gambar garis ax + by = ab yang memotong sumbu X di titik (b, 0) dan memotong sumbu Y di titik (0, a).
-        \n
-        2) Tarik garis yang sejajar dengan ax + by = ab yang melalui titik-titik perpotongan pada batas-batas daerah himpunan penyelesaian.
-        \n
-        3) Garis selidik yang berada di paling atas atau yang berada di paling kanan menunjukkan nilai maksimum, sedangkan garis selidik yang berada di paling bawah atau di paling kiri pada daerah himpunan penyelesaian menunjukkan nilai minimum
-
-
-
     </string>
 
     <string name="indonesia">
@@ -913,7 +753,6 @@ x, y * 0, dengan x, y D C
 
 
     </string>
-
     <string name="fisika">
     <b>BAB I : HUKUM OHM</b>
     \n\n\n
@@ -950,6 +789,467 @@ x, y * 0, dengan x, y D C
 
 
     </string>
+    <string name="matematika">
+    <b>BAB I : Integral</b>
+    \n\n\n
+        A. Pengertian Integral
+        \n
+        Setiap hari, tentulah kita melakukan aktivitas, seperti menghirup udara dan melepaskan udara. Melepas udara merupakan operasi kebalikan (invers) dari menghirup udara. Dalam matematika, kita juga mengenal operasi kebalikan (invers), contohnya pengurangan dengan penjumlahan, perkalian dengan pembagian, pemangkatan dengan penarikan akar, dan sebagainya. Pada subbab ini kita akan mempelajari invers dari diferensial, yaitu integral
+        \n
+        Kita telah mempelajari arti diferensial atau turunan di kelas XI. Jika kita mempunyai f(x) = x2 + 4, turunannya adalah f(x) = 2x. Dari contoh fungsi tersebut, kita dapat menentukan suatu fungsi yang turunannya f(x) = 2x, yang disebut sebagai antiturunan atau antidiferensial atau pengintegralan. Jadi, pengintegralan merupakan operasi kebalikan dari pendiferensialan.
+        \n
+        Misalnya diketahui f(x) = 2x, fungsi ini  merupakan turunan dari f(x) = x2 + 10, f(x) = x2 – log 3, atau f(x) = x2 25
+        \n
+        Terlihat fungsi-fungsi ini hanya berbeda konstantanya saja. Secara umum, dapat dituliskan bahwa f(x) = x2 + c merupakan antiturunan dari f(x) = 2x, dengan c adalah bilangan real sembarang.
+        \n
+        Dari uraian di atas dapat didefinisikan sembagai berikut.
+        \n
+        Fungsi F(x) disebut antiturunan dari f(x) pada suatu domain jika  d dx Fx () [] = f(x).
+        \n\n
+        B. Integral Tak Tentu
+        \n
+        Misalkan diberikan fungsi-fungsi berikut.
+        \n
+        y = x2 + 2x + 5
+        \n
+        y = x2 + 2x – 2
+        \n
+        Kedua fungsi itu memiliki turunan yang sama, yaitu dy dx
+ = 2x + 2.
+        \n
+        Sekarang, tinjau balik. Misalkan diberikan dy dx
+ = 2x + 2. Jika
+        \n
+        dicari integralnya, akan diperoleh fungsi-fungsi
+        \n
+        y = x2 + 2x + 5,
+        \n
+        y = x2 + 2x – 2,
+        \n
+        bahkan \n
+        y = x2 + 2x + 10, \n
+        y = x2 + 2x – log 3, \n
+        dan sebagainya.
+        \n
+        Dengan demikian, fungsi yang memiliki turunan dy dx
+ = 2x + 2
+        \n
+        bukan saja dua fungsi di atas, tetapi banyak sekali. Walaupun demikian, fungsi-fungsi itu hanya berbeda dalam hal bilangan tetap saja (seperti 5, –2, 10, log 3, dan seterusnya). Bilanganbilangan ini dapat disimbolkan dengan c. Karena nilai c itulah hasil integral ini disebut integral tak tentu.
+        \n\n
+        1. Notasi Integral Tak Tentu
+        \n
+        Perhatikan kembali definisi integral tak tentu di atas. Secara umum, jika F(x) menyatakan fungsi dalam variabel x, dengan f(x) turunan dari F(x) dan c konstanta bilangan real maka integral tak tentu dari f(x) dapat dituliskan dalam bentuk
+        \n
+        integralf(x) dx = F(x) + c
+        \n
+        dibaca <b>integral fungsi f(x) ke x sama dengan F(x) + c</b>
+        \n\n
+        2. Rumus Dasar Integral Tak Tentu
+        Pada subbab ini, akan dibahas integral fungsi aljabar saja. Oleh karena itu, kalian harus ingat kembali turunan fungsi aljabar yang telah kalian pelajari di kelas XI.
+        \n
+        Pada pembahasan kalkulus diferensial atau turunan, diketahui bahwa turunan dari xn+1 + c ke x adalah
+        \n
+        d dx
+[xn + 1 + c] = (n + 1) x(n + 1) – 1 = (n + 1)xn.
+\n
+        Dengan mengalikan 1 1n +
+, untuk n dan –1 pada kedua ruas,
+        \n
+        diperoleh
+        \n
+        1 1n +
+d dx
+[xn + 1 + c] = 1 1n +
+ (n + 1) xn = xn.
+\n
+        Jadi, d dx
+[ 1 1n +
+ xn + 1 + c] = xn  (1)
+\n\n\n
+        <b>BAB II : Program Linear</b>
+       \n\n\n
+        A. Sistem Pertidaksamaan Linear
+        \n\n
+        1. Menyelesaikan Sistem Pertidaksamaan Linear Dua Variabel
+        \n
+        Pada pembahasan kali ini, kita akan menentukan penyelesaian sistem pertidaksamaan linear dengan dua variabel menggunakan metode grafik. Metode grafik dimaksudkan untuk melihat secara visual gambaran tentang daerah penyelesaian dari pertidaksamaan linear yang berbentuk aljabar. Karena secara umum grafik pertidaksamaan linear seperti ax + by x c, ax + by > c, ax + by dan ax + by ) c berupa daerah yang dibatasi oleh garis ax + by = c maka langkah-langkah dalam mengambar grafik pertidaksamaan linear adalah:
+        \n
+        a. menggambar grafik garis ax + by = c sebagai batas daerahnya;
+        \n
+        b. menyelidiki daerah penyelesaian yang dimaksud apakah berada di sebelah kiri, sebelah kanan, di atas, atau di bawah garis batas yang telah dilukis.
+        \n\n
+        2. Model Matematika
+        \n
+        Program linear adalah salah satu bagian dari matematika terapan yang berisikan pembuatan program untuk memecahkan berbagai persoalan sehari-hari. Persoalan-persoalan itu mengandung kendala atau batasan yang dapat diterjemahkan ke dalam model matematika. Model matematika adalah suatu hasil penerjemahan dari bahasa sehari-hari menjadi bentuk matematika berupa persamaan, pertidaksamaan, atau fungsi.
+        \n
+        Jadi, program linear tersusun atas sistem pertidaksamaan linear. Penyelesaian dari pertidaksamaan linear berupa daerah himpunan penyelesaian. Di antara penyelesaian tersebut, terdapat penyelesaian terbaik yang disebut penyelesaian optimum. Penyelesaian optimum dapat berupa nilai maksimum atau nilai minimum dari suatu fungsi yang dinamakan fungsi objektif, fungsi sasaran atau fungsi tujuan. Untuk memahami lebih lanjut tentang program linear dan model matematika, perhatikan Aktivitas berikut.
+        \n\n\n
+        B. Nilai Optimum Suatu Fungsi Objektif
+        \n\n
+        1. Fungsi Objektif z = ax + by
+        \n
+        Fungsi tujuan dalam pembuatan model matematika dinyatakan dalam bentuk z = ax + by. Bentuk z = ax + by yang akan dioptimumkan (dimaksimumkan atau diminimumkan) tersebut disebut juga fungsi objektif. Jadi, fungsi objektif dari program linear adalah fungsi z = ax + by yang akan ditentukan nilai optimumnya. Misalnya sebagai berikut.
+        \n
+        Fungsi objektif: memaksimumkan z = x + y
+        \n
+        Kendala: 5x + 4y ( 20
+        \n
+        x + 2y ) 24
+        \n
+x, y x 0, dengan x, y D C
+        \n
+        b. Fungsi objektif: meminimumkan z = 2x + 3y
+        \n
+        Kendala: x + y ) 500
+        \n
+        4x + 2y ) 200
+        \n
+        x, y x 0
+        \n
+        x, y D C
+        \n\n
+        2. Menentukan Nilai Optimum Fungsi Objektif
+        \n
+        Dari uraian yang telah diberikan, kita dapat mengetahui tujuan utama dari program linear, yaitu menentukan nilai optimum (maksimum/minimum) dari suatu fungsi objektif. Untuk menyelesaikan masalah program linear yang berhubungan dengan nilai optimum, langkah-langkah pemecahannya adalah sebagai berikut.
+        \n
+        a. Merumuskan permasalahan ke dalam model matematika.
+        \n
+        b. Membentuk sistem pertidaksamaan linear yang sesuai.
+        \n
+        c. Menggambarkan kendala sebagai daerah di bidang Cartesius yang memenuhi sistem pertidaksamaan linear.
+        \n
+        d. Menentukan nilai optimum (maksimum/minimum) dari fungsi objektif.
+        \n
+        e. Menafsirkan/menjawab permasalahan.
+        \n
+        Berkaitan dengan hal tersebut, ada dua metode yang dapat digunakan untuk menentukan nilai optimum dari program linear, yaitu metode uji titik sudut dan metode garis selidik.
+        \n\n
+        a. Metode Uji Titik Sudut
+        \n
+        Metode uji titik sudut adalah suatu metode untuk menentukan nilai optimum dari bentuk objektif z = ax + by dengan cara menghitung nilai-nilai z = ax + by pada setiap titik sudut yang terdapat pada daerah himpunan penyelesaian pertidaksamaan linear dua variabel, kemudian membandingkan nilai-nilai yang telah diperoleh. Nilai yang paling besar merupakan nilai maksimum dari z = ax + by, sedangkan nilai yang paling kecil merupakan nilai minimum dari z = ax + by.
+        \n\n
+        b. Metode Garis Selidik ax + by = k
+        \n
+        Cara lain yang lebih sederhana untuk menentukan nilai maksimum atau minimum dari fungsi objektif z = ax + by adalah dengan menggunakan garis selidik ax + by = k. Langkah-langkah untuk menggunakan metode garis selidik ini adalah sebagai berikut.
+        \n
+        1) Gambar garis ax + by = ab yang memotong sumbu X di titik (b, 0) dan memotong sumbu Y di titik (0, a).
+        \n
+        2) Tarik garis yang sejajar dengan ax + by = ab yang melalui titik-titik perpotongan pada batas-batas daerah himpunan penyelesaian.
+        \n
+        3) Garis selidik yang berada di paling atas atau yang berada di paling kanan menunjukkan nilai maksimum, sedangkan garis selidik yang berada di paling bawah atau di paling kiri pada daerah himpunan penyelesaian menunjukkan nilai minimum
+    </string>
+
+
+    <string name="indonesiaBahasa">
+        <b>BAB 1 : TEKS SURAT LAMARAN PEKERJAAN</b>
+        \n\n
+        1. Mengidentifikasi Isi dan Sistematika Surat Lamaran Pekerjaan
+        \n Isi surat meliputi bagian-bagian yang terdapat di dalam surat lamaran pekerjaan dan hal-hal yang harus ada di dalam surat lamaran pekerjaan.
+        \n Sistematika adalah klasifikasi atau penggolongan atas isi atau bagian-bagian yang terdapat di dalam surat lamaran pekerjaan.
+        \n Isi dan sistematika surat lamaran pekerjaan meliputi tempat dan tanggal pembuatan surat, lampiran dan perihal, alamat surat, salam pembuka, alinea pembuka, isi, penutup, tanda tangan, dan nama terang. Isi surat terdiri atas unsur nama, tempat dan tanggal lahir, pendidikan, alamat, serta beberapa hal yang dilampirkan.
+        \n\n 2. Menyajikan simpulan sistematika dan unsur-unsur isi surat lamaran baik secara lisan maupun tulis
+        \n Menyimpulkan adalah mengikhtisarkan (menetapkan, menyarikan pendapat, dan sebagainya) berdasarkan apa-apa yang diuraikan
+        \n Menyimpulkan isi dan sistematika surat lamaran pekerjaan adalah mengikhtisarkan atau menetapkan isi dan sistematika surat lamaran pekerjaan berdasarkan identifikasi isi surat lamaran Pekerjaan.
+        \n\n 3. Mengidentifikasi Unsur Kebahasaan Surat Lamaran Pekerjaan
+        \n Ketentuan-ketentuan yang harus diperhatikan dalam surat lamaran pekerjaan terkait dengan bahasa yang digunakan adalah sebagai Berikut.
+        \n a. Bahasa surat adalah bahasa yang baik dan benar.
+        \n b. Bahasa surat menggunakan kata-kata yang sopan.
+        \n c. Bahasa surat berisi kata pengantar yang jelas, singkat, padat, informative, dan tepat sasaran.
+        \n d. Bahasa surat tampak dari tulisan yang bersih, mudah dibaca, sesuai dengan kaidah ejaan.
+        \n e. Melengkapi bagian-bagian surat dengan norma bahasa surat (seperti penulisan unsur hal, tempat/tanggal, alamat, salam pembuka, isi surat, salam penutup, tanda tangan, dan nama terang).
+        \n\n 4. Menyusun Surat Lamaran Pekerjaan dengan memperhatikan isi, sistematika, dan kebahasaan
+        \n Berikut disajikan tips dalam membuat surat lamaran pekerjaan.
+        \n 1. Menggunakan bahasa yang baik dan benar.
+        \n 2. Menulis dengan susunan format rapi.
+        \n 3. Melengkapi data sesuai dengan keperluan.
+        \n 4. Melampirkan surat pendukung seperti sertifikat pengalaman kerja.
+        \n\n\n
+        <b>BAB 2 : TEKS CERITA ATAU NOVEL SEJARAH</b>
+        \n\n
+        1. Pengertian Novel Sejarah
+        \n
+        Novel sejarah adalah novel yang di dalamnya menjelaskan dan menceritakan tentang fakta kejadian masa lalu yang menjadi asal-muasal atau latar belakang terjadinya sesuatu yang memiliki nilai kesejarahan, bisa bersifat naratif atau deskriptif, dan disajikan dengan daya khayal pengetahuan yang luas dari pengarang.
+        \n\n\n 2. Struktur Teks Cerita/Novel Sejarah
+        \n\n a. Pengenalan situasi cerita (ekspostion, orientasi)
+        \n Dalam bagian ini, pengarang memperkenalkan latar cerita baik waktu, tempat maupun peristiwa. Selain itu, orientasi juga dapat disajikan dengan mengenalkan para tokoh, menata adegan, dan hubungan antartokoh.
+        \n\n b. Pengungkapan peristiwa
+        \n Dalam bagian ini disajikan peristiwa awal yang menimbulkan berbagai masalah, pertentangan, ataupun kesukaran-kesukaran bagi para tokohnya.
+        \n\n c. Menuju konflik (rising action)
+        \n Terjadi peningkatan perhatian kegembiraan, kehebohan, ataupun keterlibatan berbagai situasi yang menyebabkan bertambahnya kesukaran tokoh
+        \n\n d. Puncak konflik (turning point, komplikasi)
+        \n Bagian ini disebut pula sebagai klimaks. Inilah bagian cerita yang paling besar dan mendebarkan. Pada bagian ini pula, ditentukannya perubahan nasib beberapa tokohnya. Misalnya, apakah dia kemudian berhasil menyelesaikan masalahnya atau gagal.
+        \n\n e. Penyelesaian (Evaluasi, resolusi)
+        \n Sebagai akhir cerita, pada bagian ini berisi penjelasan ataupun penilaian tentang sikap ataupun nasib-nasib yang dialami tokohnya setelah mengalami peristiwa puncak itu. Pada bagian ini pun sering pula dinyatakan wujud akhir dari kondisi ataupun nasib akhir yang dialami tokoh Utama.
+        \n\n f. Koda
+        \n Bagian ini berupa komentar terhadap keseluruhan isi cerita, yang fungsinya sebagai penutup. Komentar yang dimaksud bisa disampaikan langsung oleh pengarang atau dengan mewakilkannya pada seorang tokoh. Hanya saja tidak setiap novel memiliki koda, bahkan novel-novel modern lebih banyak menyerahkan kesimpulan akhir ceritanya itu kepada para pembacanya. Mereka dibiarkan menebak-nebak sendiri penyelesaian ceritanya.
+        \n\n\n
+        3. Ciri Kebahasaan Novel Sejarah
+        \n\n Beberapa ciri kebahasaan novel sejarah adalah sebagai Berikut
+        \n\n a. Menggunakan banyak kalimat bermakna lampau
+        \n Contoh: Prajurit-prajurit yang telah diperintahkan membersihkan gedung bekas asrama telah menyelesaikan tugasnya.
+        \n\n b. Banyak menggunakan kata yang menyatakan urutan waktu (konjungsi kronologis, temporal), seperti: sejak saat itu, setelah itu, mula-mula, kemudian.
+        \n Contoh: Setelah juara gulat itu pergi, Sang Adipati bangkit dan berjalan tenang-tenang masuk ke Kadipaten.
+        \n\n c. Banyak menggunakan kata kerja yang menggambarkan suatu tindakan (kata kerja material).
+        \n Contoh:
+        \n 1). Di depan Ratu Biksuni Gayatri yang berdiri, Sri Gitarja duduk bersimpuh.
+        \n 2). Ketika para Ibu Ratu menangis yang menulari siapa pun untuk menangis, Dyah Wiyat sama sekali tidak menitikkan air mata.
+        \n\n d. Banyak menggunakan kata kerja yang menunjukkan kalimat tak langsung sebagai cara menceritakan tuturan seorang tokoh oleh pengarang. Misalnya, mengatakan bahwa, menceritakan tentang, menurut, menggungkapkan, menanyakan, menyatakan, menuturkan.
+        \n Contoh :
+        \n 1). Menurut Sang patih, Galeng telah periksa seluruh kamar Syahbandar dan ia telah melihat banyak botol dan benda-benda yang ia tak tahu nama dan gunanya.
+        \n 2). Riung Samudera menyatakan bahwa ia masih bingung dengan semua penjelasan kendit Galih tentang masalah itu.
+        \n\n e. Banyak menggunakan kata kerja yang menyatakan sesuatu yang dipikirkan atau dirasakan oleh tokoh (kata kerja mental). Misalnya, merasakan, mengingikan, mengharapkan, mendambakan, menganggap.
+        \n Contoh :
+        \n 1). Gajah Mada sependapat dengan Jalan pikiran Senopati Gajah Enggon.
+        \n 2). Melihat itu, tak seorang pun yang menolak karena semua berpikir Patih Gajah Mada memang mampu dan layak berada di tempat
+        \n\n f. Menggunakan banyak dialog. Hal ini ditunjukkan oleh tanda petik ganda (‘..”) dan kata kerja yang menunjukkan tuturan langsung.
+        \n Contoh :
+        \n “Mana surat itu?”
+        \n “Ampun, Gusti Adipati, Patik takut maka Patik bakar.”
+        \n\n g. Menggunakan kata-kata sifat (descriptive language) untuk menggambarkan tokoh, tempat, atau suasana
+        \n Contoh :
+        \n Dari apa yang terjadi itu terlihat betapa besar wibawa Gajah Mada, bahkan beberapa prajurit harus mengakui wibawa yang dimiliki Gajah Mada jauh lebih besar dari wibawa Jayanegara. Sri Jayanegara masih bisa diajak bercanda, tetapi tidak dengan Patih Gajah Mada, sang pemilik wajah yang amat beku itu.
+        \n\n\n
+        4. Menyusun Novel Sejarah
+        \n\n Langkah-langkah menyusun novel sejarah adalah sebagai Berikut.
+        \n\n a. Menentukan peristiwa sejarah yang akan menjadi bahan penceritaan
+        \n Langkah pertama dalam menyusun novel sejarah seseorang atau diri sendiri adalah menentukan peristiwa sejarah (peristiwa yang terjadi pada masa lalu) yang akan dikembangkan menjadi novel sejarah.
+        \n Dalam novel sejarah, penulis menceritakan peristiwa-peristiwa yang dialami para tokohnya dengan menggunakan latar peristiwa sejarah. Menulis novel sejarah berarti mengemas fakta sejarah dengan rekaan penulis. Wujudnya dapat berupa peristiwa yang berkaitan dengan hidup orang banyak atau hidup seseorang.
+        \n\n b. Menyusun kerangka atau gambaran singkat cerita sejarah yang akan ditulis
+        \n Dasar penyusunan kerangka novel sejarah dapat berupa perjalanan waktu (misalnya. masa kecil, masa remaja, masa sekolah, masa kuliah, masa dewasa); latar tempat (di desa, di sekolah, di kota, di luar negeri).
+        \n Kerangka karangan dapat berisi tokoh, waktu dan tempat kejadian, , ilustrasi visual setiap tokoh, apa yang dipermasalahkan, dan sebagainya.
+        \n\n c. Mengumpulkan bahan-bahan cerita
+        \n Pada tahap ini penulis mengumpulkan rangkaian peristiwa dari berbagai rujukan dan sumber (orang, buku, dan sebagainya).
+        \n\n d. Mengembangkan kerangka atau draf awal menjadi novel atau teks cerita sejarah
+        \n Pada tahap ini, penulis merangkai cerita berdasarkan daya khayal atau imajinasi. Sudut pandang yang paling mudah adalah sudut pandang orang pertama “ aku”.
+        \n Penceritaan teks novel atau cerita sejarah mengikuti gaya teks rekon imajinatif yang didalamnya ada orientasi, pengungkapan peristiwa, cerita mulai memuncak, puncak permasalahan, resolusi, dan koda.
+        \n\n\n
+        <b>BAB 3 : TEKS EDITORIAL</b>
+        \n\n
+        1. Pengertian teks editorial
+        \n Editorial adalah artikel utama yang ditulis oleh redaktur koran yang merupakan pandangan redaksi terhadap suatu peristiwa (berita) aktual (sedang menjadi sorotan), fenomenal, dan kontroversial (menimbulkan perbedaan pendapat).
+        \n\n 2. Fungsi Teks Editorial
+        \n Fungsi teks editorial di antaranya sebagai Berikut.
+        \n 1) Menjelaskan fakta atau peristiwa dan akibatnya kepada masyarakat
+        \n 2) Mengisi latar belakang dari isu dengan kenyataan sosial dan faktor yang mempengaruhinya.
+        \n 3) Memberikan pandangan kepada pembaca terhadap isu yang sedang berkembang.
+        \n 4) Memberikan penilaian moral tentang isu tersebut.
+        \n 5) Mengajak pembaca untuk ikut berpikir tentang masalah (isu/topik) yang sedang hangat terjadi di kehidupan sekitar
+
+
+    </string>
+    <string name="mandarin">
+         <b>KALIMAT YANG SERING DIGUNAKAN DI DALAM KELAS</b>
+        \n\n
+        \n 1. Sekarang waktunya belajar : Xiànzài shàngke
+        \n 2. PR hari ini adalah : Jintiàn de zuoye shì
+        \n 3. Waktu belajar telah selesai : Xiàke
+        \n 4. Mari kita istirahat sebentar : Xiànzài xiuxī yíxià
+        \n 5. Sekarang mari kita lanjutkan pelajaran : Xiànzài jìxu shàngke
+        \n 6. Silahkan melihat papan tulis : Qĭng kàn heibăn
+        \n 7. Silahkan membuka buku dan lihatlah halaman : Qĭng dăkăi shu, fandào dì ye
+        \n 8. Silahkan ikuti ucapan saya : Qĭng gen wo shuō
+        \n 9. Apa maksudnya? : Zhe shì shenme yìsī?
+        \n 10. Silahkan tulis sekali lagi : Qĭng zài xie yībiàn
+        \n\n <b>KALIMAT YANG SERING DIGUNAKAN MURID DI DALAMKELAS</b>
+        \n 1. Apa kabar bapak/ibu guru? : Lăoshī hăo
+        \n 2. Mohon anda bicara lebih lambat : Qĭng nín shuō màn yì diănr
+        \n 3. Mohon anda ucapkan sekali lagi : Qĭng nín zài shuō yībiàn
+        \n 4. Maaf saya terlambat : 0uìbuqĭ, wo chídào le
+        \n 5. Silahkan baca dulu : Qĭng du yíxià
+        \n 6. Silahkan tulis dulu : Qĭng xie yíxià
+        \n 7. Silahkan diterjemahkan : Qĭng Fanyì yíxià
+        \n 8. Benar tidak? : Duì bu dui
+        \n 9. Benar : Duì
+        \n 10. Tidak benar : bu duì
+        \n\n <b>HANYU PINYIN DAN SHENGDIAO</b>
+        \n Suku bunyi kata (yinjie) dalam aksara mandarin terdiri dari Shengmu, Yunmu, dan Shengdiào
+        \n Shengmu dalam bahasa Indonesia disebut inisial merupakan huruf konsonan dari suku bunyi.
+        \n Yunmu disebut juga final, merupakan huruf vokal dari suku bunyi.
+        \n Shengmu dan Yunmu yang bergabung membentuk satuan bunyi untuk melafalkan hanzi disebut sebagai Pinyin.
+        \n\n <b>SEJARAH PEMBENTUKAN AKSARA MANDARIN</b>
+        \n Asal mula aksara mandarin (han zhi) pada tahun 1899 di An Yang provinsi HeNan ditemukan situs purbakala yang penting, yaitu kota YinXu (dinasti Shang) dan tulisan JiaGuWen. Sejak itu pengetahuan mengenai YinShang memasuki babak baru.
+        \n Berdasarkan itu, para ahli tulisan kuno beranggapan bahwa tulisan Jia GuWen adalah tulisan purba yang termasuk lengkap dan baik. Hingga hari ini telah diketahui lebih dari 3000 aksara termasuk kata benda, kata kerja, kata ganti, kata kerja pembantu.Ini membuktikan telah adanya susunan tata bahasa.
+        \n Bahkan bisa dibuat suatu bentuk narasi lebih dari 170 huruf. Dari kata-kata ini, para ahli berpendapat bahwa jia guwen bukanlah asal mula aksara mandarin, sebelumnya pasti telah melewati suatu proses yang panjang.
+        \n Darimana asal mula aksara mandarin, ini telah menimbulkan suatu perdebatan. Sejarawan senior dan ahli bahasa kuno yaitu Guo MoRuo dan YuShengWu beranggapan bahwa kelahiran aksara mandarin berasal dari kebudayaan kuno Tiongkok yaitu BanBo YangShao (yang sering disebut Yang Shao Wen Hua) yang telah berumur lebih dari 6 ribu tahun. Guo Mo Ruo beranggapan bahwa 20 hingga 30 ideograph atau simbol yang terdapat di gerabah merupakan cikal bakal aksara mandarin. Demikian pendapat Yv ShengWu.
+        \n Tapi belakangan ini penelitian beberapa ahli beranggapan bahwa tulisan aksara pada yangShao dan kebudayaan Da WenKhou (provinsi ShanDong, DaWenKhou WenHua) tidak memiliki hubungan langsung dengan aksara mandarin, proses perubahan dan pembentukan aksara mandarin berkisar 3000 BC.
+        \n\n Pendapat ini menurut Zhang Rong adalah tidak relevan. Perlu diketahui bahwa 7500 tahun yang lampau telah ada sistem pertanian dan peternakan, terutama di sepanjang sungai Chang Jiang. Bahkan pada masa itu jawawut telah digunakan sebagai pakan ternak.
+        \n Dan banyak ahli telah memiliki suatu pandangan bahwa kisah kaisar purba yaitu Shen Nong dan FuXi merupakan suatu era atau masa.
+        \n Misalnya sistem perhitungan dan administrasi Fu Xi merupakan sistem yang digunakan para peternak dan petani untuk menghitung dan administrasi.
+        \n\n Berdasarkan beberapa penemuan akhir, awal sejarah aksara mandarin telah berumur 8500 tahun yang lampau. Walau terdapat beberapa perbedaan kecil antara aksara kebudayaan Yang Shao dan HongShan, tapi ini tidak menjadi suatu rintangan dalam pembentukan Han Zhi. Disini kita bisa mengetahui bahwa ternyata sejarah Han Zhi itu memiliki umur yang panjang.
+
+    </string>
+    <string name="jepang">
+        <b>KATA GANTI PETUNJUK BENDA</b>
+        \n\n
+        \n - KORE : ini 　( benda dekat si pembicara )
+        \n - SORE : itu 　( benda dekat lawan bicara )
+        \n - ARE : itu 　( benda jauh dari pembicara atau lawan bicara)
+        \n - DORE : yang mana ? 　( di antara pilihan benda-benda )
+        \n\n Contoh:
+        1. Kore wa hon desu. ( ini adalah buku ) : これは　ほんです。
+        \n 2. Sore wa tsukue desu. ( itu adalah meja ) : それは　つくえです。
+        \n 3. Are wa senpuki desu. ( itu adalah kipas angin ) : あれは　せんぷきです。
+        \n 4. Are wa kuruma desuka. ( apakah itu mobil ) : あれは　くるまですか。
+        \n Hai,soo desu. ( ya,benar ) / Hai,are wa kuruma desu. ( ya,itu adalah mobil ) : はい。そうです はい。あれは　くるまです。
+        \n 5. Enpitsu ga dore desuka. ( pensil adalah yang mana ) : えんぴつが　どれですか。
+        \n Enpitsu wa kore desu. ( pensil adalah ini ) : えんぴつは　これです。
+
+        \n\n\n
+        <b>UNGKAPAN DALAM KEHIDUPAN SEHARI-HARI</b>
+        \n 1.  やすみます : istirahat
+        \n 2.  あるきます : berjalan
+        \n 3.  はしります : berlari
+        \n 4.  ねます : tidur
+        \n 5.  シャワーをあびます : mandi
+        \n 6.  たばこをすいます : merokok
+        \n 7.  Ohayou gozaimasu : Selamat Pagi
+        \n 8.  Konnichiwa : Selamat Siang
+        \n 9.  Konbanwa : Selamat Malam
+        \n 10. Sayounara : Selamat Tinggal / Selamat Jalan
+        \n 11. Oyasumi nasai : Selamat Beristirahat (malam hari)
+        \n 12. Dewa,Mata, (ja, mata) : Sampai Nanti
+        \n 13. Omedetou : Selamat
+        \n 14. (Doumo) arigatoo-gozaimasu / (Doumo) Sumimasen : Terima Kasih
+        \n 15. Osaki ni : Saya Duluan
+        \n 16. Douzo osakini : Silahakan Duluan (pergi)
+        \n 17. Ki o tsukete : Hati-Hati
+        \n 18. Itadakimasu : Terima kasih atas suguhan yang saya cicipi
+        \n 19. Gochisousama deshita : Sesungguhnya telah membuat saya kenyang
+        \n 20. Shitsurei shimasu : Permisi
+        \n 21. O-genki desu ka : Apa Kabar
+        \n 22. Genki desu : Baik-baik
+        \n 23. Tadaima : Saya Kembali (ke rumah)
+        \n 24. Otanjoubi Omedetou : Selamat Ulang tahun
+        \n 25. Odaijini : Semoga Cepat Sembuh / Get Well Soon
+        \n 26. Ohisashiburidesune : Lama tak berjumpa
+        \n 27. Itte Irashai: Selamat jalan
+        \n 28. Omataseshimashita : Maaf Menunggu lama
+        \n 29. Irasshaimase : Selamat Datang
+        \n 30. Ukagaimasu : Saya akan datang (lebih sopan)
+
+        \n\n\n
+        <b>UNGKAPAN BAHASA JEPANG SEHARI-HARI DALAM KELAS</b>
+        \n 1.  Hajimemashou : Mari kita mulai
+        \n 2.  Kiite kudasai : Harap mendengarkan
+        \n 3.  Kurikaeshite kudasai : Ulangi
+        \n 4.  Itte kudasai : Katakan / ucapkan
+        \n 5.  Mo ichido itte kudasai : Katakan / ucapkan sekali lagi
+        \n 6.  Yukkuri itte kudasai : Katakan perlahan-lahan
+        \n 7.  Isshou ni dozo : Silahkan bersama-sama
+        \n 8.  Kokuban o mite kudasai : Perhatikan papan tulis
+        \n 9.  Kaite kudasai : Harap ditulis
+        \n 10. Oboete kudasai : Harap diingat
+        \n 11. Yonde kudasai : Harap dibaca
+        \n 12. Kotaete kudasai : Jawablah
+        \n 13. Wakarimashita ka : Apakah sudah mengerti
+        \n 14. Hai, Wakarimashita : Ya, mengerti
+        \n 15. Iie, Wakarimasen : Belum mengerti
+        \n 16. Hon o akate Kudasai : Bukalah buku
+        \n 17. Hon o tojite kudasai : Tutuplah buku
+        \n 18. Renshu-shite kudasai : Latihlah
+        \n 19. Chotto matte kudasai : Tunggu sebentar
+        \n 20. Yasumimasho : Mari kita istirahat
+
+        \n\n\n
+        <b>ATARASHII KOTOBA</b>
+        \n 1.  Watashi わたし : saya
+        \n 2.  Watashitachi わｔしたち : kami / kita
+        \n 3.  Anatagata あなたがた : kalian / anda sekalian
+        \n 4.  Gakusei がくせい : pelajar / siswa
+        \n 5.  Sensei せんせい : guru
+        \n 6.  Hon ほん : buku
+        \n 7.  Isu いす : kursi
+        \n 8.  Tsukue つくえ : meja
+        \n 9.  Hikidashi ひきだし : lemari
+        \n 10. Hondana ほんだな : Lemari Buku
+        \n 11. Senpuki せんぷき : kipas angin
+        \n 12. Kokuban こくばん : papan tulis
+        \n 13. Pen ぺん : pena
+        \n 14. Enpitsu えんぴつ : pensil
+        \n 15. Kami かみ : kertas
+        \n 16. Shinbun しんぶん : Koran
+        \n 17. Jisho じしょ : kamus
+        \n 18. Zasshi ざっし : majalah
+        \n 19. Kutsu くつ : sepatu
+        \n 20. Kaban かばん : tas
+    </string>
+    <string name="sejarah">
+    <b>BAB 1 : PERKEMBANGAN EKONOMI POLITIK PADA MASA AWAL KEMERDEKAAN KEADAAN EKONOMI-KEUANGAN PADA AWAL KEMERDEKAAN </b>
+    \n\n\n
+    A. FAKTOR-FAKTOR PENYEBAB MEMBURUKNYA KEADAAN EKONOMI DAN KEUANGAN DI INDONESIA PADA AWAL KEMERDEKAAN
+    \n Pada akhir pendudukan Jepang dan pada awal berdirinya Republik Indonesia keadaan ekonomi Indonesia sangat kacau. Hal ini disebabkan oleh hal-hal sebagai berikut :
+    \n\n 1. Inflasi yang sangat tinggi (Hiper-Inflasi).
+    \n Penyebab terjadinya inflasi ini adalah beredarnya mata uang pendudukan Jepang secara tak terkendali. Pada saat itu diperkirakan mata uang Jepang yang beredar di masyarakat sebesar 4 milyar. Dari jumlah tersebut, yang beredar di Jawa saja, diperkirakan sebesar 1,6 milyar.
+    \n Jumlah itu kemudian bertambah ketika pasukan Sekutu berhasil menduduki beberapa kota besar di Indonesia dan meguasai bank-bank. Dari bank-bank itu Sekutu mengedarkan uang cadangan sebesar 2,3 milyar untuk keperluan operasi mereka. Kelompok masyarakat yang paling menderita akibat inflasi ini adalah petani. Hal itu disebabkan pada zaman pendudukan Jepang petani adalah produsen yang paling banyak menyimpan mata-uang Jepang.
+    \n emerintah Republik Indonesia yang baru berdiri, tidak dapat menghentikan peredaran mata uang Jepang tersebut, sebab negara RI belum memiliki mata-uang baru sebagai penggantinya. Maka dari itu, untuk sementara waktu pemerintah RI menyatakan tiga mata uang yang berlaku di wilayah RI, yaitu :
+    \n a. mata-uang De Javasche Bank;
+    \n b. mata-uang pemerintah Hindia Belanda;
+    \n c. mata-uang pendudukan Jepang.
+    \n Pada saat kesulitan ekonomi menghimpit bangsa Indonesia, tanggal 6 Maret 1946, Panglima AFNEI yang baru, Letnan Jenderal Sir Montagu Stopford mengumumkan berlakunya uang NICA di daerah-daerah yang diduduki Sekutu. Uang NICA ini dimaksudkan sebagai pengganti uang Jepang yang nilainya sudah sangat turun. Pemerintah melalui Perdana Menteri Syahrir memproses tindakan tersebut. Karena hal itu berarti pihak Sekutu telah melanggar persetujuan yang telah disepakati, yakni selama belum ada penyelesaian politik mengenai status Indonesia, tidak akan ada mata uang baru.
+    \n Oleh karena itulah pada bulan Oktober 1946 Pemerintah RI, juga melakukan hal yang sama yaitu mengeluarkan uang kertas baru yaitu Oeang Republik Indonesia (ORI) sebagai pengganti uang Jepang. Untuk melaksanakan koordinasi dalam pengurusan bidang ekonomi dan keuangan, pemerintah membentuk Bank Negara Indonesia pada tanggal 1 November 1946.
+    \n Bank Negara ini semula adalah Yayasan Pusat Bank yang didirikan pada bulan Juli 1946 dan dipimpin oleh Margono Djojohadikusumo. Bank negara ini bertugas mengatur nilai tukar ORI dengan valuta asing.
+    \n\n 2. Adanya blokade ekonomi, oleh Belanda (NICA)
+    \n Blokade laut ini dimulai pada bulan November 1945 ini, menutup pintu keluar-masuk perdagangan RI. Adapun alasan pemerintah Belanda melakukan blokade ini adalah :
+    \n 1. Untuk mencegah dimasukkannya senjata dan peralatan militer ke Indonesia;
+    \n 2. Mencegah dikeluarkannya hasil-hasil perkebunan milik Belanda dan milik asing lainnya;
+    \n 3. Melindungi bangsa Indonesia dari tindakan-tindakan yang dilakukan oleh orang bukan Indonesia.
+    \n Akibat dari blokade ini barang-barang dagangan milik pemerintah RI tidak dapat diekspor, sehingga banyak barang-barang ekspor yang dibumihanguskan. Selain itu Indonesia menjadi kekurangan barang-barang impor yang sangat dibutuhkan.
+    \n\n Kas negara kosong, pajak dan bea masuk sangat berkurang, sehingga pendapatan pemeritah semakin tidak sebanding dengan pengeluarannya.
+    \n Penghasilan pemerintah hanya bergantung kepada produksi pertanian. Karena dukungan petani inilah pemerintah RI masih bertahan, sekali pun keadaan ekonomi sangat buruk.
+    \n\n\n
+    B. USAHA MENEMBUS BLOKADE EKONOMI
+    \n Usaha-usaha untuk menembus blokade ekonomi yang dilakukan oleh pihak Belanda dilaksanakan oleh pemerintah dengan berbagai cara, diantaranya sebagai berikut :
+    \n\n 1. Diplomasi Beras ke India
+    \n Usaha ini lebih bersifat politis daripada ekonomis. Ketika terdengar berita bahwa rakyat India sedang ditimpa bahaya kelaparan, pemerintah RI segera menyatakan kesediaannya untuk membantu pemerintah India dengan mengirimkan 500.000 ton beras, dengan harga sangat rendah. Pemerintah bersedia melakukan hal ini karena diperkirakan pada musim panen tahun 1946 akan diperoleh surplus sebesar 200.000 sampai 400.000 ton.
+    \n Sebagai imbalannya pemerintah India menjanjikan akan mengirimkan bahan pakaian yang sangat dibutuhkan oleh rakyat Indonesia. Keuntungan politik yang diperoleh oleh pemerintah RI adalah dalam forum internasional India adalah negara Asia yang paling aktif membantu perjuangan kemerdekaan RI.
+    \n\n 2. Mengadakan Hubungan Dagang Langsung ke Luar Negeri
+    \n Usaha untuk membuka hubungan langsung ke luar negeri, dilakukan oleh pihak pemerintah maupun pihak swasta. Diantara usaha-usaha tersebut adalah sebagai berikut :
+    \n a. Mengadakan kontak hubungan dengan perusahaan swasta Amerika (Isbrantsen Inc.). Usaha ini dirintis oleh BTC (Banking and Trading Corporation), suatu badan perdagangan semi-pemerintah yang dipimpin oleh Dr. Sumitro Djojohadikusumo dan Dr. Ong Eng Die. Dalam transaksi pertama pihak Amerika Serikat bersedia membeli barang-barang ekspor dari Indonesia seperti gula, karet, teh, dan sebagainya.
+    \n Kapal Isbrantsen Inc. yang masuk ke pelabuhan Cirebon adalah kapal Martin Behrmann yang mengangkut barang-barang pesanan RI dan akan memuat barang-barang ekspor dari RI. Akan tetapi kapal itu dicegat oleh kapal Angkatan Laut Belanda dan diseret ke pelabuhan Tanjung Priuk dan seluruh muatannya disita.
+    \n b. Menembus blokade ekonomi Belanda di Sumatera dengan tujuan Singapura dan Malaysia.
+    \n Oleh karena jarak perairan yang relatif dekat, maka usaha ini dilakukan dengan perahu layar dan kapal motor cepat. Usaha ini secara sistimatis dilakukan sejak tahun 1946 sampai dengan akhir masa Perang Kemerdekaan.
+    \n Pelaksanaan penembusan blokade ini dilakukan oleh Angkatan Laut RI dengan dibantu oleh pemerintah daerah penghasil barang-barang ekspor.
+    \n Sejak awal tahun 1947 pemerintah RI membentuk perwakilan resmi di Singapura yang diberi nama Indonesia Office (Indoff).
+    \n Secara resmi Indoff ini merupakan badan yang memperjuangkan kepentingan politik di luar negeri, namun secara rahasia juga berusaha menembus blokade dan usaha perdagangan barter.
+    \n Kementerian Pertahanan juga membentuk perwakilannya di luar negeri yang disebut Kementerian Pertahanan Usaha Luar Negeri (KPLULN) yang dipimpin oleh Ali Jayengprawiro.
+    \n Tugas pokok badan ini adalah membeli senjata dan perlengkapan Angkatan Perang. Sebagai pelaksana upaya menembus blokade ini yang terkenal adalah John Lie, O.P. Koesno, Ibrahim Saleh dan Chris Tampenawas. Selama tahun 1946 pelabuhan di Sumatera hanya Belawan yang berhasil diduduki Belanda. Karena perairan di Sumatera sangatlah luas, maka pihak Belanda tidak mampu melakukan pengawasan secara ketat.
+    \n Hasil-hasil dari Sumatera terutama karet yang berhasil diselundupkan ke luar negeri, utamanya ke Singapura, mencapai jumlah puluhan ribu ton. Selama tahun 1946 saja barang-barang yang diterima oleh Singapura dari Sumatera seharga Straits $ 20.000.000,-.
+    \n Sedangkan yang berasal dari Jawa hanya Straits $ 1.000.000,-. Sebaliknya barang-barang yang dikirim ke Sumatera dari Singapura seharga Straits $ 3.000.000,- dan dari Singapura ke Jawa seharga Straits $ 2.000.000,-.
+    \n\n\n
+    C. USAHA-USAHA MENGATASI KESULITAN EKONOMI
+    \n Pada awal kemerdekaan masih belum sempat melakukan perbaikan ekonomi secara baik.
+    \n Baru mulai Pebruari 1946, pemerintah mulai memprakarsai usaha untuk memecahkan masalah-masalah ekonomi yang mendesak. Upaya-upaya itu diantaranya sebagai berikut :
+    \n\n 1. Pinjaman Nasional
+    \n Program Pinjaman Nasional ini dilaksanakan oleh Menteri Keuangan. lr. Surachman dengan persetujuan BP-KNIP. Pinjaman Nasional akan dibayar kembali selama jangka waktu 40 tahun.
+    \n Besar pinjaman yang dilakukan pada bulan Juli 1946 sebesar Rp. 1.000.000.000,00. Pada tahun pertama berhasil dikumpulkan uang sejumlah Rp. 500.000.000,00. Sukses yang dicapai ini menunjukkan besarnya dukungan dan kepercayaan rakyat kepada Pemerintah RI.
+    \n\n 2. Konferensi Ekonomi, Februari 1946
+    \n Konferensi ini dihadiri oleh para cendekiawan, para gubernur dan para pejabat lainnya yang bertanggungjawab langsung mengenai masalah ekonomi di Jawa. Konferensi ini dipimpin oleh Menteri Kemakmuran, Ir. Darmawan Mangunkusumo.
+    \n Tujuan konferensi ini adalah untuk memperoleh kesepakatan yang bulat dalam menanggulangi masalah-masalah ekonomi yang mendesak, seperti :
+    \n a. masalah produksi dan distribusi makanan
+    \n Dalam masalah produksi dan distribusi bahan makanan disepakati bahwa sistem autarki lokal sebagai kelanjutan dari sistem ekonomi perang Jepang, secara berangsur-angsur akan dihapuskan dan diganti dengan sistem desentralisasi.
+    \n b. masalah sandang
+    \n Mengenai masalah sandang disepakati bahwa Badan Pengawasan Makanan Rakyat diganti dengan Badan Persediaan dan Pembagian Makanan (PPBM) yang dipimpin oleh dr. Sudarsono dan dibawah pengawasan Kementerian Kemakmuran. PPBM dapat dianggap sebagai awal dari terbentuknya Badan Urusan Logistik (Bulog).
+    \n c. status dan administrasi perkebunan-perkebunan
+    \n Mengenai masalah penilaian kembali status dan administrasi perkebunan yang merupakan perusahaan vital bagi RI, konferensi ini menyumbangkan beberapa pokok pikiran. Pada masa Kabinet Sjahrir, persoalan status dan administrasi perkebunan ini dapat diselesaikan. Semua perkebunan dikuasai oleh negara dengan sistem sentralisasi di bawah pengawasan Kementerian Kemakmuran.
+    \n Konferensi Ekonomi kedua diadakan di Solo pada tanggal 6 Mei 1946. Konferensi kedua ini membahas masalah perekonomian yang lebih luas, seperti program ekonomi pemerintah, masalah keuangan negara, pengendalian harga, distribusi dan alokasi tenaga manusia. Dalam konferensi ini Wakil Presiden Drs. Moh. Hatta memberikan saran-saran yang berkaitan dengan masalah rehabilitasi pabrik gula.
+    \n Hal ini disebabkan gula merupakan bahan ekspor yang penting, oleh karena itu pengusahaannya harus dikuasai oleh negara. Hasil ekspor ini diharapkan dapat dibelikan atau ditukar dengan barang-barang lainnya yang dibutuhkan RI.
+    \n Saran yang disampaikan oleh Wakil Presiden ini dapat direalisasikan pada tanggal 21 Mei 1946 dengan dibentuknya Badan Penyelenggara Perusahaan Gula Negara (BPPGN) berdasarkan Peraturan Pemerintah No. 3/1946.
+    \n Peraturan tersebut disempurnakan melalui Peraturan Pemerintah No. 4 tahun 1946, tanggal 6 Juni 1946 mengenai pembentukan Perusahaan Perkebunan Negara (PPN).
+    \n\n 3. Pembentukan Planning Board (Badan Perancang Ekonomi) pada tanggal 19 Januari 1947
+    \n Pembentukan Badan ini atas inisiatif Menteri Kemakmuran, dr. A.K. Gani. Badan ini merupakan badan tetap yang bertugas membuat rencana pembangunan ekonomi untuk jangka waktu 2 sampai 3 tahun. Sesudah Badan Perancang ini bersidang, A.K. Gani mengumumkan Rencana Pembangunan Sepuluh Tahun. Untuk mendanai Rencana Pembangunan ini terbuka baik bagi pemodal dalam negeri maupun bagi pemodal asing. Untuk menampung dana pembangunan tersebut pemerintah akan membentuk Bank Pembangunan.
+    \n Pada bulan April 1947, Badan Perancang ini diperluas menjadi Panitia Pemikir Siasat Ekonomi yang dipimpin langsung oleh Wakil Presiden Moh. Hatta, sedangkan A.K. Gani sebagai wakilnya. Panitia ini bertugas mempelajari, mengumpulkan data dan memberikan saran kepada pemerintah dalam merencanakan pembangunan ekonomi dan dalam rangka melakukan perundingan dengan pihak Belanda.
+    \n Semua hasil pemikiran ini belum berhasil dilaksanakan dengan baik, karena situasi politik dan militer yang tidak memungkinkan. Agresi Militer Belanda mengakibatkan sebagian besar daerah RI yang memiliki potensi ekonomi baik, jatuh ke tangan Belanda. Wilayah RI tinggal beberapa keresidenan di Jawa dan Sumatera yang sebagian besar tergolong sebagai daerah minus dan berpenduduk padat. Pecahnya Pemberontakan PKI Madiun dan Agresi Militer Belanda II mengakibatkan kesulitan ekonomi semakin memuncak.
+    \n\n 4. Rekonstruksi dan Rasionalisasi Angkatan Perang (RERA) pada tahun 1948.
+    \n Program yang diprakarsai oleh Wakil Presiden Drs. Moh. Hatta ini, dimaksudkan untuk mengurangi beban negara dalam bidang ekonomi, disamping meningkatkan efesiensi. Rasionalisasi ini meliputi penyempurnaan administrasi negara, Angkatan Perang dan aparat ekonomi. Sejumlah satuan Angkatan Perang dikurangi secara dratis. Selanjutnya tenaga-tenaga bekas Angkatan Perang ini disalurkan ke bidang-bidang produktif dan diurus oleh Kementerian Pembangunan dan Pemuda.
+    \n\n 5. Rencana Kasimo (Kasimo Plan)
+    \n Program ini disusun oleh Menteri Urusan Bahan Makanan I.J. Kasimo. Pada dasarnya program ini berupa Rencana Produksi Tiga Tahun, 1948-1950 mengenai usaha swasembada pangan dengan beberapa petunjuk pelaksanaan yang praktis. Untuk mningkatkan produksi bahan pangan dalam program ini, Kasimo menyarankan agar :
+    \n a. menanami tanah-tanah kosong di Sumatera timur seluas 281.277 ha.;
+    \n b. di Jawa dilakkan intensifikasi dengan menanam bibit unggul;
+    \n c. pencegahan penyembelihan hewan-hewan yang berperan penting bagi produksi pangan;
+    \n d. disetiap desa dibentuk kebun-kebun bibit;
+    \n e. tranmigrasi.
+    </string>
+
     <string name="ekonomi">
         <b>Akuntansi Untuk Perusahaan Dagang</b>
     \n\n\n
@@ -1023,339 +1323,6 @@ x, y * 0, dengan x, y D C
         \n c. Buat buku besar untuk setiap akun yang ada dalam jurnal khusus.
         \n d. Pindahkan jumlah yang ada dalam jurnal khusus ke setiap buku besar.
         \n e. Jumlahkan setiap akun dalam buku besar.
-    </string>
-
-
-    <string name="matematikaIps">
-    <b>BAB I : Integral</b>
-    \n\n\n
-        A. Pengertian Integral
-        \n
-        Setiap hari, tentulah kita melakukan aktivitas, seperti menghirup udara dan melepaskan udara. Melepas udara merupakan operasi kebalikan (invers) dari menghirup udara. Dalam matematika, kita juga mengenal operasi kebalikan (invers), contohnya pengurangan dengan penjumlahan, perkalian dengan pembagian, pemangkatan dengan penarikan akar, dan sebagainya. Pada subbab ini kita akan mempelajari invers dari diferensial, yaitu integral
-        \n
-        Kita telah mempelajari arti diferensial atau turunan di kelas XI. Jika kita mempunyai f(x) = x2 + 4, turunannya adalah f'(x) = 2x. Dari contoh fungsi tersebut, kita dapat menentukan suatu fungsi yang turunannya f'(x) = 2x, yang disebut sebagai antiturunan atau antidiferensial atau pengintegralan. Jadi, pengintegralan merupakan operasi kebalikan dari pendiferensialan.
-        \n
-        Misalnya diketahui f'(x) = 2x, fungsi ini  merupakan turunan dari f(x) = x2 + 10, f(x) = x2 – log 3, atau f(x) = x2 25
-        \n
-        Terlihat fungsi-fungsi ini hanya berbeda konstantanya saja. Secara umum, dapat dituliskan bahwa f(x) = x2 + c merupakan antiturunan dari f'(x) = 2x, dengan c adalah bilangan real sembarang.
-        \n
-        Dari uraian di atas dapat didefinisikan sembagai berikut.
-        \n
-        Fungsi F(x) disebut antiturunan dari f(x) pada suatu domain jika  d dx Fx () [] = f(x).
-        \n\n
-        B. Integral Tak Tentu
-        \n
-        Misalkan diberikan fungsi-fungsi berikut.
-        \n
-        y = x2 + 2x + 5
-        \n
-        y = x2 + 2x – 2
-        \n
-        Kedua fungsi itu memiliki turunan yang sama, yaitu dy dx
- = 2x + 2.
-        \n
-        Sekarang, tinjau balik. Misalkan diberikan dy dx
- = 2x + 2. Jika
-        \n
-        dicari integralnya, akan diperoleh fungsi-fungsi
-        \n
-        y = x2 + 2x + 5,
-        \n
-        y = x2 + 2x – 2,
-        \n
-        bahkan \n
-        y = x2 + 2x + 10, \n
-        y = x2 + 2x – log 3, \n
-        dan sebagainya.
-        \n
-        Dengan demikian, fungsi yang memiliki turunan dy dx
- = 2x + 2
-        \n
-        bukan saja dua fungsi di atas, tetapi banyak sekali. Walaupun demikian, fungsi-fungsi itu hanya berbeda dalam hal bilangan tetap saja (seperti 5, –2, 10, log 3, dan seterusnya). Bilanganbilangan ini dapat disimbolkan dengan c. Karena nilai c itulah hasil integral ini disebut integral tak tentu.
-        \n\n
-        1. Notasi Integral Tak Tentu
-        \n
-        Perhatikan kembali definisi integral tak tentu di atas. Secara umum, jika F(x) menyatakan fungsi dalam variabel x, dengan f(x) turunan dari F(x) dan c konstanta bilangan real maka integral tak tentu dari f(x) dapat dituliskan dalam bentuk
-        \n
-        "integral"f(x) dx = F(x) + c
-        \n
-        dibaca ”integral fungsi f(x) ke x sama dengan F(x) + c”
-        \n\n
-        2. Rumus Dasar Integral Tak Tentu
-        Pada subbab ini, akan dibahas integral fungsi aljabar saja. Oleh karena itu, kalian harus ingat kembali turunan fungsi aljabar yang telah kalian pelajari di kelas XI.
-        \n
-        Pada pembahasan kalkulus diferensial atau turunan, diketahui bahwa turunan dari xn+1 + c ke x adalah
-        \n
-        d dx
-[xn + 1 + c] = (n + 1) x(n + 1) – 1 = (n + 1)xn.
-\n
-        Dengan mengalikan 1 1n +
-, untuk n dan –1 pada kedua ruas,
-        \n
-        diperoleh
-        \n
-        1 1n +
-d dx
-[xn + 1 + c] = 1 1n +
- (n + 1) xn = xn.
-\n
-        Jadi, d dx
-[ 1 1n +
- xn + 1 + c] = xn ............................................... (1)
-\n\n\n
-        <b>BAB II : Program Linear</b>
-       \n\n\n
-        A. Sistem Pertidaksamaan Linear
-        \n\n
-        1. Menyelesaikan Sistem Pertidaksamaan Linear Dua Variabel
-        \n
-        Pada pembahasan kali ini, kita akan menentukan penyelesaian sistem pertidaksamaan linear dengan dua variabel menggunakan metode grafik. Metode grafik dimaksudkan untuk melihat secara visual gambaran tentang daerah penyelesaian dari pertidaksamaan linear yang berbentuk aljabar. Karena secara umum grafik pertidaksamaan linear seperti ax + by * c, ax + by > c, ax + by dan ax + by ) c berupa daerah yang dibatasi oleh garis ax + by = c maka langkah-langkah dalam mengambar grafik pertidaksamaan linear adalah:
-        \n
-        a. menggambar grafik garis ax + by = c sebagai batas daerahnya;
-        \n
-        b. menyelidiki daerah penyelesaian yang dimaksud apakah berada di sebelah kiri, sebelah kanan, di atas, atau di bawah garis batas yang telah dilukis.
-        \n\n
-        2. Model Matematika
-        \n
-        Program linear adalah salah satu bagian dari matematika terapan yang berisikan pembuatan program untuk memecahkan berbagai persoalan sehari-hari. Persoalan-persoalan itu mengandung kendala atau batasan yang dapat diterjemahkan ke dalam model matematika. Model matematika adalah suatu hasil penerjemahan dari bahasa sehari-hari menjadi bentuk matematika berupa persamaan, pertidaksamaan, atau fungsi.
-        \n
-        Jadi, program linear tersusun atas sistem pertidaksamaan linear. Penyelesaian dari pertidaksamaan linear berupa daerah himpunan penyelesaian. Di antara penyelesaian tersebut, terdapat penyelesaian terbaik yang disebut penyelesaian optimum. Penyelesaian optimum dapat berupa nilai maksimum atau nilai minimum dari suatu fungsi yang dinamakan fungsi objektif, fungsi sasaran atau fungsi tujuan. Untuk memahami lebih lanjut tentang program linear dan model matematika, perhatikan Aktivitas berikut.
-        \n\n\n
-        B. Nilai Optimum Suatu Fungsi Objektif
-        \n\n
-        1. Fungsi Objektif z = ax + by
-        \n
-        Fungsi tujuan dalam pembuatan model matematika dinyatakan dalam bentuk z = ax + by. Bentuk z = ax + by yang akan dioptimumkan (dimaksimumkan atau diminimumkan) tersebut disebut juga fungsi objektif. Jadi, fungsi objektif dari program linear adalah fungsi z = ax + by yang akan ditentukan nilai optimumnya. Misalnya sebagai berikut.
-        \n
-        Fungsi objektif: memaksimumkan z = x + y
-        \n
-        Kendala: 5x + 4y ( 20
-        \n
-        x + 2y ) 24
-        \n
-x, y * 0, dengan x, y D C
-        \n
-        b. Fungsi objektif: meminimumkan z = 2x + 3y
-        \n
-        Kendala: x + y ) 500
-        \n
-        4x + 2y ) 200
-        \n
-        x, y * 0
-        \n
-        x, y D C
-        \n\n
-        2. Menentukan Nilai Optimum Fungsi Objektif
-        \n
-        Dari uraian yang telah diberikan, kita dapat mengetahui tujuan utama dari program linear, yaitu menentukan nilai optimum (maksimum/minimum) dari suatu fungsi objektif. Untuk menyelesaikan masalah program linear yang berhubungan dengan nilai optimum, langkah-langkah pemecahannya adalah sebagai berikut.
-        \n
-        a. Merumuskan permasalahan ke dalam model matematika.
-        \n
-        b. Membentuk sistem pertidaksamaan linear yang sesuai.
-        \n
-        c. Menggambarkan kendala sebagai daerah di bidang Cartesius yang memenuhi sistem pertidaksamaan linear.
-        \n
-        d. Menentukan nilai optimum (maksimum/minimum) dari fungsi objektif.
-        \n
-        e. Menafsirkan/menjawab permasalahan.
-        \n
-        Berkaitan dengan hal tersebut, ada dua metode yang dapat digunakan untuk menentukan nilai optimum dari program linear, yaitu metode uji titik sudut dan metode garis selidik.
-        \n\n
-        a. Metode Uji Titik Sudut
-        \n
-        Metode uji titik sudut adalah suatu metode untuk menentukan nilai optimum dari bentuk objektif z = ax + by dengan cara menghitung nilai-nilai z = ax + by pada setiap titik sudut yang terdapat pada daerah himpunan penyelesaian pertidaksamaan linear dua variabel, kemudian membandingkan nilai-nilai yang telah diperoleh. Nilai yang paling besar merupakan nilai maksimum dari z = ax + by, sedangkan nilai yang paling kecil merupakan nilai minimum dari z = ax + by.
-        \n\n
-        b. Metode Garis Selidik ax + by = k
-        \n
-        Cara lain yang lebih sederhana untuk menentukan nilai maksimum atau minimum dari fungsi objektif z = ax + by adalah dengan menggunakan garis selidik ax + by = k. Langkah-langkah untuk menggunakan metode garis selidik ini adalah sebagai berikut.
-        \n
-        1) Gambar garis ax + by = ab yang memotong sumbu X di titik (b, 0) dan memotong sumbu Y di titik (0, a).
-        \n
-        2) Tarik garis yang sejajar dengan ax + by = ab yang melalui titik-titik perpotongan pada batas-batas daerah himpunan penyelesaian.
-        \n
-        3) Garis selidik yang berada di paling atas atau yang berada di paling kanan menunjukkan nilai maksimum, sedangkan garis selidik yang berada di paling bawah atau di paling kiri pada daerah himpunan penyelesaian menunjukkan nilai minimum
-
-    </string>
-
-
-    <string name="inggrisIps">
-        <b>Chapter 1 : Let\'s Visit Seattle! </b>
-        \n\n\n
-        A. Warmer : Pairwork
-        \n
-        Discuss with friends when you come to a new city.
-        \n\n
-        B. Observing And Questioning
-        \n
-        Reading: Read the following text.
-        \n\n\n
-        Six Things To Do If You Visit Seattle
-        \n\n
-        There are 6 must-have experiences that you should do if you visit Seattle where city and nature come together. If you visit Seattle, arrive with this list in hand and you will be off to a foolproof start for exploring the Emerald City\’s most unforgettable sights and sounds. If you visit Seattle:
-        \n
-        1. Feel the fresh air on your face as you sail to Bainbrige Island on a Washington State Ferry. From the ferry you can enjoy the view of the Seattle skyline. You can also stroll around downtown\’s galleries, boutiques, coffeehouses and cafes. Seasonal gardens and natural woodlands at the Boedel Reserve is another option.
-        \n\n
-        2. Why don\’t you tour Pike Place Market\’s produce stands and buy something you have never tasted. The Pike Place Market is much more than a farmers market. Its entire district full of shopping, attractions and favorite sights. The area is festival of sounds,
-        tastes and smelss is part of the reason it\'s called the 'soul of Seattle'. Amid all the joyful hubbub, make sure you take time to spot these beloved icons.
-        \n\n
-        3. Book a night at one of the many cozy B  Bs or resorts available throughout the Sun Juan Islands. Cozy bed and breakfasts are perfect way to enjoy the friendly island culture. Here, you can tour the numerous art galleries in Friday Harbor. You can also enjoy naturalist-guided tours, wildlife spotting, whale watching and storm watching.
-        \n\n
-        4. See exciting and experimental works at Chihuly Garden and Glass. A visit to this site is an opportunity to take full advantage of the location at the Seattle Center, a premier destination for arts, entertainment and leisure activities. Explore the Space Needle and Pacific Science Center. Experience Music Project and a variety of cultural activities offered throughout the year.
-        \n\n
-        5. Watch the world’s most sophisticated aircraft be built before your eyes at the Boeing factory in Mukilteo. Explore the dynamics of flight and experience new aviation innovation. Go behind the scenes at Boeing to watch the very same jets you may one day be a passenger on being assembled.
-        \n\n
-        6. For a sweet treat, tour the Theo Chocolate factory in Freemont and learn how their delicious confections are made. This factory has a mission to create change in the Democratic Republic of Congo (DRC) where it has 300,000 square miles of farmable land but only 2% is being farmed due to conflict there. The factory trains 2,000 Congolese farmers to grow high quality cocoa.
-        \n\n\n\n\n
-        Chapter 2 : What Does it Mean?
-        \n\n\n
-        A. Warmer : Video Watching
-        \n
-        Work in pairs. Your teacher will show you a fragment of a mute film, so you can see the actions but you cannot hear the voices. What you should do is guessing what is said by the characters in the film. Your teacher will pause in certain points to give you time to write down the possible conversations between the speakers.
-        \n\n
-        B. Observing And Questioning
-        \n
-        A caption, also known as a cutline, is text that appears below an image. Most captions draw attention to something in the image that is not obvious, such as its relevance to the text. Captions can consist of a few words of description, or several sentences. Along with the title, the lead, and section headings, captions are the most commonly read words in an article, so they should be succinct and informative (http://en.m.wikipedia.org/ wiki/Wikipedia:ManualofStyle/Captions).
-        \n
-        Captions also include a short title or heading of an article in a magazine or newspaper. Words shown on a cinema or television screen to establish the scene of a story are also called captions.
-        \n
-        There are several criteria for a good caption. A good caption clearly identifies the subject of the picture without detailing the obvious. It is succinct, establishes the picture\'s relevance to the article, provides context for the picture, and draws the reader into the article.
-        \n\n
-        C. Collecting Information
-        \n
-        Referring to the pictures above, complete the blanks with suitable expressions. Then, play the roles of the speakers in the pictures
-        \n\n
-        A : Which caption(s) do you like?
-        \n
-        B :
-        \n
-        A : Why do you think so?
-        \n
-        B :
-        \n
-        What about you, which one(s) do you like?
-        \n
-        A : I think
-        \n
-        B : Can you tell me why you like it?
-        \n
-        A :
-        \n\n
-        D. Associating
-        \n
-        Work in groups. Find two captions. Discuss with your friends by focusing on three things: 1) whether they are good, 2) what messages they express, and 3) what grammar is used.
-    </string>
-
-    <string name="indonesiaIps">
-        1. Membedakan antara Fakta dan opini
-        \n
-        Laporan merupakan segala sesuatu yang dilaporkan yang berwujud berita atau informasi.
-        \n
-        Hal yang dilaporkan biasa berupa kegiatan atau pengamatan. Laporan biasa berbentuk laporan lisan ataupun laporan tertulis.
-        \n
-        Laporan harus disusun secara sistematis, singkat, jelas, dan menggunakan bahasa yang komunikaif.
-        \n
-        Pada pelajaran ini kamu akan berlatih membedakan informasi berupa fakta dengan opini atau pendapat.
-        \n
-        Fakta adalah sesuatu yang benar-benar ada dan benar-benar terjadi, sedangkan opini atau pendapat adalah buah pemikiran (perkiraan) seseorang tentang sesuatu.
-        \n\n
-        2. Menemukan Ide Pokok Artikel Melalui Membaca Intensif
-        \n
-        Membaca merupakan kegiatan yang memberikan banyak manfaat. Dengan membaca kamu akan memperleh pengetahuan dan memperluas wawasan.
-        \n
-        Membaca dapat dilakukan di mana saja dan kapan saja selama kita berminat untuk membaca.
-        \n
-        Apa yang telah kamu baca hari ini artikel di surat kabar, buku, atau novel? Dapatkah kamu ceritakan informasi atau isi teks yang telah kamu baca? Pada intinya, membaca dilakukan untuk memperleh informasi penting. Informasi penting tersebut disebut ide pokok. Untuk itu, setiap kali membaca, temukan ide pokok yang terdapat dalam teks yang dibaca.
-        \n\n
-        3. Menyampaikan Gagasan dan Tanggapan dalam Diskusi
-        \n
-        Kemahiran berbicara dapat mengangkat citra seseorang dalam kehidupannya, baik secara persnal maupun secara sosial.
-        \n
-        Banyak orang terkenal karena kemahirannya dalam menyampaikan gagasan dan tanggapan dalam berbagai kesempatan. Pada pembelajaran ini, kamu akan berlatih menyampaikan gagasan dan tanggapan dengan alasan yang logis.
-        \n
-        Sebagai latihan permulaan, untuk menumbuhkan keberanian berbicara dapat dilakukan dengan cara berkmunikasi dengan teman sebangku. Kamu dapat menyampaikan beberapa hal yang sedang dilakukan, kemudian tanyakan hal-hal yang belum dipahami, dan berikan tanggapan atas pendapat yang dikemukakan temanmu.
-        \n
-        Sesuai dengan asal katanya discuti atau discusium (bahasa Latin) yang berari ’bertukar pikiran’, diskusi merupakan ajang bertukar pikiran secara teratur dan terarah dengan tujuan untuk mendapatkan suatu pengertian, kesepakatan, dan keputusan beRosama mengenai suatu masalah. Arsjad dan Mukti (1991: 37) berpendapat bahwa ada beberapa syarat yang harus dipenuhi dalam diskusi yakni:
-        \n
-        1. ada masalah yang dibicarakan;
-        \n
-        2. ada seseorang yang bertindak sebagai pemimpin diskusi
-        \n
-        3. ada peserta sebagai anggta diskusi
-        \n
-        4. setiap anggta mengemukakan gagasannya dengan teratur
-        \n
-        5. jika ada kesimpulan dan keputusan yang diambil harus disetujui beRosama
-        \n
-        Pada saat menyampaikan suatu gagasan, hendaknya disampaikan secara jelas agar ruang lingkup pembahasannya terarah. Peserta diskusi dapat mengajukan pertanyaan dan tanggapan tentang hal yang dikemukakan. Tanggapan yang disampaikan dapat berupa persetujuan atau penlakan terhadap pendapat yang disampaikan. Agar tanggapanmu dapat diterima dan dipahami, sebaiknya berikan argumen logis yang dapat mendukung atau menentang pendapat pembicara.
-        \n
-        Lakukan dengan saksama kegiatan diskusi, sehingga akan melatihmu menyampaikan pendapat, mengajukan pertanyaan, dan menyampaikan tanggapan atau sanggahan dengan baik. Penyampaian pendapat, pertanyaan, tanggapan, sanggahan, persetujuan, atau penlakan harus disesuaikan dengan pokok masalah yang dibahas sehingga tidak akan terjadi penyimpangan makna dan keluar dari permasalahan.
-        Perhatikan ilustrasi berikut! Suatu diskusi membahas pentingnya Pendidikan Seks pada Usia Dini, akan muncul beberapa pertanyaan sebagai berikut.
-        \n
-        Kalimat pertanyaan : bagaimanakah cara menyampaikan larangan yang baik pada anak usia dini?”
-        \n
-        Kalimat persetujuan : Saya setuju pendidikan seks diberikan sejak anak usia dini karena usia tersebut merupakan fndasi yang harus kuat untuk meniti masa depan.
-        \n
-        Kalimat penolakan : Saya tidak setuju bahwa pendidikan seks diberikan pada anak usia dini karena daya nalar mereka belum bekerja secara optimal,lebih baik dimulai pada anak-anak usia sekolah dasar.
-        \n
-        Kalimat tanggapan : Menanggapi pendapat yang sudah disampai-kan teman-teman terdahulu, pendidikan seks memang sangat penting, tetapi kita harus mempertimbangkan siapa, apa, dan bagaimana cara menyampaikannya. Sebenarnya kita dapat saja mulai pada anak usia dini, tetapi cara menyampaikan dan topik yang disampaikannya harus sesuai dan dekat dengan kehidupan anak.
-        \n\n
-        4. Menulis Laporan Diskusi dengan Melampirkan Ntula dan Daftar Hadir
-        \n
-        Pada kegiatan pembelajaran yang lalu, kamu sering melakukan kegiatan diskusi untuk membahas berbagai hal. Dalam kegiatan diskusi tersebut ada teman yang berperan sebagai pembicara, mderatr, dan ada notulis. Pembicara adalah orang yang menyampaikan dan membahas topik permasalahan yang didiskusikan. Mderatr adalah orang mengatur jalannya diskusi. Notulis adalah orang yang bertugas untuk membuat ntula (catatan rapat/hasil diskusi).
-        \n
-        Menulis laporan hasil diskusi adalah salah satu tugas seorang notulis. Laporan yang disampaikan harus dapat menyajikan fakta secara oobjektif tentang keadaan atau kegiatan yang telah dilaksanakan. Fakta oobjektif yang disajikan menjadi tanggung jawab notulis yang membuat laporan diskusi tersebut. Menyusun laporan hasil diskusi adalah tugas notulis. Untuk itu, notulis harus mengikuti jalannya diskusi dengan cermat agar dapat mencatat segala hal yang berkaitan dengan kegiatan dan jalannya diskusi
-        \n
-        Hal-hal yang perlu dicatat notulis antara lain: gagasan pokok yang disampaikan pembicara, pertanyaan, sanggahan, kmentar, atau saran dari peserta diskusi. Selain itu, notulis juga bertugas meresume pembicaraan, mencatat suasana jalannya diskusi, serta mengedarkan dan merekap daftar hadir diskusi. format berikut!
-        \n
-        Laporan Hasil Diskusi
-        \n
-        1. Topik diskusi :
-        \n
-        2. Pelaksana kegiatan :
-        \n
-        3. Hari, tanggal, waktu :
-        \n
-        4. Penyaji makalah :
-        \n
-        5. Peserta :     orang (daftar hadir terlampir)
-        \n
-        6. Judul makalah :
-        \n
-        7. Mderatr :
-        \n
-        8. Notulis :
-        \n
-        9. Jalan diskusi :
-        \n
-        Seminar dibukaoleh mderatr, pukul :
-        \n
-        Penyampaian materioleh penyaji :
-        \n
-        Tanggapan peserta :
-        \n
-        N. Nama Tanggapan/ Pertanyaan/ Tanggapan Balik
-        \n
-        1.
-        \n
-        2.
-        \n
-        3.
-
-        \n\n
-        5. Memberikan Kritik dan Saran Terhadap Laporan Lisan
-        \n
-        Keterampilan menyimak hendaknya dikuasai setiap orang yang ingin meningkatkan kualitas hidup dan intelektualitasnya. Menyimak bukan sekadar mendengar, tetapi mendengarkan dengan saksama dan penuh perhatian.oleh karena itu, penyimak yang baik harus dapat menyerap dan memahami topik-topik yang disimak.
-        \n
-        Pada pelajaran ini, kamu dilatih untuk menyimak secara kritis sehingga mampu memberikan kritik dan saran atas kesalahan dan kekurangan yang terdapat dalam laporan yang akan dipeordengarkan.
-        Untuk dapat menyimak laporan dengan baik, berknsentrasilah dengan saksama dan catatlah pokok-pokok informasi yang disampaikan! Banyak orang yang merasa takut dikritik karena banyak yang beoranggapan bahwa kritikan sama dengan hinaan atau hujatan. Perlu disadari bahwa kritik merupakan uraian atau pertimbangan baik buruk terhadap sesuatu.
-        \n
-        Manusia kebanyakan takut ketahuan kekurangan atau kesalahannya, banyak yang menghindar bahkan marah kalau dikritik dan diberi saran. Hal itu sangat keliru karena kritik sebenarnya untuk memperbaiki kesalahan dan menyempurnakan kekurangan.oleh karena itu, kita harus terbuka dan lapang dada terhadap kritik kalau ingin lebih baik.
-        \n
-        Menyampaikan kritik dan saran harus dilakukan secara bijaksana. Kritik dan saran yang disampaikan harus didukung bukti nyata secara oobjektif. Saran merupakan pendapat berupa anjuran, usulan, harapan, dan cita-cita yang dikemukakan untuk dipertimbangkan. Agar penilaian itu oobjektif, perlu disertai dengan bukti dan alasan yang kuat. Rujuklah sumber-sumber referensi yang relevan agar alasan dan bukti yang kamu kemukakan akurat!
-        \n\n
-        6. Mengajukan Saran Perbaikan Secara Lisan
-        \n
-        Dalam kehidupan sehari-hari, arus informasi dan kmunikasi terus berkembang, baik melalui media cetak maupun media elektrnik. Sebagai siswa, kamu pasti membutuhkan berbagai informasi untuk menambah pengetahuan, wawasan, dan kemampuan. Untuk itu, kamu dapat melakukannya dengan cara membaca dan menyimak informasi yang disampaikan secara langsung di sekolah dan di luar sekolah, melalui media cetak, dan media elektrnik.
     </string>
 
     <string name="sosiologi">
@@ -1507,494 +1474,6 @@ x, y * 0, dengan x, y D C
         \n   6. Sifat-sifat dan tingkah laku sesama manusia.
         \n   7. Ruang dan waktu
 
-    </string>
-    <string name="indonesiaBahasa">
-        <b>BAB 1 : TEKS SURAT LAMARAN PEKERJAAN</b>
-        \n\n
-        1. Mengidentifikasi Isi dan Sistematika Surat Lamaran Pekerjaan
-        \n Isi surat meliputi bagian-bagian yang terdapat di dalam surat lamaran pekerjaan dan hal-hal yang harus ada di dalam surat lamaran pekerjaan.
-        \n Sistematika adalah klasifikasi atau penggolongan atas isi atau bagian-bagian yang terdapat di dalam surat lamaran pekerjaan.
-        \n Isi dan sistematika surat lamaran pekerjaan meliputi tempat dan tanggal pembuatan surat, lampiran dan perihal, alamat surat, salam pembuka, alinea pembuka, isi, penutup, tanda tangan, dan nama terang. Isi surat terdiri atas unsur nama, tempat dan tanggal lahir, pendidikan, alamat, serta beberapa hal yang dilampirkan.
-        \n\n 2. Menyajikan simpulan sistematika dan unsur-unsur isi surat lamaran baik secara lisan maupun tulis
-        \n Menyimpulkan adalah mengikhtisarkan (menetapkan, menyarikan pendapat, dan sebagainya) berdasarkan apa-apa yang diuraikan
-        \n Menyimpulkan isi dan sistematika surat lamaran pekerjaan adalah mengikhtisarkan atau menetapkan isi dan sistematika surat lamaran pekerjaan berdasarkan identifikasi isi surat lamaran Pekerjaan.
-        \n\n 3. Mengidentifikasi Unsur Kebahasaan Surat Lamaran Pekerjaan
-        \n Ketentuan-ketentuan yang harus diperhatikan dalam surat lamaran pekerjaan terkait dengan bahasa yang digunakan adalah sebagai Berikut.
-        \n a. Bahasa surat adalah bahasa yang baik dan benar.
-        \n b. Bahasa surat menggunakan kata-kata yang sopan.
-        \n c. Bahasa surat berisi kata pengantar yang jelas, singkat, padat, informative, dan tepat sasaran.
-        \n d. Bahasa surat tampak dari tulisan yang bersih, mudah dibaca, sesuai dengan kaidah ejaan.
-        \n e. Melengkapi bagian-bagian surat dengan norma bahasa surat (seperti penulisan unsur hal, tempat/tanggal, alamat, salam pembuka, isi surat, salam penutup, tanda tangan, dan nama terang).
-        \n\n 4. Menyusun Surat Lamaran Pekerjaan dengan memperhatikan isi, sistematika, dan kebahasaan
-        \n Berikut disajikan tips dalam membuat surat lamaran pekerjaan.
-        \n 1. Menggunakan bahasa yang baik dan benar.
-        \n 2. Menulis dengan susunan format rapi.
-        \n 3. Melengkapi data sesuai dengan keperluan.
-        \n 4. Melampirkan surat pendukung seperti sertifikat pengalaman kerja.
-        \n\n\n
-        <b>BAB 2 : TEKS CERITA ATAU NOVEL SEJARAH</b>
-        \n\n
-        1. Pengertian Novel Sejarah
-        \n
-        Novel sejarah adalah novel yang di dalamnya menjelaskan dan menceritakan tentang fakta kejadian masa lalu yang menjadi asal-muasal atau latar belakang terjadinya sesuatu yang memiliki nilai kesejarahan, bisa bersifat naratif atau deskriptif, dan disajikan dengan daya khayal pengetahuan yang luas dari pengarang.
-        \n\n\n 2. Struktur Teks Cerita/Novel Sejarah
-        \n\n a. Pengenalan situasi cerita (ekspostion, orientasi)
-        \n Dalam bagian ini, pengarang memperkenalkan latar cerita baik waktu, tempat maupun peristiwa. Selain itu, orientasi juga dapat disajikan dengan mengenalkan para tokoh, menata adegan, dan hubungan antartokoh.
-        \n\n b. Pengungkapan peristiwa
-        \n Dalam bagian ini disajikan peristiwa awal yang menimbulkan berbagai masalah, pertentangan, ataupun kesukaran-kesukaran bagi para tokohnya.
-        \n\n c. Menuju konflik (rising action)
-        \n Terjadi peningkatan perhatian kegembiraan, kehebohan, ataupun keterlibatan berbagai situasi yang menyebabkan bertambahnya kesukaran tokoh
-        \n\n d. Puncak konflik (turning point, komplikasi)
-        \n Bagian ini disebut pula sebagai klimaks. Inilah bagian cerita yang paling besar dan mendebarkan. Pada bagian ini pula, ditentukannya perubahan nasib beberapa tokohnya. Misalnya, apakah dia kemudian berhasil menyelesaikan masalahnya atau gagal.
-        \n\n e. Penyelesaian (Evaluasi, resolusi)
-        \n Sebagai akhir cerita, pada bagian ini berisi penjelasan ataupun penilaian tentang sikap ataupun nasib-nasib yang dialami tokohnya setelah mengalami peristiwa puncak itu. Pada bagian ini pun sering pula dinyatakan wujud akhir dari kondisi ataupun nasib akhir yang dialami tokoh Utama.
-        \n\n f. Koda
-        \n Bagian ini berupa komentar terhadap keseluruhan isi cerita, yang fungsinya sebagai penutup. Komentar yang dimaksud bisa disampaikan langsung oleh pengarang atau dengan mewakilkannya pada seorang tokoh. Hanya saja tidak setiap novel memiliki koda, bahkan novel-novel modern lebih banyak menyerahkan kesimpulan akhir ceritanya itu kepada para pembacanya. Mereka dibiarkan menebak-nebak sendiri penyelesaian ceritanya.
-        \n\n\n
-        3. Ciri Kebahasaan Novel Sejarah
-        \n\n Beberapa ciri kebahasaan novel sejarah adalah sebagai Berikut
-        \n\n a. Menggunakan banyak kalimat bermakna lampau
-        \n Contoh: Prajurit-prajurit yang telah diperintahkan membersihkan gedung bekas asrama telah menyelesaikan tugasnya.
-        \n\n b. Banyak menggunakan kata yang menyatakan urutan waktu (konjungsi kronologis, temporal), seperti: sejak saat itu, setelah itu, mula-mula, kemudian.
-        \n Contoh: Setelah juara gulat itu pergi, Sang Adipati bangkit dan berjalan tenang-tenang masuk ke Kadipaten.
-        \n\n c. Banyak menggunakan kata kerja yang menggambarkan suatu tindakan (kata kerja material).
-        \n Contoh:
-        \n 1). Di depan Ratu Biksuni Gayatri yang berdiri, Sri Gitarja duduk bersimpuh.
-        \n 2). Ketika para Ibu Ratu menangis yang menulari siapa pun untuk menangis, Dyah Wiyat sama sekali tidak menitikkan air mata.
-        \n\n d. Banyak menggunakan kata kerja yang menunjukkan kalimat tak langsung sebagai cara menceritakan tuturan seorang tokoh oleh pengarang. Misalnya, mengatakan bahwa, menceritakan tentang, menurut, menggungkapkan, menanyakan, menyatakan, menuturkan.
-        \n Contoh :
-        \n 1). Menurut Sang patih, Galeng telah periksa seluruh kamar Syahbandar dan ia telah melihat banyak botol dan benda-benda yang ia tak tahu nama dan gunanya.
-        \n 2). Riung Samudera menyatakan bahwa ia masih bingung dengan semua penjelasan kendit Galih tentang masalah itu.
-        \n\n e. Banyak menggunakan kata kerja yang menyatakan sesuatu yang dipikirkan atau dirasakan oleh tokoh (kata kerja mental). Misalnya, merasakan, mengingikan, mengharapkan, mendambakan, menganggap.
-        \n Contoh :
-        \n 1). Gajah Mada sependapat dengan Jalan pikiran Senopati Gajah Enggon.
-        \n 2). Melihat itu, tak seorang pun yang menolak karena semua berpikir Patih Gajah Mada memang mampu dan layak berada di tempat
-        \n\n f. Menggunakan banyak dialog. Hal ini ditunjukkan oleh tanda petik ganda (‘..”) dan kata kerja yang menunjukkan tuturan langsung.
-        \n Contoh :
-        \n “Mana surat itu?”
-        \n “Ampun, Gusti Adipati, Patik takut maka Patik bakar.”
-        \n\n g. Menggunakan kata-kata sifat (descriptive language) untuk menggambarkan tokoh, tempat, atau suasana
-        \n Contoh :
-        \n Dari apa yang terjadi itu terlihat betapa besar wibawa Gajah Mada, bahkan beberapa prajurit harus mengakui wibawa yang dimiliki Gajah Mada jauh lebih besar dari wibawa Jayanegara. Sri Jayanegara masih bisa diajak bercanda, tetapi tidak dengan Patih Gajah Mada, sang pemilik wajah yang amat beku itu.
-        \n\n\n
-        4. Menyusun Novel Sejarah
-        \n\n Langkah-langkah menyusun novel sejarah adalah sebagai Berikut.
-        \n\n a. Menentukan peristiwa sejarah yang akan menjadi bahan penceritaan
-        \n Langkah pertama dalam menyusun novel sejarah seseorang atau diri sendiri adalah menentukan peristiwa sejarah (peristiwa yang terjadi pada masa lalu) yang akan dikembangkan menjadi novel sejarah.
-        \n Dalam novel sejarah, penulis menceritakan peristiwa-peristiwa yang dialami para tokohnya dengan menggunakan latar peristiwa sejarah. Menulis novel sejarah berarti mengemas fakta sejarah dengan rekaan penulis. Wujudnya dapat berupa peristiwa yang berkaitan dengan hidup orang banyak atau hidup seseorang.
-        \n\n b. Menyusun kerangka atau gambaran singkat cerita sejarah yang akan ditulis
-        \n Dasar penyusunan kerangka novel sejarah dapat berupa perjalanan waktu (misalnya. masa kecil, masa remaja, masa sekolah, masa kuliah, masa dewasa); latar tempat (di desa, di sekolah, di kota, di luar negeri).
-        \n Kerangka karangan dapat berisi tokoh, waktu dan tempat kejadian, , ilustrasi visual setiap tokoh, apa yang dipermasalahkan, dan sebagainya.
-        \n\n c. Mengumpulkan bahan-bahan cerita
-        \n Pada tahap ini penulis mengumpulkan rangkaian peristiwa dari berbagai rujukan dan sumber (orang, buku, dan sebagainya).
-        \n\n d. Mengembangkan kerangka atau draf awal menjadi novel atau teks cerita sejarah
-        \n Pada tahap ini, penulis merangkai cerita berdasarkan daya khayal atau imajinasi. Sudut pandang yang paling mudah adalah sudut pandang orang pertama “ aku”.
-        \n Penceritaan teks novel atau cerita sejarah mengikuti gaya teks rekon imajinatif yang didalamnya ada orientasi, pengungkapan peristiwa, cerita mulai memuncak, puncak permasalahan, resolusi, dan koda.
-        \n\n\n
-        <b>BAB 3 : TEKS EDITORIAL</b>
-        \n\n
-        1. Pengertian teks editorial
-        \n Editorial adalah artikel utama yang ditulis oleh redaktur koran yang merupakan pandangan redaksi terhadap suatu peristiwa (berita) aktual (sedang menjadi sorotan), fenomenal, dan kontroversial (menimbulkan perbedaan pendapat).
-        \n\n 2. Fungsi Teks Editorial
-        \n Fungsi teks editorial di antaranya sebagai Berikut.
-        \n 1) Menjelaskan fakta atau peristiwa dan akibatnya kepada masyarakat
-        \n 2) Mengisi latar belakang dari isu dengan kenyataan sosial dan faktor yang mempengaruhinya.
-        \n 3) Memberikan pandangan kepada pembaca terhadap isu yang sedang berkembang.
-        \n 4) Memberikan penilaian moral tentang isu tersebut.
-        \n 5) Mengajak pembaca untuk ikut berpikir tentang masalah (isu/topik) yang sedang hangat terjadi di kehidupan sekitar
-
-
-    </string>
-
-    <string name="matematikaBahasa">
-        <b>BAB 1 : PROGRAM LINEAR</b>
-        \n\n\n
-        A. Sistem Pertidaksamaan Linear
-        \n\n 1. Menyelesaikan Sistem Pertidaksamaan Linear Dua Variabel
-        \n Pada pembahasan kali ini, kita akan menentukan penyelesaian sistem pertidaksamaan linear dengan dua variabel menggunakan metode grafik. Metode grafik dimaksudkan untuk melihat secara visual gambaran tentang daerah penyelesaian dari pertidaksamaan linear yang berbentuk aljabar. Karena secara umum grafik pertidaksamaan linear seperti ax + by (lebih besar = ) c, ax + by > c, ax + by (lebih kecil) c, dan ax + by (lebih kecil =) c berupa daerah yang dibatasi oleh garis ax + by = c maka langkah-langkah dalam mengambar grafik pertidaksamaan linear adalah:
-        \n a. menggambar grafik garis ax + by = c sebagai batas daerahnya;
-        \n b. menyelidiki daerah penyelesaian yang dimaksud apakah berada di sebelah kiri, sebelah kanan, di atas, atau di bawah garis batas yang telah dilukis.
-        \n Suatu hal yang harus diingat dalam menggambar grafik sebuah garis adalah menentukan dua titik sembarang pada garis itu kemudian menghubungkannya dengan sebuah garis lurus, sedangkan dua titik sembarang yang mudah perhitungannya adalah titik potong garis ax + by = c dengan sumbu X dan titik potong garis dengan sumbu Y.
-        \n\n 2. Model Matematika
-        \n Program linear adalah salah satu bagian dari matematika terapan yang berisikan pembuatan program untuk memecahkan berbagai persoalan sehari-hari. Persoalan-persoalan itu mengandung kendala atau batasan yang dapat diterjemahkan ke dalam model matematika. Model matematika adalah suatu hasil penerjemahan dari bahasa sehari-hari menjadi bentuk matematika berupa persamaan, pertidaksamaan, atau fungsi.
-        \n Jadi, program linear tersusun atas sistem pertidaksamaan linear. Penyelesaian dari pertidaksamaan linear berupa daerah himpunan penyelesaian. Di antara penyelesaian tersebut, terdapat penyelesaian terbaik yang disebut penyelesaian optimum. Penyelesaian optimum dapat berupa nilai maksimum atau nilai minimum dari suatu fungsi yang dinamakan fungsi objektif, fungsi sasaran atau fungsi tujuan. Untuk memahami lebih lanjut tentang program linear dan model matematika.
-         \n\n\n
-        B. Nilai Optimum Suatu Fungsi Objektif
-        \n Seperti yang telah disebutkan di depan, suatu permasalahan dapat dituliskan dalam bahasa matematika. Suatu permasalahan tentu mempunyai bentuk penyelesaian yang optimum.
-        \n\n 1. Fungsi Objektif z = ax + by
-        \n Fungsi tujuan dalam pembuatan model matematika dinyatakan dalam bentuk z = ax + by. Bentuk z = ax + by yang akan dioptimumkan (dimaksimumkan atau diminimumkan) tersebut disebut juga fungsi objektif. Jadi, fungsi objektif dari program linear adalah fungsi z = ax + by yang akan ditentukan nilai optimumnya. Misalnya sebagai berikut.
-        \n a. Fungsi objektif: memaksimumkan z = x + y
-        \n Kendala: 5x + 4y (lebih kecil =) 20
-        \n          x + 2y (lebih kecil =) 24
-        \n          x, y (lebih besar =) 0, dengan x, y D C
-        \n\n  Fungsi objektif: meminimumkan z = 2x + 3y
-        \n Kendala: x + y  (lebih kecil =) 500
-        \n          4x + 2y (lebih kecil =) 200
-        \n          x, y (lebih besar =) 0
-        \n          x, y E C
-        \n\n Menentukan Nilai Optimum Fungsi Objektif
-        \n Dari uraian yang telah diberikan, kita dapat mengetahui tujuan utama dari program linear, yaitu menentukan nilai optimum (maksimum/minimum) dari suatu fungsi objektif. Untuk menyelesaikan masalah program linear yang berhubungan dengan nilai optimum, langkah-langkah pemecahannya adalah sebagai berikut.
-        \n a. Merumuskan permasalahan ke dalam model matematika.
-        \n b. Membentuk sistem pertidaksamaan linear yang sesuai.
-        \n c. Menggambarkan kendala sebagai daerah di bidang Cartesius yang memenuhi sistem pertidaksamaan linear.
-        \n d. Menentukan nilai optimum (maksimum/minimum) dari fungsi objektif.
-        \n e. Menafsirkan/menjawab permasalahan.
-        \n Berkaitan dengan hal tersebut, ada dua metode yang dapat digunakan untuk menentukan nilai optimum dari program linear, yaitu metode uji titik sudut dan metode garis selidik.
-        \n\n a. Metode Uji Titik Sudut
-        \n Metode uji titik sudut adalah suatu metode untuk menentukan nilai optimum dari bentuk objektif z = ax + by dengan cara menghitung nilai-nilai z = ax + by pada setiap titik sudut yang terdapat pada daerah himpunan penyelesaian pertidaksamaan linear dua variabel, kemudian membandingkan nilai-nilai yang telah diperoleh. Nilai yang paling besar merupakan nilai maksimum dari z = ax + by, sedangkan nilai yang paling kecil merupakan nilai minimum dari z = ax + by.
-        \n\n b. Metode Garis Selidik ax + by = k
-        \n Cara lain yang lebih sederhana untuk menentukan nilai maksimum atau minimum dari fungsi objektif z = ax + by adalah dengan menggunakan garis selidik ax + by = k. Langkah-langkah untuk menggunakan metode garis selidik ini adalah sebagai berikut.
-        \n 1) Gambar garis ax + by = ab yang memotong sumbu X di titik (b, 0) dan memotong sumbu Y di titik (0, a).
-        \n 2) Tarik garis yang sejajar dengan ax + by = ab yang melalui titik-titik perpotongan pada batas-batas daerah himpunan penyelesaian.
-        \n 3) Garis selidik yang berada di paling atas atau yang berada di paling kanan menunjukkan nilai maksimum, sedangkan garis selidik yang berada di paling bawah atau di paling kiri pada daerah himpunan penyelesaian menunjukkan nilai minimum.
-
-    </string>
-
-    <string name="inggrisBahasa">
-         <b>Chapter 1 : What Does It Mean? </b>
-        \n\n\n
-        \n A. WARMER: Video Watching
-        \n Work in pairs. Your teacher will show you a fragment of a mute film, so you can see the actions but you cannot hear the voices. What you should do is guessing what is said by the characters in the film. Your teacher will pause in certain points to give you time to write down the possible conversations between the speakers.
-        \n\n B. OBSERVING AND QUESTIONING
-        \n A caption, also known as a cutline, is text that appears
-below an image. Most captions draw attention to something in
-the image that is not obvious, such as its relevance to the text.
-Captions can consist of a few words of description, or several
-sentences. Along with the title, the lead, and section headings,
-captions are the most commonly read words in an article, so
-they should be succinct and informative (http://en.m.wikipedia.org/
-wiki/Wikipedia:ManualofStyle/Captions).
-        \n A caption, also known as a cutline, is text that appears
-below an image. Most captions draw attention to something in
-the image that is not obvious, such as its relevance to the text.
-Captions can consist of a few words of description, or several
-sentences. Along with the title, the lead, and section headings,
-captions are the most commonly read words in an article, so
-they should be succinct and informative (http://en.m.wikipedia.org/
-wiki/Wikipedia:ManualofStyle/Captions).
-        \n There are several criteria for a good caption. A good
-caption clearly identifies the subject of the picture without
-detailing the obvious. It is succinct, establishes the picture's
-relevance to the article, provides context for the picture, and
-draws the reader into the article
-        \n\n C. COMMUNICATING
-        \n\n Writing and Describing Captions
-        \n\n When writing a caption, the descriptive words should
-offer more complete information about the picture. The words
-that you choose depends on the message that you want to
-send to your readers.
-        \n\n REFLECTION
-        \n 1. Do you know the social function of captions?
-        \n 2. Do you know what the structure and language features used in captions?
-        \n 3. Do you understand the message in captions?
-        \n 4. Do you know how to write text accompanying captions?
-
-        <b>Chapter 2 : Let\'s Visit Seattle! </b>
-        \n\n\n
-        A. Warmer : Pairwork
-        \n
-        Discuss with friends when you come to a new city.
-        \n\n
-        B. Observing And Questioning
-        \n
-        Reading: Read the following text.
-        \n\n\n
-        Six Things To Do If You Visit Seattle
-        \n\n
-        There are 6 must-have experiences that you should do if you visit Seattle where city and nature come together. If you visit Seattle, arrive with this list in hand and you will be off to a foolproof start for exploring the Emerald City\’s most unforgettable sights and sounds. If you visit Seattle:
-        \n
-        1. Feel the fresh air on your face as you sail to Bainbrige Island on a Washington State Ferry. From the ferry you can enjoy the view of the Seattle skyline. You can also stroll around downtown\’s galleries, boutiques, coffeehouses and cafes. Seasonal gardens and natural woodlands at the Boedel Reserve is another option.
-        \n\n
-        2. Why don\’t you tour Pike Place Market\’s produce stands and buy something you have never tasted. The Pike Place Market is much more than a farmers market. Its entire district full of shopping, attractions and favorite sights. The area is festival of sounds,
-        tastes and smelss is part of the reason it\'s called the 'soul of Seattle'. Amid all the joyful hubbub, make sure you take time to spot these beloved icons.
-        \n\n
-        3. Book a night at one of the many cozy B  Bs or resorts available throughout the Sun Juan Islands. Cozy bed and breakfasts are perfect way to enjoy the friendly island culture. Here, you can tour the numerous art galleries in Friday Harbor. You can also enjoy naturalist-guided tours, wildlife spotting, whale watching and storm watching.
-        \n\n
-        4. See exciting and experimental works at Chihuly Garden and Glass. A visit to this site is an opportunity to take full advantage of the location at the Seattle Center, a premier destination for arts, entertainment and leisure activities. Explore the Space Needle and Pacific Science Center. Experience Music Project and a variety of cultural activities offered throughout the year.
-        \n\n
-        5. Watch the world’s most sophisticated aircraft be built before your eyes at the Boeing factory in Mukilteo. Explore the dynamics of flight and experience new aviation innovation. Go behind the scenes at Boeing to watch the very same jets you may one day be a passenger on being assembled.
-        \n\n
-        6. For a sweet treat, tour the Theo Chocolate factory in Freemont and learn how their delicious confections are made. This factory has a mission to create change in the Democratic Republic of Congo (DRC) where it has 300,000 square miles of farmable land but only 2% is being farmed due to conflict there. The factory trains 2,000 Congolese farmers to grow high quality cocoa.
-        \n\n\n\n\n
-        Chapter 2 : What Does it Mean?
-        \n\n\n
-        A. Warmer : Video Watching
-        \n
-        Work in pairs. Your teacher will show you a fragment of a mute film, so you can see the actions but you cannot hear the voices. What you should do is guessing what is said by the characters in the film. Your teacher will pause in certain points to give you time to write down the possible conversations between the speakers.
-        \n\n
-        B. Observing And Questioning
-        \n
-        A caption, also known as a cutline, is text that appears below an image. Most captions draw attention to something in the image that is not obvious, such as its relevance to the text. Captions can consist of a few words of description, or several sentences. Along with the title, the lead, and section headings, captions are the most commonly read words in an article, so they should be succinct and informative (http://en.m.wikipedia.org/ wiki/Wikipedia:ManualofStyle/Captions).
-        \n
-        Captions also include a short title or heading of an article in a magazine or newspaper. Words shown on a cinema or television screen to establish the scene of a story are also called captions.
-        \n
-        There are several criteria for a good caption. A good caption clearly identifies the subject of the picture without detailing the obvious. It is succinct, establishes the picture\'s relevance to the article, provides context for the picture, and draws the reader into the article.
-        \n\n
-        C. Collecting Information
-        \n
-        Referring to the pictures above, complete the blanks with suitable expressions. Then, play the roles of the speakers in the pictures
-        \n\n
-        A : Which caption(s) do you like?
-        \n
-        B :
-        \n
-        A : Why do you think so?
-        \n
-        B :
-        \n
-        What about you, which one(s) do you like?
-        \n
-        A : I think
-        \n
-        B : Can you tell me why you like it?
-        \n
-        A :
-        \n\n
-        D. Associating
-        \n
-        Work in groups. Find two captions. Discuss with your friends by focusing on three things: 1) whether they are good, 2) what messages they express, and 3) what grammar is used.
-    </string>
-
-
-    <string name="mandarin">
-         <b>KALIMAT YANG SERING DIGUNAKAN DI DALAM KELAS</b>
-        \n\n
-        \n 1. Sekarang waktunya belajar : Xiànzài shàngke
-        \n 2. PR hari ini adalah : Jintiàn de zuoye shì
-        \n 3. Waktu belajar telah selesai : Xiàke
-        \n 4. Mari kita istirahat sebentar : Xiànzài xiuxī yíxià
-        \n 5. Sekarang mari kita lanjutkan pelajaran : Xiànzài jìxu' shàngke
-        \n 6. Silahkan melihat papan tulis : Qĭng kàn heibăn
-        \n 7. Silahkan membuka buku dan lihatlah halaman : Qĭng dăkăi shu, fandào dì ye
-        \n 8. Silahkan ikuti ucapan saya : Qĭng gen wo shuō
-        \n 9. Apa maksudnya? : Zhe shì shenme yìsī?
-        \n 10. Silahkan tulis sekali lagi : Qĭng zài xie yībiàn
-        \n\n <b>KALIMAT YANG SERING DIGUNAKAN MURID DI DALAMKELAS</b>
-        \n 1. Apa kabar bapak/ibu guru? : Lăoshī hăo
-        \n 2. Mohon anda bicara lebih lambat : Qĭng nín shuō màn yì diănr
-        \n 3. Mohon anda ucapkan sekali lagi : Qĭng nín zài shuō yībiàn
-        \n 4. Maaf saya terlambat : 0uìbuqĭ, wo chídào le
-        \n 5. Silahkan baca dulu : Qĭng du yíxià
-        \n 6. Silahkan tulis dulu : Qĭng xie yíxià
-        \n 7. Silahkan diterjemahkan : Qĭng Fanyì yíxià
-        \n 8. Benar tidak? : Duì bu dui
-        \n 9. Benar : Duì
-        \n 10. Tidak benar : bu duì
-        \n\n <b>HANYU PINYIN DAN SHENGDIAO</b>
-        \n Suku bunyi kata (yinjie) dalam aksara mandarin terdiri dari Shengmu, Yunmu, dan Shengdiào
-        \n Shengmu dalam bahasa Indonesia disebut inisial merupakan huruf konsonan dari suku bunyi.
-        \n Yunmu disebut juga final, merupakan huruf vokal dari suku bunyi.
-        \n Shengmu dan Yunmu yang bergabung membentuk satuan bunyi untuk melafalkan hanzi disebut sebagai Pinyin.
-        \n\n <b>SEJARAH PEMBENTUKAN AKSARA MANDARIN</b>
-        \n Asal mula aksara mandarin (han zhi) pada tahun 1899 di An Yang provinsi HeNan ditemukan situs purbakala yang penting, yaitu kota YinXu (dinasti Shang) dan tulisan JiaGuWen. Sejak itu pengetahuan mengenai YinShang memasuki babak baru.
-        \n Berdasarkan itu, para ahli tulisan kuno beranggapan bahwa tulisan Jia GuWen adalah tulisan purba yang termasuk lengkap dan baik. Hingga hari ini telah diketahui lebih dari 3000 aksara termasuk kata benda, kata kerja, kata ganti, kata kerja pembantu.Ini membuktikan telah adanya susunan tata bahasa.
-        \n Bahkan bisa dibuat suatu bentuk narasi lebih dari 170 huruf. Dari kata-kata ini, para ahli berpendapat bahwa jia guwen bukanlah asal mula aksara mandarin, sebelumnya pasti telah melewati suatu proses yang panjang.
-        \n Darimana asal mula aksara mandarin, ini telah menimbulkan suatu perdebatan. Sejarawan senior dan ahli bahasa kuno yaitu Guo MoRuo dan YuShengWu beranggapan bahwa kelahiran aksara mandarin berasal dari kebudayaan kuno Tiongkok yaitu BanBo YangShao (yang sering disebut Yang Shao Wen Hua) yang telah berumur lebih dari 6 ribu tahun. Guo Mo Ruo beranggapan bahwa 20 hingga 30 ideograph atau simbol yang terdapat di gerabah merupakan cikal bakal aksara mandarin. Demikian pendapat Yv ShengWu.
-        \n Tapi belakangan ini penelitian beberapa ahli beranggapan bahwa tulisan aksara pada yangShao dan kebudayaan Da WenKhou (provinsi ShanDong, DaWenKhou WenHua) tidak memiliki hubungan langsung dengan aksara mandarin, proses perubahan dan pembentukan aksara mandarin berkisar 3000 BC.
-        \n\n Pendapat ini menurut Zhang Rong adalah tidak relevan. Perlu diketahui bahwa 7500 tahun yang lampau telah ada sistem pertanian dan peternakan, terutama di sepanjang sungai Chang Jiang. Bahkan pada masa itu jawawut telah digunakan sebagai pakan ternak.
-        \n Dan banyak ahli telah memiliki suatu pandangan bahwa kisah kaisar purba yaitu Shen Nong dan FuXi merupakan suatu era atau masa.
-        \n Misalnya sistem perhitungan dan administrasi Fu Xi merupakan sistem yang digunakan para peternak dan petani untuk menghitung dan administrasi.
-        \n\n Berdasarkan beberapa penemuan akhir, awal sejarah aksara mandarin telah berumur 8500 tahun yang lampau. Walau terdapat beberapa perbedaan kecil antara aksara kebudayaan Yang Shao dan HongShan, tapi ini tidak menjadi suatu rintangan dalam pembentukan Han Zhi. Disini kita bisa mengetahui bahwa ternyata sejarah Han Zhi itu memiliki umur yang panjang.
-
-    </string>
-
-    <string name="jepang">
-        <b>KATA GANTI PETUNJUK BENDA</b>
-        \n\n
-        \n - KORE : ini 　( benda dekat si pembicara )
-        \n - SORE : itu 　( benda dekat lawan bicara )
-        \n - ARE : itu 　( benda jauh dari pembicara atau lawan bicara)
-        \n - DORE : yang mana ? 　( di antara pilihan benda-benda )
-        \n\n Contoh:
-        1. Kore wa hon desu. ( ini adalah buku ) : これは　ほんです。
-        \n 2. Sore wa tsukue desu. ( itu adalah meja ) : それは　つくえです。
-        \n 3. Are wa senpuki desu. ( itu adalah kipas angin ) : あれは　せんぷきです。
-        \n 4. Are wa kuruma desuka. ( apakah itu mobil ) : あれは　くるまですか。
-        \n Hai,soo desu. ( ya,benar ) / Hai,are wa kuruma desu. ( ya,itu adalah mobil ) : はい。そうです はい。あれは　くるまです。
-        \n 5. Enpitsu ga dore desuka. ( pensil adalah yang mana ) : えんぴつが　どれですか。
-        \n Enpitsu wa kore desu. ( pensil adalah ini ) : えんぴつは　これです。
-
-        \n\n\n
-        <b>UNGKAPAN DALAM KEHIDUPAN SEHARI-HARI</b>
-        \n 1.  やすみます : istirahat
-        \n 2.  あるきます : berjalan
-        \n 3.  はしります : berlari
-        \n 4.  ねます : tidur
-        \n 5.  シャワーをあびます : mandi
-        \n 6.  たばこをすいます : merokok
-        \n 7.  Ohayou gozaimasu : Selamat Pagi
-        \n 8.  Konnichiwa : Selamat Siang
-        \n 9.  Konbanwa : Selamat Malam
-        \n 10. Sayounara : Selamat Tinggal / Selamat Jalan
-        \n 11. Oyasumi nasai : Selamat Beristirahat (malam hari)
-        \n 12. Dewa,Mata, (ja, mata) : Sampai Nanti
-        \n 13. Omedetou : Selamat
-        \n 14. (Doumo) arigatoo-gozaimasu / (Doumo) Sumimasen : Terima Kasih
-        \n 15. Osaki ni : Saya Duluan
-        \n 16. Douzo osakini : Silahakan Duluan (pergi)
-        \n 17. Ki o tsukete : Hati-Hati
-        \n 18. Itadakimasu : Terima kasih atas suguhan yang saya cicipi
-        \n 19. Gochisousama deshita : Sesungguhnya telah membuat saya kenyang
-        \n 20. Shitsurei shimasu : Permisi
-        \n 21. O-genki desu ka : Apa Kabar
-        \n 22. Genki desu : Baik-baik
-        \n 23. Tadaima : Saya Kembali (ke rumah)
-        \n 24. Otanjoubi Omedetou : Selamat Ulang tahun
-        \n 25. Odaijini : Semoga Cepat Sembuh / Get Well Soon
-        \n 26. Ohisashiburidesune : Lama tak berjumpa
-        \n 27. Itte Irashai: Selamat jalan
-        \n 28. Omataseshimashita : Maaf Menunggu lama
-        \n 29. Irasshaimase : Selamat Datang
-        \n 30. Ukagaimasu : Saya akan datang (lebih sopan)
-
-        \n\n\n
-        <b>UNGKAPAN BAHASA JEPANG SEHARI-HARI DALAM KELAS</b>
-        \n 1.  Hajimemashou : Mari kita mulai
-        \n 2.  Kiite kudasai : Harap mendengarkan
-        \n 3.  Kurikaeshite kudasai : Ulangi
-        \n 4.  Itte kudasai : Katakan / ucapkan
-        \n 5.  Mo ichido itte kudasai : Katakan / ucapkan sekali lagi
-        \n 6.  Yukkuri itte kudasai : Katakan perlahan-lahan
-        \n 7.  Isshou ni dozo : Silahkan bersama-sama
-        \n 8.  Kokuban o mite kudasai : Perhatikan papan tulis
-        \n 9.  Kaite kudasai : Harap ditulis
-        \n 10. Oboete kudasai : Harap diingat
-        \n 11. Yonde kudasai : Harap dibaca
-        \n 12. Kotaete kudasai : Jawablah
-        \n 13. Wakarimashita ka : Apakah sudah mengerti
-        \n 14. Hai, Wakarimashita : Ya, mengerti
-        \n 15. Iie, Wakarimasen : Belum mengerti
-        \n 16. Hon o akate Kudasai : Bukalah buku
-        \n 17. Hon o tojite kudasai : Tutuplah buku
-        \n 18. Renshu-shite kudasai : Latihlah
-        \n 19. Chotto matte kudasai : Tunggu sebentar
-        \n 20. Yasumimasho : Mari kita istirahat
-
-        \n\n\n
-        <b>ATARASHII KOTOBA</b>
-        \n 1.  Watashi わたし : saya
-        \n 2.  Watashitachi わｔしたち : kami / kita
-        \n 3.  Anatagata あなたがた : kalian / anda sekalian
-        \n 4.  Gakusei がくせい : pelajar / siswa
-        \n 5.  Sensei せんせい : guru
-        \n 6.  Hon ほん : buku
-        \n 7.  Isu いす : kursi
-        \n 8.  Tsukue つくえ : meja
-        \n 9.  Hikidashi ひきだし : lemari
-        \n 10. Hondana ほんだな : Lemari Buku
-        \n 11. Senpuki せんぷき : kipas angin
-        \n 12. Kokuban こくばん : papan tulis
-        \n 13. Pen ぺん : pena
-        \n 14. Enpitsu えんぴつ : pensil
-        \n 15. Kami かみ : kertas
-        \n 16. Shinbun しんぶん : Koran
-        \n 17. Jisho じしょ : kamus
-        \n 18. Zasshi ざっし : majalah
-        \n 19. Kutsu くつ : sepatu
-        \n 20. Kaban かばん : tas
-    </string>
-
-    <string name="sejarah">
-         <b>BAB 1 : PERKEMBANGAN EKONOMI POLITIK PADA MASA AWAL KEMERDEKAAN KEADAAN EKONOMI-KEUANGAN PADA AWAL KEMERDEKAAN </b>
-        \n\n\n
-        A. FAKTOR-FAKTOR PENYEBAB MEMBURUKNYA KEADAAN EKONOMI DAN KEUANGAN DI INDONESIA PADA AWAL KEMERDEKAAN
-        \n Pada akhir pendudukan Jepang dan pada awal berdirinya Republik Indonesia keadaan ekonomi Indonesia sangat kacau. Hal ini disebabkan oleh hal-hal sebagai berikut :
-        \n\n 1. Inflasi yang sangat tinggi (Hiper-Inflasi).
-        \n Penyebab terjadinya inflasi ini adalah beredarnya mata uang pendudukan Jepang secara tak terkendali. Pada saat itu diperkirakan mata uang Jepang yang beredar di masyarakat sebesar 4 milyar. Dari jumlah tersebut, yang beredar di Jawa saja, diperkirakan sebesar 1,6 milyar.
-        \n Jumlah itu kemudian bertambah ketika pasukan Sekutu berhasil menduduki beberapa kota besar di Indonesia dan meguasai bank-bank. Dari bank-bank itu Sekutu mengedarkan uang cadangan sebesar 2,3 milyar untuk keperluan operasi mereka. Kelompok masyarakat yang paling menderita akibat inflasi ini adalah petani. Hal itu disebabkan pada zaman pendudukan Jepang petani adalah produsen yang paling banyak menyimpan mata-uang Jepang.
-        \n emerintah Republik Indonesia yang baru berdiri, tidak dapat menghentikan peredaran mata uang Jepang tersebut, sebab negara RI belum memiliki mata-uang baru sebagai penggantinya. Maka dari itu, untuk sementara waktu pemerintah RI menyatakan tiga mata uang yang berlaku di wilayah RI, yaitu :
-        \n a. mata-uang De Javasche Bank;
-        \n b. mata-uang pemerintah Hindia Belanda;
-        \n c. mata-uang pendudukan Jepang.
-        \n Pada saat kesulitan ekonomi menghimpit bangsa Indonesia, tanggal 6 Maret 1946, Panglima AFNEI yang baru, Letnan Jenderal Sir Montagu Stopford mengumumkan berlakunya uang NICA di daerah-daerah yang diduduki Sekutu. Uang NICA ini dimaksudkan sebagai pengganti uang Jepang yang nilainya sudah sangat turun. Pemerintah melalui Perdana Menteri Syahrir memproses tindakan tersebut. Karena hal itu berarti pihak Sekutu telah melanggar persetujuan yang telah disepakati, yakni selama belum ada penyelesaian politik mengenai status Indonesia, tidak akan ada mata uang baru.
-        \n Oleh karena itulah pada bulan Oktober 1946 Pemerintah RI, juga melakukan hal yang sama yaitu mengeluarkan uang kertas baru yaitu Oeang Republik Indonesia (ORI) sebagai pengganti uang Jepang. Untuk melaksanakan koordinasi dalam pengurusan bidang ekonomi dan keuangan, pemerintah membentuk Bank Negara Indonesia pada tanggal 1 November 1946.
-        \n Bank Negara ini semula adalah Yayasan Pusat Bank yang didirikan pada bulan Juli 1946 dan dipimpin oleh Margono Djojohadikusumo. Bank negara ini bertugas mengatur nilai tukar ORI dengan valuta asing.
-        \n\n 2. Adanya blokade ekonomi, oleh Belanda (NICA)
-        \n Blokade laut ini dimulai pada bulan November 1945 ini, menutup pintu keluar-masuk perdagangan RI. Adapun alasan pemerintah Belanda melakukan blokade ini adalah :
-        \n 1. Untuk mencegah dimasukkannya senjata dan peralatan militer ke Indonesia;
-        \n 2. Mencegah dikeluarkannya hasil-hasil perkebunan milik Belanda dan milik asing lainnya;
-        \n 3. Melindungi bangsa Indonesia dari tindakan-tindakan yang dilakukan oleh orang bukan Indonesia.
-        \n Akibat dari blokade ini barang-barang dagangan milik pemerintah RI tidak dapat diekspor, sehingga banyak barang-barang ekspor yang dibumihanguskan. Selain itu Indonesia menjadi kekurangan barang-barang impor yang sangat dibutuhkan.
-        \n\n Kas negara kosong, pajak dan bea masuk sangat berkurang, sehingga pendapatan pemeritah semakin tidak sebanding dengan pengeluarannya.
-        \n Penghasilan pemerintah hanya bergantung kepada produksi pertanian. Karena dukungan petani inilah pemerintah RI masih bertahan, sekali pun keadaan ekonomi sangat buruk.
-        \n\n\n
-        B. USAHA MENEMBUS BLOKADE EKONOMI
-        \n Usaha-usaha untuk menembus blokade ekonomi yang dilakukan oleh pihak Belanda dilaksanakan oleh pemerintah dengan berbagai cara, diantaranya sebagai berikut :
-        \n\n 1. Diplomasi Beras ke India
-        \n Usaha ini lebih bersifat politis daripada ekonomis. Ketika terdengar berita bahwa rakyat India sedang ditimpa bahaya kelaparan, pemerintah RI segera menyatakan kesediaannya untuk membantu pemerintah India dengan mengirimkan 500.000 ton beras, dengan harga sangat rendah. Pemerintah bersedia melakukan hal ini karena diperkirakan pada musim panen tahun 1946 akan diperoleh surplus sebesar 200.000 sampai 400.000 ton.
-        \n Sebagai imbalannya pemerintah India menjanjikan akan mengirimkan bahan pakaian yang sangat dibutuhkan oleh rakyat Indonesia. Keuntungan politik yang diperoleh oleh pemerintah RI adalah dalam forum internasional India adalah negara Asia yang paling aktif membantu perjuangan kemerdekaan RI.
-        \n\n 2. Mengadakan Hubungan Dagang Langsung ke Luar Negeri
-        \n Usaha untuk membuka hubungan langsung ke luar negeri, dilakukan oleh pihak pemerintah maupun pihak swasta. Diantara usaha-usaha tersebut adalah sebagai berikut :
-        \n a. Mengadakan kontak hubungan dengan perusahaan swasta Amerika (Isbrantsen Inc.). Usaha ini dirintis oleh BTC (Banking and Trading Corporation), suatu badan perdagangan semi-pemerintah yang dipimpin oleh Dr. Sumitro Djojohadikusumo dan Dr. Ong Eng Die. Dalam transaksi pertama pihak Amerika Serikat bersedia membeli barang-barang ekspor dari Indonesia seperti gula, karet, teh, dan sebagainya.
-        \n Kapal Isbrantsen Inc. yang masuk ke pelabuhan Cirebon adalah kapal Martin Behrmann yang mengangkut barang-barang pesanan RI dan akan memuat barang-barang ekspor dari RI. Akan tetapi kapal itu dicegat oleh kapal Angkatan Laut Belanda dan diseret ke pelabuhan Tanjung Priuk dan seluruh muatannya disita.
-        \n b. Menembus blokade ekonomi Belanda di Sumatera dengan tujuan Singapura dan Malaysia.
-        \n Oleh karena jarak perairan yang relatif dekat, maka usaha ini dilakukan dengan perahu layar dan kapal motor cepat. Usaha ini secara sistimatis dilakukan sejak tahun 1946 sampai dengan akhir masa Perang Kemerdekaan.
-        \n Pelaksanaan penembusan blokade ini dilakukan oleh Angkatan Laut RI dengan dibantu oleh pemerintah daerah penghasil barang-barang ekspor.
-        \n Sejak awal tahun 1947 pemerintah RI membentuk perwakilan resmi di Singapura yang diberi nama Indonesia Office (Indoff).
-        \n Secara resmi Indoff ini merupakan badan yang memperjuangkan kepentingan politik di luar negeri, namun secara rahasia juga berusaha menembus blokade dan usaha perdagangan barter.
-        \n Kementerian Pertahanan juga membentuk perwakilannya di luar negeri yang disebut Kementerian Pertahanan Usaha Luar Negeri (KPLULN) yang dipimpin oleh Ali Jayengprawiro.
-        \n Tugas pokok badan ini adalah membeli senjata dan perlengkapan Angkatan Perang. Sebagai pelaksana upaya menembus blokade ini yang terkenal adalah John Lie, O.P. Koesno, Ibrahim Saleh dan Chris Tampenawas. Selama tahun 1946 pelabuhan di Sumatera hanya Belawan yang berhasil diduduki Belanda. Karena perairan di Sumatera sangatlah luas, maka pihak Belanda tidak mampu melakukan pengawasan secara ketat.
-        \n Hasil-hasil dari Sumatera terutama karet yang berhasil diselundupkan ke luar negeri, utamanya ke Singapura, mencapai jumlah puluhan ribu ton. Selama tahun 1946 saja barang-barang yang diterima oleh Singapura dari Sumatera seharga Straits $ 20.000.000,-.
-        \n Sedangkan yang berasal dari Jawa hanya Straits $ 1.000.000,-. Sebaliknya barang-barang yang dikirim ke Sumatera dari Singapura seharga Straits $ 3.000.000,- dan dari Singapura ke Jawa seharga Straits $ 2.000.000,-.
-        \n\n\n
-        C. USAHA-USAHA MENGATASI KESULITAN EKONOMI
-        \n Pada awal kemerdekaan masih belum sempat melakukan perbaikan ekonomi secara baik.
-        \n Baru mulai Pebruari 1946, pemerintah mulai memprakarsai usaha untuk memecahkan masalah-masalah ekonomi yang mendesak. Upaya-upaya itu diantaranya sebagai berikut :
-        \n\n 1. Pinjaman Nasional
-        \n Program Pinjaman Nasional ini dilaksanakan oleh Menteri Keuangan. lr. Surachman dengan persetujuan BP-KNIP. Pinjaman Nasional akan dibayar kembali selama jangka waktu 40 tahun.
-        \n Besar pinjaman yang dilakukan pada bulan Juli 1946 sebesar Rp. 1.000.000.000,00. Pada tahun pertama berhasil dikumpulkan uang sejumlah Rp. 500.000.000,00. Sukses yang dicapai ini menunjukkan besarnya dukungan dan kepercayaan rakyat kepada Pemerintah RI.
-        \n\n 2. Konferensi Ekonomi, Februari 1946
-        \n Konferensi ini dihadiri oleh para cendekiawan, para gubernur dan para pejabat lainnya yang bertanggungjawab langsung mengenai masalah ekonomi di Jawa. Konferensi ini dipimpin oleh Menteri Kemakmuran, Ir. Darmawan Mangunkusumo.
-        \n Tujuan konferensi ini adalah untuk memperoleh kesepakatan yang bulat dalam menanggulangi masalah-masalah ekonomi yang mendesak, seperti :
-        \n a. masalah produksi dan distribusi makanan
-        \n Dalam masalah produksi dan distribusi bahan makanan disepakati bahwa sistem autarki lokal sebagai kelanjutan dari sistem ekonomi perang Jepang, secara berangsur-angsur akan dihapuskan dan diganti dengan sistem desentralisasi.
-        \n b. masalah sandang
-        \n Mengenai masalah sandang disepakati bahwa Badan Pengawasan Makanan Rakyat diganti dengan Badan Persediaan dan Pembagian Makanan (PPBM) yang dipimpin oleh dr. Sudarsono dan dibawah pengawasan Kementerian Kemakmuran. PPBM dapat dianggap sebagai awal dari terbentuknya Badan Urusan Logistik (Bulog).
-        \n c. status dan administrasi perkebunan-perkebunan
-        \n Mengenai masalah penilaian kembali status dan administrasi perkebunan yang merupakan perusahaan vital bagi RI, konferensi ini menyumbangkan beberapa pokok pikiran. Pada masa Kabinet Sjahrir, persoalan status dan administrasi perkebunan ini dapat diselesaikan. Semua perkebunan dikuasai oleh negara dengan sistem sentralisasi di bawah pengawasan Kementerian Kemakmuran.
-        \n Konferensi Ekonomi kedua diadakan di Solo pada tanggal 6 Mei 1946. Konferensi kedua ini membahas masalah perekonomian yang lebih luas, seperti program ekonomi pemerintah, masalah keuangan negara, pengendalian harga, distribusi dan alokasi tenaga manusia. Dalam konferensi ini Wakil Presiden Drs. Moh. Hatta memberikan saran-saran yang berkaitan dengan masalah rehabilitasi pabrik gula.
-        \n Hal ini disebabkan gula merupakan bahan ekspor yang penting, oleh karena itu pengusahaannya harus dikuasai oleh negara. Hasil ekspor ini diharapkan dapat dibelikan atau ditukar dengan barang-barang lainnya yang dibutuhkan RI.
-        \n Saran yang disampaikan oleh Wakil Presiden ini dapat direalisasikan pada tanggal 21 Mei 1946 dengan dibentuknya Badan Penyelenggara Perusahaan Gula Negara (BPPGN) berdasarkan Peraturan Pemerintah No. 3/1946.
-        \n Peraturan tersebut disempurnakan melalui Peraturan Pemerintah No. 4 tahun 1946, tanggal 6 Juni 1946 mengenai pembentukan Perusahaan Perkebunan Negara (PPN).
-        \n\n 3. Pembentukan Planning Board (Badan Perancang Ekonomi) pada tanggal 19 Januari 1947
-        \n Pembentukan Badan ini atas inisiatif Menteri Kemakmuran, dr. A.K. Gani. Badan ini merupakan badan tetap yang bertugas membuat rencana pembangunan ekonomi untuk jangka waktu 2 sampai 3 tahun. Sesudah Badan Perancang ini bersidang, A.K. Gani mengumumkan Rencana Pembangunan Sepuluh Tahun. Untuk mendanai Rencana Pembangunan ini terbuka baik bagi pemodal dalam negeri maupun bagi pemodal asing. Untuk menampung dana pembangunan tersebut pemerintah akan membentuk Bank Pembangunan.
-        \n Pada bulan April 1947, Badan Perancang ini diperluas menjadi Panitia Pemikir Siasat Ekonomi yang dipimpin langsung oleh Wakil Presiden Moh. Hatta, sedangkan A.K. Gani sebagai wakilnya. Panitia ini bertugas mempelajari, mengumpulkan data dan memberikan saran kepada pemerintah dalam merencanakan pembangunan ekonomi dan dalam rangka melakukan perundingan dengan pihak Belanda.
-        \n Semua hasil pemikiran ini belum berhasil dilaksanakan dengan baik, karena situasi politik dan militer yang tidak memungkinkan. Agresi Militer Belanda mengakibatkan sebagian besar daerah RI yang memiliki potensi ekonomi baik, jatuh ke tangan Belanda. Wilayah RI tinggal beberapa keresidenan di Jawa dan Sumatera yang sebagian besar tergolong sebagai daerah minus dan berpenduduk padat. Pecahnya Pemberontakan PKI Madiun dan Agresi Militer Belanda II mengakibatkan kesulitan ekonomi semakin memuncak.
-        \n\n 4. Rekonstruksi dan Rasionalisasi Angkatan Perang (RERA) pada tahun 1948.
-        \n Program yang diprakarsai oleh Wakil Presiden Drs. Moh. Hatta ini, dimaksudkan untuk mengurangi beban negara dalam bidang ekonomi, disamping meningkatkan efesiensi. Rasionalisasi ini meliputi penyempurnaan administrasi negara, Angkatan Perang dan aparat ekonomi. Sejumlah satuan Angkatan Perang dikurangi secara dratis. Selanjutnya tenaga-tenaga bekas Angkatan Perang ini disalurkan ke bidang-bidang produktif dan diurus oleh Kementerian Pembangunan dan Pemuda.
-        \n\n 5. Rencana Kasimo (Kasimo Plan)
-        \n Program ini disusun oleh Menteri Urusan Bahan Makanan I.J. Kasimo. Pada dasarnya program ini berupa Rencana Produksi Tiga Tahun, 1948-1950 mengenai usaha swasembada pangan dengan beberapa petunjuk pelaksanaan yang praktis. Untuk mningkatkan produksi bahan pangan dalam program ini, Kasimo menyarankan agar :
-        \n a. menanami tanah-tanah kosong di Sumatera timur seluas 281.277 ha.;
-        \n b. di Jawa dilakkan intensifikasi dengan menanam bibit unggul;
-        \n c. pencegahan penyembelihan hewan-hewan yang berperan penting bagi produksi pangan;
-        \n d. disetiap desa dibentuk kebun-kebun bibit;
-        \n e. tranmigrasi.
-
-=======
-         <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
-        \n\n\n
-
-    </string>
-
-    <string name="matematika">
-    <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
-    \n\n\n
-    </string>
-
-    <string name="indonesia">
-    <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
-    \n\n\n
-    </string>
-
-    <string name="kimia">
-    <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
-    \n\n\n
-    </string>
-
-    <string name="fisika">
-    <b>BAB I : PERTUMBUHAN DAN PERKEMBANGAN PADA TUMBUHAN</b>
-    \n\n\n
->>>>>>> 2deb8366b9afd687b354539ec5fcf6ba3e0dc7cd
     </string>
 
 </resources>

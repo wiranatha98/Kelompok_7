@@ -16,19 +16,7 @@ public class Materi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_materi);
         ActionBar ab = getSupportActionBar();
-        ab.hide();
-
-        //Button showIpa = findViewById(R.id.showIpa);
-        ImageView materiipa = findViewById(R.id.materiIpa);
-        materiipa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), RecyclerViewMateri.class);
-                startActivity(intent);
-            }
-        });
-
-    }
+        ab.hide();    }
 
     public void berandaClick(View view) {
         Intent intent = new Intent(getApplicationContext(), Home.class);
@@ -45,22 +33,19 @@ public class Materi extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void showImageIpa(View view) {
-        Intent intent = new Intent(getApplicationContext(), RecyclerViewMateri.class);
+
+    public void ipa(View view) {
+        Intent intent = new Intent(getApplicationContext(), RecyclerViewIpa.class);
         startActivity(intent);
     }
-
-<<<<<<< HEAD
-    public void showImageBahasa(View view) {
+    public void ips(View view) {
+        Intent intent = new Intent(getApplicationContext(), RecyclerViewIps.class);
+        startActivity(intent);
     }
-
-    public void showImageIps(View view) {
+    public void bahasa(View view) {
+        Intent intent = new Intent(getApplicationContext(), RecyclerViewIps.class);
+        startActivity(intent);
     }
-
-    public void onClick(View view) {
-    }
-=======
->>>>>>> 2deb8366b9afd687b354539ec5fcf6ba3e0dc7cd
 }
 
 
