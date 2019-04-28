@@ -24,9 +24,9 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 public class Admin_Saran extends AppCompatActivity {
-    ArrayList<List> saran, keluhan;
-    RecyclerView rvSaran, rvKeluhan;
-    ListAdapter lSaran, lKeluhan;
+    ArrayList<List_saran> pertanyaan, saran;
+    RecyclerView rvSaran, rvPertanyaan;
+    ListAdapter_saran lSaran, lPertanyaan;
     TextView admin;
     FirebaseAuth mAuth;
     @Override
@@ -37,9 +37,9 @@ public class Admin_Saran extends AppCompatActivity {
         ab.hide();
         saran = new ArrayList<>();
         mAuth = FirebaseAuth.getInstance();
-        keluhan = new ArrayList<>();
-        lSaran = new ListAdapter(saran, Admin_Saran.this);
-        lKeluhan = new ListAdapter(keluhan, Admin_Saran.this);
+        pertanyaan = new ArrayList<>();
+        lSaran = new ListAdapter_saran(saran, Admin_Saran.this);
+        lPertanyaan = new ListAdapter_saran(pertanyaan, Admin_Saran.this);
         rvSaran = findViewById(R.id.rvSaran);
         //rvKeluhan = findViewById(R.id.rvKeluhan);
         rvSaran.setLayoutManager(new LinearLayoutManager(this));
@@ -73,12 +73,12 @@ public class Admin_Saran extends AppCompatActivity {
 
 
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
-        ref.child("Keluhan").addValueEventListener(new ValueEventListener() {
+        ref.child("Saran").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot x : dataSnapshot.getChildren()) {
-                    //Log.d("TAG", x.getValue().toString());
-                    saran.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
+                    Log.d("TAG", x.getValue().toString());
+                    saran.add(new List_saran(x.child("Pertanyan").getValue().toString(), x.child("saran").getValue().toString()));
                     lSaran.notifyDataSetChanged();
                     //keluhan.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
                 }

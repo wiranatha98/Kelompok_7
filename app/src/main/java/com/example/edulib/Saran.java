@@ -19,14 +19,16 @@ import java.util.Date;
 public class Saran extends AppCompatActivity {
     private FirebaseAuth mAuth;
 //    private Button submit;
-    private EditText perihal, keluhan;
+    private EditText perihal, keluhan,saran,pertanyaan;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_saran);
 
-        perihal = findViewById(R.id.edSaran);
-        keluhan = findViewById(R.id.edPertanyaan);
+        //perihal = findViewById(R.id.edSaran);
+        //keluhan = findViewById(R.id.edPertanyaan);
+        saran = findViewById(R.id.edSaran);
+        pertanyaan = findViewById(R.id.edPertanyaan);
         mAuth = FirebaseAuth.getInstance();
         ActionBar ab = getSupportActionBar();
         ab.hide();
@@ -34,26 +36,26 @@ public class Saran extends AppCompatActivity {
     }
 
     public void submit(View view) {
-        if (perihal.getText().toString().equals("")) {
+        if (saran.getText().toString().equals("")) {
 
-            Toast.makeText(this, "Isi Perihalnya", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Isi Pertanyaan", Toast.LENGTH_SHORT).show();
             Toast.makeText(this, "Isi Saran", Toast.LENGTH_SHORT).show();
-            perihal.requestFocus();
+            saran.requestFocus();
             return;
         }
-        if (keluhan.getText().toString().equals("")) {
+        if (pertanyaan.getText().toString().equals("")) {
 
             Toast.makeText(this, "Isi keluhanmu", Toast.LENGTH_SHORT).show();
 
             Toast.makeText(this, "Isi Pertanyaan", Toast.LENGTH_SHORT).show();
 
-            keluhan.requestFocus();
+            pertanyaan.requestFocus();
             return;
         }
         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy:HHmmss");
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Saran").child(sdf.format(new Date()));
-        ref.child("Pertanyaan").setValue(perihal.getText().toString());
-        ref.child("Sarann").setValue(keluhan.getText().toString());
+        ref.child("Pertanyan").setValue(pertanyaan.getText().toString());
+        ref.child("saran").setValue(saran.getText().toString());
         startActivity(new Intent(Saran.this, NotifSaran.class));
         finish();
 
