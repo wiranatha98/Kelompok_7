@@ -94,7 +94,7 @@ public class Home extends AppCompatActivity implements GoogleApiClient.OnConnect
                         switch (item.getItemId()) {
                             case R.id.logout:
                                 mAuth.signOut();
-                                startActivity(new Intent(v.getContext(), Login.class));
+                                startActivity(new Intent(v.getContext(), LoginAs.class));
                                 ((Activity) getApplicationContext()).finish();
                                 break;
 
