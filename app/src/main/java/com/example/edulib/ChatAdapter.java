@@ -22,7 +22,7 @@ public class ChatAdapter extends BaseAdapter {
     }
 
     public ChatAdapter(List<Chat> daftarChat, Context mContext) {
-        this.daftarChat = daftarChat;
+        this.daftarChat = daftarChat;//tes
         this.mContext = mContext;
         inflater = (LayoutInflater) mContext.getSystemService(mContext.LAYOUT_INFLATER_SERVICE);
     }
