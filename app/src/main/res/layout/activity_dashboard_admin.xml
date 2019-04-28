@@ -53,8 +53,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@color/colorPrimary"
-        android:text="Daftar Keluhan"
         android:drawableLeft="@drawable/keluhan_admin"
+        android:onClick="keluhan"
+        android:text="Daftar Keluhan"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
@@ -69,13 +70,14 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@color/colorPrimary"
+        android:drawableLeft="@drawable/saran_admin"
+        android:onClick="saran"
         android:text="Daftar Saran"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_keluhan"
-        android:drawableLeft="@drawable/saran_admin"/>
+        app:layout_constraintTop_toBottomOf="@+id/button_keluhan" />
 
     <ImageView
         android:id="@+id/imageView54"

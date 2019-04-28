@@ -23,35 +23,34 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-public class Admin extends AppCompatActivity {
-//    ArrayList<List> saran, keluhan;
-    ArrayList<SaranKeluhan> arSaran,arKeluhan;
-    RecyclerView rvSaran, rvKeluhan;
-    AdapterKeluhan adapSaran,adapKeluhan;
-//    ListAdapter lSaran, lKeluhan;
+public class DaftarKeluhan extends AppCompatActivity {
+    ArrayList<SaranKeluhan> arKeluhan;
+    RecyclerView rvKeluhan;
+    AdapterKeluhan adapKeluhan;
+    //    ListAdapter lKeluhan;
     TextView admin;
     FirebaseAuth mAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin);
-//        saran = new ArrayList<>();
+        setContentView(R.layout.activity_daftar_keluhan);
 
         mAuth = FirebaseAuth.getInstance();
 //        keluhan = new ArrayList<>();
-        arSaran = new ArrayList<>();
+//        arSaran = new ArrayList<>();
         arKeluhan = new ArrayList<>();
-        adapSaran = new AdapterKeluhan(arSaran,this);
-        adapKeluhan = new AdapterKeluhan(arKeluhan,this);
+//        adapSaran = new AdapterKeluhan(arSaran,this);
+        adapKeluhan = new AdapterKeluhan(arKeluhan, this);
 //        lSaran = new ListAdapter(saran, Admin.this);
 //        lKeluhan = new ListAdapter(keluhan, Admin.this);
-        rvSaran = findViewById(R.id.rvKeluhan);
+//        rvSaran = findViewById(R.id.rvKeluhan);
         rvKeluhan = findViewById(R.id.rvKeluhan);
-        rvSaran.setLayoutManager(new LinearLayoutManager(this));
+//        rvSaran.setLayoutManager(new LinearLayoutManager(this));
         rvKeluhan.setLayoutManager(new LinearLayoutManager(this));
-        rvSaran.setAdapter(adapSaran);
+//        rvSaran.setAdapter(adapSaran);
         rvKeluhan.setAdapter(adapKeluhan);
-        admin = findViewById(R.id.txAdmin);
+        admin = findViewById(R.id.txAdmin3);
         admin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
@@ -78,35 +77,23 @@ public class Admin extends AppCompatActivity {
 
 
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
-        ref.child("Saran").addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                arSaran.clear();
-                for (DataSnapshot x : dataSnapshot.getChildren()) {
-                    Log.d("TAG", x.getValue().toString());
-//                    saran.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
-                    arSaran.add(new SaranKeluhan(x.child("perihal").getValue().toString(),x.child("keluhan").getValue().toString(),x.child("nama").getValue().toString()));
-
-                }
-                adapSaran.notifyDataSetChanged();
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });
 
         ref.child("Keluhan").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                arKeluhan.clear();
-                for (DataSnapshot x : dataSnapshot.getChildren()) {
+                if (dataSnapshot.exists()) {
+                    arKeluhan.clear();
+                    for (DataSnapshot x : dataSnapshot.getChildren()) {
 //                    keluhan.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
 //                    lKeluhan.notifyDataSetChanged();
-                    arKeluhan.add(new SaranKeluhan(x.child("perihal").getValue().toString(),x.child("keluhan").getValue().toString(),x.child("nama").getValue().toString()));
+                        if (dataSnapshot.child("nama").exists()) {
+                            arKeluhan.add(new SaranKeluhan(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString(), x.child("nama").getValue().toString()));
+                        }else{
+                            arKeluhan.add(new SaranKeluhan(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
+                        }
+                    }
+                    adapKeluhan.notifyDataSetChanged();
                 }
-                adapKeluhan.notifyDataSetChanged();
             }
 
             @Override

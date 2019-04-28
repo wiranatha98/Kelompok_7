@@ -9,6 +9,12 @@ public class SaranKeluhan {
         this.namaUser = namaUser;
     }
 
+    public SaranKeluhan(String perihal, String keluhan) {
+        this.perihal = perihal;
+        this.keluhan = keluhan;
+        this.namaUser = "Anonim";
+    }
+
     public String getPerihal() {
         return perihal;
     }
