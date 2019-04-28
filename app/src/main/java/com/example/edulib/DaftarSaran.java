@@ -33,7 +33,7 @@ public class DaftarSaran extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_daftar_saran);
+        setContentView(R.layout.activity_admin);
 
         mAuth = FirebaseAuth.getInstance();
 //        keluhan = new ArrayList<>();

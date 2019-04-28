@@ -21,6 +21,6 @@ public class DashboardAdmin extends AppCompatActivity {
     }
 
     public void keluhan(View view){
-        startActivity(new Intent(DashboardAdmin.this, DaftarKeluhan.class));
+        startActivity(new Intent(DashboardAdmin.this, Admin.class));
     }
 }
