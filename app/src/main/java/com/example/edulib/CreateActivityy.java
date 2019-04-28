@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -21,22 +22,21 @@ import java.util.Calendar;
 
 public class CreateActivityy extends AppCompatActivity {
 
-    TextView judul, author, isi;
+    TextView judul, author, isi, jamm,tanggall;
     Button postbutton;
     SQLite sql;
     Context context = this;
     ImageView tanggal, jam;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_createe);
-
         judul = findViewById(R.id.title_edit);
         isi = findViewById(R.id.desc_edit);
         tanggal = findViewById(R.id.tanggal);
         jam = findViewById(R.id.jam);
-
+        jamm = findViewById(R.id.jamB);
+        tanggall = findViewById(R.id.tanggalB);
         sql = new SQLite(this);
         ActionBar ab = getSupportActionBar();
         ab.hide();
@@ -86,38 +86,48 @@ public class CreateActivityy extends AppCompatActivity {
             }
         });
 
+
         postbutton = findViewById(R.id.postbutton);
         //final String finalPrioritas = prioritas;
         postbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Pengingatmodel art = new Pengingatmodel();
-                String prior= spinner.getSelectedItem().toString();
-                String prioritas = "";
-                if (prior.equals("Sangat Penting")){
-                    prioritas = "Sangat Penting";
-                    art.setPriority(prioritas);
+
+
+                if(judul.getText().toString().equals("") && isi.getText().toString().equals("")){
+                    Toast.makeText(CreateActivityy.this, "Isi Bidang Kosong Dahulu ", Toast.LENGTH_SHORT).show();
                 }
-                else if (prior.equals("Penting")){
-                    prioritas = "Penting";
-                    art.setPriority(prioritas);
-                }
-                else if (prior.equals("Normal")){
-                    prioritas = "Normal";
-                    art.setPriority(prioritas);
+                else {
+                    Pengingatmodel art = new Pengingatmodel();
+                    String prior= spinner.getSelectedItem().toString();
+                    String prioritas = "";
+                    if (prior.equals("Sangat Penting")){
+                        prioritas = "Sangat Penting";
+                        art.setPriority(prioritas);
+                    }
+                    else if (prior.equals("Penting")){
+                        prioritas = "Penting";
+                        art.setPriority(prioritas);
+                    }
+                    else if (prior.equals("Normal")){
+                        prioritas = "Normal";
+                        art.setPriority(prioritas);
+                    }
+                    final TextView tanggalB = findViewById(R.id.tanggalB);
+                    final TextView jamB =findViewById(R.id.jamB);
+                    art.setTitle(judul.getText().toString());
+                    art.setTanggal(tanggalB.getText().toString());
+                    art.setJam(jamB.getText().toString());
+                    art.setDesc(isi.getText().toString());
+                    sql.tambahKegiatan(art);
+                    Intent intent= new Intent(getApplicationContext(), DashboardPengingat.class);
+                    startActivity(intent);
+                    Toast.makeText(CreateActivityy.this, "Pengingat Berhasil Ditambahkan", Toast.LENGTH_SHORT).show();
+
                 }
 
 
-                final TextView tanggalB = findViewById(R.id.tanggalB);
-                final TextView jamB =findViewById(R.id.jamB);
-                art.setTitle(judul.getText().toString());
-                art.setTanggal(tanggalB.getText().toString());
-                art.setJam(jamB.getText().toString());
-                art.setDesc(isi.getText().toString());
-                sql.tambahKegiatan(art);
-                Intent intent= new Intent(getApplicationContext(), DashboardPengingat.class);
-                startActivity(intent);
-                Toast.makeText(CreateActivityy.this, "Pengingat Berhasil Ditambahkan", Toast.LENGTH_SHORT).show();
+
             }
         });
     }
