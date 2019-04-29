@@ -14,7 +14,7 @@ public class NotifKeluhan extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_keluhanterkirim);
-        submit = findViewById(R.id.button2);
+        submit = findViewById(R.id.btnIPS);
         ActionBar ab = getSupportActionBar();
         ab.hide();
         submit.setOnClickListener(new View.OnClickListener() {

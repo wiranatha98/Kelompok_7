@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
@@ -32,6 +33,7 @@ public class Home extends AppCompatActivity implements GoogleApiClient.OnConnect
     private FirebaseAuth mAuth;
     private TextView namaUser;
     private ImageView gambarORang;
+    private Button button;
 
     private GoogleSignInOptions gso;
     private GoogleApiClient mGoogleApiClient;
@@ -49,6 +51,17 @@ public class Home extends AppCompatActivity implements GoogleApiClient.OnConnect
         final ImageView diskusi = findViewById(R.id.diskusi);
         final ImageView tentang = findViewById(R.id.tentang);
         final TextView tv_materi = findViewById(R.id.textView_materi);
+
+        button = findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mAuth.signOut();
+                startActivity(new Intent(Home.this,LoginAs.class));
+                finish();
+            }
+        });
+
         ActionBar ab = getSupportActionBar();
         ab.hide();
 

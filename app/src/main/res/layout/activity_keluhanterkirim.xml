@@ -76,7 +76,7 @@
         app:srcCompat="@drawable/cloudd" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnIPS"
         android:layout_width="wrap_content"
         android:layout_height="44dp"
         android:layout_marginTop="8dp"

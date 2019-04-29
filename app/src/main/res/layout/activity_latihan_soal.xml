@@ -78,7 +78,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnBahasa"
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_marginTop="36dp"
@@ -86,13 +86,14 @@
         android:text="BAHASA"
         android:textColor="@color/coloraction"
         android:textSize="24sp"
+        android:onClick="pilihBahasa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnIPS" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnIPA"
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_marginTop="8dp"
@@ -101,14 +102,15 @@
         android:text="IPA"
         android:textColor="@color/coloraction"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        android:onClick="pilihIPA"
+        app:layout_constraintBottom_toTopOf="@+id/btnIPS"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnIPS"
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_marginTop="36dp"
@@ -116,10 +118,11 @@
         android:text="IPS"
         android:textColor="@color/coloraction"
         android:textSize="24sp"
+        android:onClick="pilihIPS"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1" />
+        app:layout_constraintTop_toBottomOf="@+id/btnIPA" />
 
     <TextView
         android:id="@+id/textView17"
@@ -131,7 +134,7 @@
         android:textColor="@android:color/black"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintBottom_toTopOf="@+id/btnIPA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView31" />

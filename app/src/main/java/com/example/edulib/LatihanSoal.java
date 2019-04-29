@@ -29,4 +29,16 @@ public class LatihanSoal extends AppCompatActivity {
         Intent intent= new Intent(getApplicationContext(), Diskusi.class);
         startActivity(intent);
     }
+
+    public void pilihBahasa(View view) {
+    }
+
+    public void pilihIPA(View view) {
+        Intent i = new Intent(LatihanSoal.this,SoalActivity.class);
+        i.putExtra("jurusan","IPA");
+        startActivity(i);
+    }
+
+    public void pilihIPS(View view) {
+    }
 }
