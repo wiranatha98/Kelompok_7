@@ -11,7 +11,7 @@
         android:id="@+id/textView52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="28dp"
         android:text="Halo Admin"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
@@ -36,13 +36,14 @@
         android:id="@+id/button_user"
         android:layout_width="400dp"
         android:layout_height="100dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="28dp"
         android:background="@color/colorPrimary"
         android:drawableLeft="@drawable/user_admin"
         android:text="Daftar User"
         android:textColor="@android:color/white"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView52" />
 
@@ -50,7 +51,7 @@
         android:id="@+id/button_keluhan"
         android:layout_width="400dp"
         android:layout_height="100dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@color/colorPrimary"
@@ -60,7 +61,7 @@
         android:textColor="@android:color/white"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_user" />
 
@@ -68,7 +69,7 @@
         android:id="@+id/button_saran"
         android:layout_width="400dp"
         android:layout_height="100dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@color/colorPrimary"
@@ -78,9 +79,9 @@
         android:textColor="@android:color/white"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_keluhan" />
+        app:layout_constraintTop_toBottomOf="@+id/button_latihan_soal" />
 
     <ImageView
         android:id="@+id/imageView54"
@@ -106,6 +107,25 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_saran" />
+        app:layout_constraintTop_toBottomOf="@+id/button_saran"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <Button
+        android:id="@+id/button_latihan_soal"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@drawable/add"
+        android:onClick="latihanSoal"
+        android:text="Latihan Soal"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_keluhan" />
 </android.support.constraint.ConstraintLayout>
