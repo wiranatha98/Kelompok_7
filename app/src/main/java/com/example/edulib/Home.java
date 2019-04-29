@@ -52,15 +52,6 @@ public class Home extends AppCompatActivity implements GoogleApiClient.OnConnect
         final ImageView tentang = findViewById(R.id.tentang);
         final TextView tv_materi = findViewById(R.id.textView_materi);
 
-        button = findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mAuth.signOut();
-                startActivity(new Intent(Home.this,LoginAs.class));
-                finish();
-            }
-        });
 
         ActionBar ab = getSupportActionBar();
         ab.hide();
