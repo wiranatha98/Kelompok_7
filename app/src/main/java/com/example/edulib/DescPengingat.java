@@ -47,7 +47,7 @@ public class DescPengingat extends AppCompatActivity {
     }
 
     public void back(View view) {
-        Intent intent= new Intent(getApplicationContext(), ListActivityy.class);
+        Intent intent= new Intent(getApplicationContext(), DashboardPengingat.class);
         startActivity(intent);
     }
 }

@@ -19,4 +19,6 @@
     <dimen name="padding_regular">10dp</dimen>
     <dimen name="line_spacing">5sp</dimen>
     <dimen name="radius_normal">6dp</dimen>
+    <dimen name="big">8sp</dimen>
+    <dimen name="small">5sp</dimen>
 </resources>

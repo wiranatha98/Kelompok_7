@@ -73,12 +73,12 @@ public class Admin_Saran extends AppCompatActivity {
 
 
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
-        ref.child("Saran").addValueEventListener(new ValueEventListener() {
+        ref.child("Keluhan").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot x : dataSnapshot.getChildren()) {
                     Log.d("TAG", x.getValue().toString());
-                    saran.add(new List_saran(x.child("Pertanyan").getValue().toString(), x.child("saran").getValue().toString()));
+                    saran.add(new List_saran(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
                     lSaran.notifyDataSetChanged();
                     //keluhan.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
                 }

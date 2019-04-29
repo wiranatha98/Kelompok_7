@@ -11,4 +11,5 @@
     <color name="colorfind">#FFB51F</color>
     <color name="colorgreen">#228B22</color>
     <color name="colorbackground">#F7F7F7</color>
+    <color name="bgblack">#212121</color>
 </resources>
