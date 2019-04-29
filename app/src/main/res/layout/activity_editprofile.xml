@@ -137,6 +137,7 @@
             android:layout_marginBottom="8dp"
             android:background="@color/colorPrimary"
             android:text="Submit"
+            android:onClick="editProfile"
             android:textColor="@color/coloraction"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

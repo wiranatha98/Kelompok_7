@@ -1,5 +1,6 @@
 package com.example.edulib;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.ActionBar;
@@ -78,13 +79,9 @@ public class Setting extends AppCompatActivity implements GoogleApiClient.OnConn
 
     public void keluar(View view) {
         mAuth = FirebaseAuth.getInstance();
-        if (mAuth.getCurrentUser() != null) {
-            startActivity(new Intent(Setting.this, LoginAs.class));
-            finish();
-        } else {
-            startActivity(new Intent(Setting.this, LoginAs.class));
-            finish();
-        }
+        mAuth.signOut();
+        startActivity(new Intent(view.getContext(), LoginAs.class));
+        ((Activity) getApplicationContext()).finish();
     }
 
     public void editPassword(View view) {
