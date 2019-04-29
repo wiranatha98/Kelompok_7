@@ -22,7 +22,7 @@ public class Splashscreen  extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         if (mAuth.getCurrentUser()!=null){
             if (mAuth.getCurrentUser().getEmail().contains("admin.com")){
-                next = new Intent(Splashscreen.this, Admin_Saran.class);
+                next = new Intent(Splashscreen.this, DashboardAdmin.class);
             }else {
                 next = new Intent(Splashscreen.this, Home.class);
             }

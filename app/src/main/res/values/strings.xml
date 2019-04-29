@@ -38,6 +38,13 @@
     </string-array>
     <string name="pilihpelajaran">Pilih Pelajaran</string>
     <string name="toolbarString">Pilih Universitas</string>
+
+    <string-array name="spinJurusan">
+        <item>IPA</item>
+        <item>IPS</item>
+        <item>Bahasa</item>
+    </string-array>
+
     <string name="ugm">
         <b>Pertumbuhan dan Perkembangan Pada Tumbuhan</b>
         \n\n

@@ -49,35 +49,52 @@
         android:id="@+id/button_keluhan"
         android:layout_width="208dp"
         android:layout_height="68dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@color/colorPrimary"
-        android:text="Daftar Keluhan"
         android:drawableLeft="@drawable/keluhan_admin"
+        android:onClick="keluhan"
+        android:text="Daftar Keluhan"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_user"
-        android:onClick="keluhan"/>
+        app:layout_constraintTop_toBottomOf="@+id/button_user" />
 
     <Button
         android:id="@+id/button_saran"
         android:layout_width="208dp"
         android:layout_height="68dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@color/colorPrimary"
+        android:drawableLeft="@drawable/saran_admin"
+        android:onClick="saran"
         android:text="Daftar Saran"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_keluhan"
+        app:layout_constraintTop_toBottomOf="@+id/button_latihan_soal" />
+
+    <Button
+        android:id="@+id/button_latihan_soal"
+        android:layout_width="208dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
         android:drawableLeft="@drawable/saran_admin"
-        android:onClick="saran"/>
+        android:onClick="latihanSoal"
+        android:text="Latihan Soal"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_keluhan" />
 
     <ImageView
         android:id="@+id/imageView54"
@@ -95,6 +112,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
@@ -103,6 +121,7 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_saran" />
 </android.support.constraint.ConstraintLayout>

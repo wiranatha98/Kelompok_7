@@ -12,7 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".SkorActivity"></activity>
+        <activity android:name=".SoalActivity" />
+        <activity android:name=".AdminLatihanSoalActivity" />
+
         <activity android:name=".Setting"></activity>
+
         <activity android:name=".DashboardPengingat" />
         <activity android:name=".Admin_Keluhan" />
         <activity android:name=".AsAdmin" />

@@ -58,4 +58,8 @@ public class DashboardAdmin extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), Admin_Saran.class);
         startActivity(intent);
     }
+
+    public void latihanSoal(View view) {
+        startActivity(new Intent(getApplicationContext(), AdminLatihanSoalActivity.class));
+    }
 }
