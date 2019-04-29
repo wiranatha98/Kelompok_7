@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/nav_diskusi4"
-        android:layout_width="139dp"
-        android:layout_height="59dp"
+        android:layout_width="200dp"
+        android:layout_height="72dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_chat"
@@ -25,11 +25,11 @@
 
     <Button
         android:id="@+id/nav_materi4"
-        android:layout_width="139dp"
-        android:layout_height="59dp"
+        android:layout_width="200dp"
+        android:layout_height="72dp"
         android:layout_marginTop="156dp"
-        android:layout_marginEnd="136dp"
-        android:layout_marginRight="136dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_book"
         android:onClick="materiClick"
@@ -43,8 +43,8 @@
 
     <Button
         android:id="@+id/nav_home4"
-        android:layout_width="139dp"
-        android:layout_height="59dp"
+        android:layout_width="200dp"
+        android:layout_height="72dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:drawableTop="@drawable/ic_home"
@@ -59,27 +59,27 @@
     <TextView
         android:id="@+id/c_s2"
         android:layout_width="wrap_content"
-        android:layout_height="31dp"
+        android:layout_height="43dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="56dp"
         android:text="Keluhan"
         android:textColor="@color/colorPrimary"
-        android:textSize="24sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toEndOf="@+id/imageView21"
         app:layout_constraintTop_toBottomOf="@+id/imageView19" />
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="500dp"
-        android:layout_height="181dp"
+        android:layout_width="808dp"
+        android:layout_height="240dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -96,18 +96,15 @@
         android:layout_marginRight="8dp"
         android:text="Perihal"
         android:textColor="@color/colorPrimary"
-        android:textSize="24sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView21" />
 
     <TextView
-<<<<<<< Updated upstream
-        android:id="@+id/txJudulCard"
-=======
         android:id="@+id/pertanyaan"
->>>>>>> Stashed changes
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -118,7 +115,8 @@
         android:layout_marginBottom="136dp"
         android:text="Keluhan"
         android:textColor="@color/colorPrimary"
-        android:textSize="24sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/nav_home4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.096"
@@ -130,18 +128,18 @@
 
     <EditText
         android:id="@+id/edPerihalKeluhan"
-        android:layout_width="352dp"
-        android:layout_height="wrap_content"
+        android:layout_width="513dp"
+        android:layout_height="91dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
         android:hint="Ketik Disini"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/peihal" />
         app:layout_constraintBottom_toBottomOf="@+id/nav_home4"
@@ -153,24 +151,19 @@
 
     <EditText
         android:id="@+id/edKeluhanKeluhan"
-        android:layout_width="352dp"
-        android:layout_height="wrap_content"
+        android:layout_width="513dp"
+        android:layout_height="91dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
         android:hint="Ketik Disini"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintHorizontal_bias="0.633"
         app:layout_constraintStart_toStartOf="parent"
-<<<<<<< Updated upstream
-        app:layout_constraintTop_toBottomOf="@+id/txJudulCard" />
-=======
         app:layout_constraintTop_toBottomOf="@+id/pertanyaan" />
->>>>>>> Stashed changes
         app:layout_constraintBottom_toBottomOf="@+id/nav_home4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.697"
@@ -180,11 +173,11 @@
 
     <ImageView
         android:id="@+id/imageView21"
-        android:layout_width="116dp"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="174dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="148dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
@@ -192,17 +185,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.028"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.009"
         app:srcCompat="@drawable/keluhan" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="44dp"
+        android:layout_width="288dp"
+        android:layout_height="68dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="88dp"
-        android:background="@color/colorPrimary"
+        android:background="@android:color/holo_green_light"
         android:onClick="submit"
         android:text="Kirim"
         android:textColor="@color/coloraction"

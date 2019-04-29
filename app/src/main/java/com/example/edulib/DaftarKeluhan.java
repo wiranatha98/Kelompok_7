@@ -82,6 +82,7 @@ public class DaftarKeluhan extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.exists()) {
+<<<<<<< Updated upstream:app/src/main/java/com/example/edulib/DaftarKeluhan.java
                     arKeluhan.clear();
                     for (DataSnapshot x : dataSnapshot.getChildren()) {
 //                    keluhan.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
@@ -93,6 +94,17 @@ public class DaftarKeluhan extends AppCompatActivity {
                         }
                     }
                     adapKeluhan.notifyDataSetChanged();
+=======
+                    keluhan.clear();
+                    for (DataSnapshot x : dataSnapshot.getChildren()) {
+                        if (x.child("nama").exists()) {
+                            keluhan.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString(),x.child("nama").getValue().toString()));
+                        }else{
+                            keluhan.add(new List(x.child("Perihal").getValue().toString(), x.child("keluhan").getValue().toString()));
+                        }
+                    }
+                    lKeluhan.notifyDataSetChanged();
+>>>>>>> Stashed changes:app/src/main/java/com/example/edulib/Admin_Keluhan.java
                 }
             }
 

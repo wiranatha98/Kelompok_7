@@ -67,6 +67,21 @@
         app:srcCompat="@drawable/user" />
 
     <TextView
+<<<<<<< Updated upstream:app/src/main/res/layout/activity_admin.xml
+=======
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="educationlibrary71@gmail.com"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txAdmin" />
+
+    <TextView
+>>>>>>> Stashed changes:app/src/main/res/layout/activity_admin_saran.xml
         android:id="@+id/txAdmin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

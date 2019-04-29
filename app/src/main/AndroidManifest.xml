@@ -12,9 +12,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< Updated upstream
         <activity android:name=".DaftarKeluhan"></activity>
         <activity android:name=".DaftarSaran" />
         <activity android:name=".DetailKeluhan" />
+=======
+        <activity android:name=".DaftarUser"></activity>
+        <activity android:name=".DetailSaran" />
+        <activity android:name=".DetailKeluhan" />
+        <activity android:name=".SkorActivity" />
+        <activity android:name=".SoalActivity" />
+        <activity android:name=".AdminLatihanSoalActivity" />
+        <activity android:name=".Setting" />
+        <activity android:name=".DashboardPengingat" />
+        <activity android:name=".Admin_Keluhan" />
+>>>>>>> Stashed changes
         <activity android:name=".AsAdmin" />
         <activity android:name=".DashboardAdmin"/>
         <activity android:name=".LoginAdmin"/>

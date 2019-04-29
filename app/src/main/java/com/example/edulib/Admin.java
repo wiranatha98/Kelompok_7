@@ -81,6 +81,7 @@ public class Admin extends AppCompatActivity {
         ref.child("Saran").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+<<<<<<< Updated upstream:app/src/main/java/com/example/edulib/Admin.java
                 arSaran.clear();
                 for (DataSnapshot x : dataSnapshot.getChildren()) {
                     Log.d("TAG", x.getValue().toString());
@@ -89,6 +90,29 @@ public class Admin extends AppCompatActivity {
 
                 }
                 adapSaran.notifyDataSetChanged();
+=======
+                if (dataSnapshot.exists()){
+                    saran.clear();
+                    for (DataSnapshot x : dataSnapshot.getChildren()) {
+                        Log.d("TAG", x.getValue().toString());
+                        String key = "";
+                        if (x.child("Perihal").exists()){
+                            key="Perihal";
+                        }else if (x.child("Pertanyaan").exists()){
+                            key="Pertanyaan";
+                        }
+                        if (!key.equals("")){
+                            if (x.child("nama").exists()){
+                                saran.add(new List_saran(x.child(key).getValue().toString(), x.child("keluhan").getValue().toString(),x.child("nama").getValue().toString()));
+                            }else{
+                                saran.add(new List_saran(x.child(key).getValue().toString(), x.child("keluhan").getValue().toString()));
+                            }
+
+                        }
+                    }
+                }
+                lSaran.notifyDataSetChanged();
+>>>>>>> Stashed changes:app/src/main/java/com/example/edulib/Admin_Saran.java
             }
 
             @Override

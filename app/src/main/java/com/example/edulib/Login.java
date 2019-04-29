@@ -125,7 +125,7 @@ public class Login extends AppCompatActivity implements GoogleApiClient.OnConnec
     }
 
     public void admin(View view){
-        startActivity(new Intent(this, AsAdmin.class));
+        startActivity(new Intent(this, LoginAdmin.class));
         finish();
     }
     private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
