@@ -17,6 +17,7 @@ public class RecyclerViewUniv extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycler_view);
         ActionBar ab = getSupportActionBar();
@@ -26,7 +27,6 @@ public class RecyclerViewUniv extends AppCompatActivity {
         mRecyclerView = findViewById(R.id.recyclerview);
         GridLayoutManager mGridLayoutManager = new GridLayoutManager(RecyclerViewUniv.this, 2);
         mRecyclerView.setLayoutManager(mGridLayoutManager);
-
 
         mUnivList = new ArrayList<>();
         mUnivData = new UnivData("Universitas Gadjah Mada", getString(R.string.ugm) ,R.drawable.ugm);

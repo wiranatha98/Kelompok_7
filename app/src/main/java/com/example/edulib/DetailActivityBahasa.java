@@ -21,18 +21,22 @@ public class DetailActivityBahasa extends AppCompatActivity {
         setContentView(R.layout.activity_detail_bahasa);
         ActionBar ab = getSupportActionBar();
         ab.hide();
-
+        SharedPref pref = new SharedPref(this);
         mToolbar = findViewById(R.id.toolbar);
         mFlower = findViewById(R.id.ivImage);
         mDescription = findViewById(R.id.tvDescription);
         tvTitle = findViewById(R.id.tvTitle);
-
         Bundle mBundle = getIntent().getExtras();
         if (mBundle != null) {
             mToolbar.setTitle(mBundle.getString("Title"));
             //tvTitle.setText(mBundle.getString("Title"));
             mFlower.setImageResource(mBundle.getInt("Image"));
             mDescription.setText(mBundle.getString("Description"));
+        }
+        if(pref.loadFont()) {
+            mDescription.setTextSize(getResources().getDimension(R.dimen.big));
+        } else {
+            mDescription.setTextSize(getResources().getDimension(R.dimen.small));
         }
     }
     public void berandaClick(View view) {

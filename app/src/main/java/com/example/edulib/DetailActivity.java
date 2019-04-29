@@ -19,16 +19,22 @@ public class DetailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        SharedPref pref = new SharedPref(this);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detail_activity);
         ActionBar ab = getSupportActionBar();
         ab.hide();
-
         mToolbar = findViewById(R.id.toolbar);
         mFlower = findViewById(R.id.ivImage);
         mDescription = findViewById(R.id.tvDescription);
         tvTitle = findViewById(R.id.tvTitle);
-
+        if(pref.loadFont()) {
+           mDescription.setTextSize(getResources().getDimension(R.dimen.big));
+        } else {
+            mDescription.setTextSize(getResources().getDimension(R.dimen.small));
+        }
         Bundle mBundle = getIntent().getExtras();
         if (mBundle != null) {
             mToolbar.setTitle(mBundle.getString("Title"));
@@ -36,6 +42,7 @@ public class DetailActivity extends AppCompatActivity {
             mFlower.setImageResource(mBundle.getInt("Image"));
             mDescription.setText(mBundle.getString("Description"));
         }
+
     }
     public void berandaClick(View view) {
         Intent intent= new Intent(getApplicationContext(), Home.class);

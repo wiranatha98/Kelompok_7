@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DashboardPengingat"></activity>
+        <activity android:name=".Setting"></activity>
+        <activity android:name=".DashboardPengingat" />
         <activity android:name=".Admin_Keluhan" />
         <activity android:name=".AsAdmin" />
         <activity android:name=".Admin_Saran" />
@@ -54,12 +55,9 @@
         <activity android:name=".CreateActivityy" />
         <activity android:name=".DescPengingat" />
         <activity android:name=".ListActivityy" />
-        <activity android:name=".RecyclerViewIps">
-        </activity>
+        <activity android:name=".RecyclerViewIps" />
         <activity android:name=".DetailActivityIps" />
-        <activity android:name=".RecyclerViewBahasa">
-
-        </activity>
+        <activity android:name=".RecyclerViewBahasa" />
         <activity android:name=".DetailActivityBahasa" />
         <activity android:name=".DetailActivityIpa" />
         <activity android:name=".RecyclerViewIpa" />
