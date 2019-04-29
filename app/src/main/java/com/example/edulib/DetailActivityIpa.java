@@ -26,13 +26,18 @@ public class DetailActivityIpa extends AppCompatActivity {
         mFlower = findViewById(R.id.ivImage);
         mDescription = findViewById(R.id.tvDescription);
         tvTitle = findViewById(R.id.tvTitle);
-
+        SharedPref pref = new SharedPref(this);
         Bundle mBundle = getIntent().getExtras();
         if (mBundle != null) {
             mToolbar.setTitle(mBundle.getString("Title"));
             //tvTitle.setText(mBundle.getString("Title"));
             mFlower.setImageResource(mBundle.getInt("Image"));
             mDescription.setText(mBundle.getString("Description"));
+        }
+        if(pref.loadFont()) {
+            mDescription.setTextSize(getResources().getDimension(R.dimen.big));
+        } else {
+            mDescription.setTextSize(getResources().getDimension(R.dimen.small));
         }
     }
     public void berandaClick(View view) {

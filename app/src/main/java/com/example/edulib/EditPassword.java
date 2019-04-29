@@ -121,6 +121,8 @@ public class EditPassword extends AppCompatActivity {
                                         public void onComplete(@NonNull Task<Void> task) {
                                           if (task.isSuccessful()){
                                               Toast.makeText(EditPassword.this, "Password updated!", Toast.LENGTH_SHORT).show();
+                                              Intent intent = new Intent(getApplicationContext(),Setting.class);
+                                              startActivity(intent);
                                           }else{
                                               Toast.makeText(EditPassword.this, "Error password" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();                                          }
                                         }

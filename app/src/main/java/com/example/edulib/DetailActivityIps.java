@@ -21,7 +21,7 @@ public class DetailActivityIps extends AppCompatActivity {
         setContentView(R.layout.activity_detail_ips);
         ActionBar ab = getSupportActionBar();
         ab.hide();
-
+        SharedPref pref = new SharedPref(this);
         mToolbar = findViewById(R.id.toolbar);
         mFlower = findViewById(R.id.ivImage);
         mDescription = findViewById(R.id.tvDescription);
@@ -33,6 +33,11 @@ public class DetailActivityIps extends AppCompatActivity {
             //tvTitle.setText(mBundle.getString("Title"));
             mFlower.setImageResource(mBundle.getInt("Image"));
             mDescription.setText(mBundle.getString("Description"));
+        }
+        if(pref.loadFont()) {
+            mDescription.setTextSize(getResources().getDimension(R.dimen.big));
+        } else {
+            mDescription.setTextSize(getResources().getDimension(R.dimen.small));
         }
     }
     public void berandaClick(View view) {

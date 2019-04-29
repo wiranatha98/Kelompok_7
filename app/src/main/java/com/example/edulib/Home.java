@@ -176,4 +176,9 @@ public class Home extends AppCompatActivity implements GoogleApiClient.OnConnect
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 
     }
+
+    public void setting(View view) {
+        Intent intent = new Intent(getApplicationContext(), Setting.class);
+        startActivity(intent);
+    }
 }
