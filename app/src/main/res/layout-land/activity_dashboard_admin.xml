@@ -35,7 +35,7 @@
         android:id="@+id/button_user"
         android:layout_width="208dp"
         android:layout_height="68dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:drawableLeft="@drawable/user_admin"
         android:text="Daftar User"
@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="213dp" />
+        tools:layout_editor_absoluteY="181dp" />
 
     <Button
         android:id="@+id/button_saran"
@@ -75,7 +75,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.984"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="213dp" />
+        tools:layout_editor_absoluteY="181dp" />
 
     <ImageView
         android:id="@+id/imageView54"
@@ -101,5 +101,25 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_saran" />
+        app:layout_constraintTop_toBottomOf="@+id/button_saran"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <Button
+        android:id="@+id/button_latihan_soal"
+        android:layout_width="208dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@drawable/add"
+        android:onClick="latihanSoal"
+        android:text="Latihan Soal"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/admin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_keluhan" />
 </android.support.constraint.ConstraintLayout>
